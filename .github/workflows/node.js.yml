@@ -27,5 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci --legacy-peer-deps
+    - run: npm ci react-scripts --save-dev
     - run: npm run build
     - run: npm test
