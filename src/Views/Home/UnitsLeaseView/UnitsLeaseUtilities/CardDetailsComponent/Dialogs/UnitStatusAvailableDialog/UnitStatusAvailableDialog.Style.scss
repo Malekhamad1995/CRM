@@ -1,0 +1,32 @@
+.unit-status-draft-dialog-wrapper {
+  .title-box-wrapper {
+    @include d-flex-center;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    .box-wrapper {
+      @include d-flex;
+      flex-wrap: wrap;
+      background-color: $c-secondary-light;
+      color: $c-primary;
+      border-radius: 0.5rem;
+      padding: 1rem 0.5rem 0.5rem;
+      width: 100%;
+      .box-item-wrapper {
+        @include d-inline-flex;
+        width: 50%;
+        @include phones-s-max {
+          width: 100%;
+        }
+        margin-bottom: 0.5rem;
+        padding: 0 0.5rem;
+        .box-title {
+          font-weight: $fw-simi-bold;
+        }
+        .box-value {
+          min-width: 50%;
+          padding: 0 0.5rem;
+        }
+      }
+    }
+  }
+}

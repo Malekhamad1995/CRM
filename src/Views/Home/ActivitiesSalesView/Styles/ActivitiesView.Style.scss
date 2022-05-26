@@ -1,0 +1,38 @@
+.view-wrapper {
+  .agentSection {
+    .agentSection1 {
+      margin: 0.25rem;
+    }
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .filterSection {
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .section {
+      // width: 25%;
+      margin: 0.25rem;
+    }
+  }
+  .activities-filter-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    @include laptops-max {
+      flex-direction: column;
+      align-items: flex-start;
+      @include rtl {
+        align-items: flex-end;
+      }
+    }
+    .MuiSelect-select {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.popover-wrapper {
+  .MuiPaper-root {
+    min-width: 100px;
+    border-radius: 1rem;
+    @include d-flex;
+    flex-wrap: wrap;
+  }
+  &.with-backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}

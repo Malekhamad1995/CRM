@@ -1,0 +1,11 @@
+.open-file-units {
+  height: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  .separator-v {
+    margin-top: 15px;
+    &::after {
+      background-color: $c-blue-lighter;
+    }
+  }
+}

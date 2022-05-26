@@ -1,0 +1,30 @@
+.no-data-result {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-data-result .no-data-text {
+  display: flow-root;
+  justify-content: center;
+  padding-top: 30px;
+  color: #31aec4;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-family: Poppins;
+  letter-spacing: 0px;
+}
+.no-data-result .no-data-result-subtitle {
+  color: #006186;
+  padding-left: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+.no-data-result .no-data-img {
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}

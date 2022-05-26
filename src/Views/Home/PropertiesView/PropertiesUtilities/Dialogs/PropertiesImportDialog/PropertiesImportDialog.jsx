@@ -1,0 +1,165 @@
+import React, { useReducer, useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import { useTranslation } from 'react-i18next';
+import {
+  DialogActions, DialogContent, DialogTitle, Dialog, ButtonBase
+} from '@material-ui/core';
+import { UploaderComponent, Spinner, PermissionsComponent } from '../../../../../../Components';
+import { DefaultImagesEnum, UploaderThemesEnum } from '../../../../../../Enums';
+import { importFile } from '../../../../../../Services';
+import { showError, showSuccess } from '../../../../../../Helper';
+import { PropertyManagementListPermissions } from '../../../../../../Permissions';
+
+const translationPath = 'PropertiesView:utilities.PropertiesImportDialog.';
+export const PropertiesImportDialog = ({ isOpen, isOpenChanged }) => {
+  const { t } = useTranslation('PropertiesView');
+  const [isPropertyManagementView, setIsPropertyManagementView] = useState(false);
+
+  const pathName = window.location.pathname.split('/home/')[1].split('/view')[0];
+
+  const reducer = (state, action) => {
+    if (action.id !== 'edit') return { ...state, [action.id]: action.value };
+    if (action.id === 'edit') {
+      return {
+        ...action.value,
+      };
+    }
+    return undefined;
+  };
+
+  const [state, setState] = useReducer(reducer, {
+    fileId: null,
+    importProcceseType: 4,
+  });
+  const [isLoading, setIsLoading] = useState(false);
+  const [currentUploadedFiles, setCurrentUploadedFiles] = useState([]);
+
+  const onSubmit = async () => {
+    // event.preventDefault();
+    if (!state.fileId) {
+      if (currentUploadedFiles.length === 0)
+        showError(t(`${translationPath}please-select-file-first`));
+      else showError(t(`${translationPath}file-upload-in-progress`));
+      return;
+    }
+    setIsLoading(true);
+    const response = await importFile(state);
+    if (response) showSuccess(t(`${translationPath}property-file-sent-successfully`));
+    else showError(t(`${translationPath}property-file-sending-failed`));
+    setIsLoading(false);
+    isOpenChanged();
+  };
+  useEffect(() => {
+    if (pathName === 'properties')
+      setIsPropertyManagementView(true);
+    else
+      setIsPropertyManagementView(false);
+  }, [pathName]);
+
+  return (
+    <div>
+      <Dialog
+        open={isOpen}
+        onClose={() => {
+          isOpenChanged();
+        }}
+        className='activities-management-dialog-wrapper'
+      >
+        <DialogTitle id='alert-dialog-slide-title'>
+          {t(`${translationPath}import-property`)}
+        </DialogTitle>
+        <DialogContent>
+          <div className='dialog-content-wrapper'>
+            <Spinner isActive={isLoading} isAbsolute />
+            <div className='dialog-content-item w-100'>
+              {!isPropertyManagementView && (
+                <UploaderComponent
+                  idRef='propertyImportRef'
+                  accept='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel'
+                  uploadedChanged={(files) =>
+                    setState({
+                      id: 'fileId',
+                      value: (files && files.length > 0 && files[0].uuid) || null,
+                    })}
+                  allFilesChanged={(files) => setCurrentUploadedFiles(files)}
+                  defaultImage={DefaultImagesEnum.corporate.key}
+                  uploaderTheme={UploaderThemesEnum.box.key}
+                />
+              )}
+
+              {isPropertyManagementView && (
+                <PermissionsComponent
+                  permissionsList={Object.values(PropertyManagementListPermissions)}
+                  permissionsId={PropertyManagementListPermissions.UploadProperty.permissionsId}
+                >
+                  <UploaderComponent
+                    idRef='propertyImportRef'
+                    accept='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel'
+                    uploadedChanged={(files) =>
+                      setState({
+                        id: 'fileId',
+                        value: (files && files.length > 0 && files[0].uuid) || null,
+                      })}
+                    allFilesChanged={(files) => setCurrentUploadedFiles(files)}
+                    defaultImage={DefaultImagesEnum.corporate.key}
+                    uploaderTheme={UploaderThemesEnum.box.key}
+                  />
+                </PermissionsComponent>
+              )}
+
+            </div>
+          </div>
+        </DialogContent>
+        <DialogActions>
+          <div className='form-builder-wrapper'>
+            <div className='form-builder-footer-wrapper is-dialog w-100 MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between'>
+              <div className='MuiGrid-root-left'>
+                {state.importProcceseType === 4 && (
+                  <a
+                    href='/files/PropertyTemplate.xlsx'
+                    download='Property Template'
+                    className='MuiButtonBase-root MuiButton-root MuiButton-text btns c-danger'
+                  >
+                    <span className='MuiButton-label'>
+                      <span className='mx-2'>{t(`${translationPath}download`)}</span>
+                    </span>
+                  </a>
+                )}
+              </div>
+              <div className='MuiGrid-root-right'>
+                <ButtonBase
+                  className='MuiButtonBase-root MuiButton-root MuiButton-text btns'
+                  tabindex='0'
+                  onClick={() => {
+                    isOpenChanged();
+                  }}
+                >
+                  <span className='MuiButton-label'>
+                    <span className='mx-2'>{t(`${translationPath}cancel`)}</span>
+                  </span>
+                  <span className='MuiTouchRipple-root' />
+                </ButtonBase>
+
+                <ButtonBase
+                  className='MuiButtonBase-root MuiButton-root MuiButton-text btns theme-solid bg-primary'
+                  onClick={() => onSubmit()}
+                  tabindex='0'
+                >
+                  <span className='MuiButton-label'>
+                    <span className='mx-2'>{t(`${translationPath}import`)}</span>
+                  </span>
+                  <span className='MuiTouchRipple-root' />
+                </ButtonBase>
+              </div>
+            </div>
+          </div>
+        </DialogActions>
+      </Dialog>
+    </div>
+  );
+};
+
+PropertiesImportDialog.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  isOpenChanged: PropTypes.func.isRequired,
+};

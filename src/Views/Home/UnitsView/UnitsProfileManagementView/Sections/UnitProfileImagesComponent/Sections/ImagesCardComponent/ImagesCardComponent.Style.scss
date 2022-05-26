@@ -1,0 +1,71 @@
+.images-card-component-wrapper {
+  @include d-flex;
+  flex-wrap: wrap;
+  .images-card-item-wrapper {
+    @include d-inline-flex-column;
+    color: #000000;
+    &.is-selected {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+      color: $c-secondary;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    width: 20%;
+    min-width: 270px;
+    max-width: 350px;
+    @include laptops-l-max {
+      width: 25%;
+      max-width: initial;
+    }
+    @include laptops-max {
+      width: 33.3333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+    .images-card-header-wrapper {
+      position: relative;
+      @include d-flex;
+      .cover-image {
+        background-color: $c-gray-lighter;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 150px;
+        width: 100%;
+        border-radius: 1rem;
+        margin: 0 0 0.5rem;
+      }
+      .delete-btn {
+        margin: 0;
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0;
+        z-index: 1;
+        border-radius: 0.5rem;
+        background-color: $c-gray-lighter;
+        color: $c-warning;
+        min-width: 35px;
+        height: 35px;
+        @include rtl {
+          right: initial;
+          left: 0;
+        }
+      }
+    }
+    .images-card-body-wrapper {
+      .body-item {
+        padding: 0 0.5rem;
+        .body-title {
+          font-weight: $fw-simi-bold;
+        }
+        .body-description {
+          padding: 0 0.25rem;
+        }
+      }
+    }
+  }
+}

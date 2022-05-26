@@ -1,0 +1,118 @@
+.Maintenance-Contracts-wrapper {
+  .title-section {
+    padding: 0 6.5rem;
+    font-weight: $fw-simi-bold;
+    font-size: $fz-16px;
+    margin-bottom: 1rem;
+
+    @include phones-s-max {
+      padding: 0 2.5rem;
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+  }
+  .Maintenance-Contracts-wrapper-conteaner {
+    width: 100%;
+    padding: 1rem 0.5rem;
+    @include d-inline-flex-v-center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include laptops-xl-max {
+      width: 100%;
+    }
+    @include tablets-max {
+      width: 100%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+
+    .row-num-1 {
+      width: 27%;
+      padding-right: 62px;
+      @include rtl {
+        padding-left: 62px;
+        padding-right: 0px;
+      }
+      @include laptops-max {
+        width: 50%;
+      }
+      @include tablets-max {
+        width: 100%;
+      }
+
+      @include phones-s-max {
+        width: 100%;
+      }
+      .form-item {
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        width: 100%;
+      }
+      .form-itemDate {
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        width: 100%;
+        display: inline-flex;
+        @include laptops-l-max {
+          width: 100%;
+          display: block;
+        }
+        @include laptops-max {
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    .row-num-2 {
+      width: 27%;
+      padding-right: 62px;
+      @include rtl {
+        padding-left: 62px;
+        padding-right: 0px;
+      }
+      @include laptops-max {
+        width: 50%;
+      }
+      @include tablets-max {
+        width: 100%;
+      }
+      @include phones-s-max {
+        width: 100%;
+      }
+      .form-item {
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        width: 100%;
+      }
+    }
+    .row-num-3 {
+      width: 27%;
+      @include laptops-max {
+        width: 100%;
+      }
+      @include tablets-max {
+        width: 100%;
+      }
+      @include phones-s-max {
+        width: 100%;
+      }
+
+      .form-item {
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        width: 100%;
+        @include laptops-max {
+          width: 94%;
+        }
+        @include tablets-max {
+          width: 92%;
+        }
+        @include phones-s-max {
+          width: 86%;
+        }
+      }
+    }
+  }
+}

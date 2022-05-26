@@ -1,0 +1,19 @@
+{
+  "selected-units": "Selected units",
+  "you-can-deselect-unit-before-continue": "You can deselect unit before continue",
+  "save-changes": "Save changes",
+  "cancel": "Cancel",
+  "search": "Search",
+  "id": "ID: ",
+  "search-units": "Search units",
+  "unit-fields": "Unit fields",
+  "search-fields": "Search fields",
+  "choose-one-of-the-following-fields": "Choose one of the following fields",
+  "new-values": "New values",
+  "add-new-value-to-the-following-fields": "Add new value to the following fields",
+  "units-updated-successfully": "Units updated successfully",
+  "units-update-failed": "Units update failed",
+  "number-of-units-failed": "Number of units failed",
+  "number-of-units-succeeded": "number of units succeeded",
+  "update-failed-units": "Update failed units"
+}

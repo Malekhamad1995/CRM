@@ -1,0 +1,176 @@
+.google-maps-wrapper {
+  // margin: 10px;
+  height: 100%;
+  .google-maps {
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 100%;
+    min-height: 500px;
+    min-width: 300px;
+    > div {
+      min-height: 600px;
+      min-width: 300px;
+    }
+    .driver-image {
+      cursor: pointer;
+      background-color: $c-white;
+      border: 0.2rem solid $c-secondary;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 100%;
+      &:hover {
+        width: 3.2rem;
+        height: 3.2rem;
+      }
+    }
+  }
+  .Manual-Location {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    .open-link {
+      border: none;
+      height: 31px;
+      border-radius: 7px;
+    }
+  }
+}
+.pin-point {
+  .MuiAvatar-root {
+    background-color: $c-white;
+    border-radius: 0.5rem;
+    border: 3px solid $c-secondary;
+    &:hover {
+      cursor: pointer;
+      width: 2.7rem;
+      height: 2.7rem;
+    }
+  }
+  .MuiTypography-root {
+    color: $c-secondary;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+.h-35px {
+  height: 35px;
+}
+.marker-img {
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  &:hover {
+    cursor: pointer;
+    width: 25px;
+    height: 35px;
+  }
+}
+.car-marker {
+  transform: rotate(var(--car-degree));
+  width: 25px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 45px;
+  }
+}
+.hover-popover {
+  .MuiPopover-paper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 330px;
+    overflow: visible !important;
+    position: relative;
+    height: 310px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 7px 13px #00000024;
+    border-radius: 17px !important;
+  }
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  overflow: visible;
+  transform: translateX(-50%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 18px solid #fff;
+}
+.popover-car-wrapper {
+  .popover-avatar {
+    .driver-avatar-wrapper {
+      width: 18rem;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+    }
+    display: flex;
+    justify-content: center;
+    .driver-image {
+      cursor: pointer;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 100%;
+    }
+    .MuiAvatar-root {
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+      width: 3rem;
+      height: 3rem;
+      box-shadow: 7px 7px 13px #00000024;
+      border: 2px solid $c-secondary;
+    }
+  }
+  .view-tour {
+    .MuiButton-label {
+      color: $c-secondary;
+    }
+    background-color: $c-white !important;
+    border: solid 1px $c-gray-light;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+  }
+  .contentTag {
+    margin-left: 5px;
+  }
+  .content-tag-icon {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  .driver-info-response {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .MuiGrid-item {
+    display: flex;
+    justify-items: center;
+  }
+  .popover-image {
+    display: grid;
+    justify-items: center;
+    border-radius: 17px;
+  }
+}
+
+.view-wrapper,
+.section {
+  height: calc(100% - 80px);
+}
+
+.map-marker {
+  .mdi::before {
+    font-size: 38px;
+  }
+}

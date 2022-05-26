@@ -1,0 +1,36 @@
+{
+  "back": "Back",
+  "next": "Next",
+  "finish": "Finish",
+  "AddNewUnitModel":"Add new Unit Model",
+  "Save":"Save" , 
+  "Cancel":"Cancel" ,  
+  "UpdatePropertySuccessfully":"Update Property Successfully" , 
+  "updatePropertyFail":"Update Property Fail" ,
+  "Are-you-sure-you-want-to-Delete":"Are you sure you want to Delete all values",
+  "Are-you-sure-you-want-to-Delete-lead-Owner":"Are you sure you want to Delete lead owner",
+  "Are-you-sure-you-want-to-Delete-Lease-lead-Owner":"Are you sure you want to Delete Lease lead owner",
+  "delete-lead-owner":"delete-lead-owner" ,
+  "delete-values":"Delete values" , 
+  "confirm":"Confirm" ,
+  "dialogs": {
+    "uploadDialog": {
+      "drag-&-drop-files": "Drag & Drop Files",
+      "upload-attachments": "Upload Attachments"
+    },
+    "contactsDialog": {
+      "view-contacts":"View Contacts" ,
+      "view-units":"View Units"  , 
+      "view-properties":"View Properties" , 
+      "add-new-contacts": "Add New Contact",
+      "add-new-units": "Add New Units",
+      "add-new-properties": "Add New properties",
+      "select-contacts-type": "Select Contact Type",
+      "select-units-type": "Select Unit Type",
+      "contacts-option1": "Individual",
+      "contacts-option2": "Corporate",
+      "units-option1": "Sale",
+      "units-option2": "Rent"
+    }
+  }
+}

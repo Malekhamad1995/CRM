@@ -1,0 +1,97 @@
+.history-table-conent-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 13px;
+  border: 1px solid $c-gray-lighter;
+  border-radius: 1rem;
+  .history-table-header {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e5ea;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .history-table-content {
+    position: relative;
+    padding: 0.7rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $c-white;
+    &:hover {
+      background-color: $c-secondary-light;
+    }
+    &.is-gray {
+      background-color: $c-gray-lightest;
+      &:hover {
+        background-color: $c-secondary-light;
+      }
+    }
+  }
+}
+.transaction-history-wrapper {
+  .MuiAccordionSummary-root {
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    max-height: 2.5rem;
+    flex-direction: row-reverse;
+  }
+  .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 0;
+    max-height: 2.5rem;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  .MuiAccordion-root:before {
+    display: none;
+  }
+  .history-expand-icon {
+    position: absolute;
+    left: 0;
+    padding: 0.4rem;
+    @include rtl {
+      left: inherit;
+      right: 0;
+    }
+    &.is-gray {
+      .mdi::before {
+        color: $c-gray-light;
+      }
+    }
+  }
+  .MuiAccordionSummary-content.Mui-expanded {
+    margin: 0;
+  }
+  .MuiAccordion-root.Mui-expanded {
+    margin: 0;
+  }
+}
+
+.pagination-history-wrapper {
+  background-color: $c-white;
+  bottom: 0px;
+  width: 94%;
+  position: absolute;
+  padding: 0.5rem;
+  margin: 1rem 0rem 0rem 0rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0px -2px 6px #00000029;
+}
+.history-component-content-wrapper {
+  height: calc(100vh - 250px);
+  overflow-y: auto;
+  padding-bottom: 4rem;
+}
+.transaction-history-component-wrapper {
+  height: calc(100vh - 250px);
+}

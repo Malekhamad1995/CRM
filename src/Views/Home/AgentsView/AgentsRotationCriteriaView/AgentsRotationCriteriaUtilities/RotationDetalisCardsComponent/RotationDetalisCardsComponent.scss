@@ -1,0 +1,48 @@
+.rotationDetalis-cards-wrapper {
+  .card {
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 1rem;
+    .section-item {
+      width: 100%;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+      font-weight: bold;
+      .column1 {
+        width: 50%;
+        float: left;
+        font-size: 0.875rem;
+        color: #8e8e93;
+        @include rtl {
+          float: right;
+        }
+      }
+      .column2 {
+        width: 50%;
+        font-size: 0.875rem;
+        text-transform: capitalize;
+        float: right;
+        color: black;
+        @include rtl {
+          float: left;
+        }
+      }
+    }
+    hr {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+
+@media (max-width:1300px){
+      .section-item-responsive {
+        .column1 {
+          width: 100% !important;
+        }
+      }
+
+}

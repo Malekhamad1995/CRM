@@ -1,0 +1,47 @@
+.Documents-dialog-wrapper {
+  .MAX {
+    max-width: 400px !important;
+  }
+  
+.Requierd-Color::after {
+  content: ' *';
+  color: red;
+}
+  .radio-groups-wrapper.theme-default.MuiFormControl-root::before {
+    content: ' ';
+    border: 0.25rem solid #ffffff;
+    position: absolute;
+    left: 0.25rem;
+    top: 0;
+    height: 100%;
+  }
+  width: 100%;
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 2rem;
+  }
+  .MuiDialog-paper {
+    min-width: 50rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 30rem;
+    @include d-flex;
+    @include phones-max {
+      width: 100%;
+    }
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex-column;
+    flex-wrap: wrap;
+    .dialog-content-item {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+    }
+  }
+}

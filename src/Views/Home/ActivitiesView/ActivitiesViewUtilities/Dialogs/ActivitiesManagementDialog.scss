@@ -1,0 +1,106 @@
+.activities-management-dialog-wrapper {
+  
+  .related-to-wrapper{
+   width: 100% !important;
+
+    legend{
+       width: fit-content;
+       margin: 0;
+       padding: 0px 4px;
+       font-size: 12px;
+       line-height: inherit; 
+       border: 0; 
+       color: #000000;
+  }
+  
+
+  legend::after{
+    content: "*";
+      color: red;
+    }
+
+    fieldset{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+    min-height: 38px;
+    padding: 10px;
+    }
+
+    .autocomplete-wrapper{
+    display: block;
+    }
+
+
+    .one-autocomplete-container{
+    display: block;
+    }
+    }
+
+  .createdBy {
+    text-align: end;
+    float: right;
+    
+  }
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 2rem;
+  }
+  .MuiDialog-paper {
+    min-width: 50rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 30rem;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex;
+    flex-wrap: wrap;
+    .dialog-content-item {
+      width: 50%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+      .Requierd-Color::after{
+        content: "*";
+          color: red;
+        }
+    }
+    .title-wrapper {
+      @include d-flex;
+      margin-bottom: 0.5rem;
+      padding: 0 0.5rem;
+      .title-text {
+        font-weight: $fw-simi-bold;
+      }
+      .Requierd-Color::after{
+        content: " *";
+          color: red;
+        }
+    }
+    .reminder-wrapper {
+      @include d-flex-column;
+      .reminder-item-wrapper {
+        @include d-flex;
+        flex-wrap: wrap;
+        .reminder-section {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 1rem;
+          padding: 0 0.5rem;
+          width: 33.3333%;
+          @include phones-max {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+

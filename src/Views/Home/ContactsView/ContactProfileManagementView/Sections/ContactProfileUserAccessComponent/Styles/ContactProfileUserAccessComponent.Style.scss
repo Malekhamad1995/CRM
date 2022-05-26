@@ -1,0 +1,69 @@
+.user-access-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include phones-max {
+    flex-direction: column;
+  }
+  .user-access-item {
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    @include rtl {
+      margin-left: 1.5rem;
+      margin-right: 0;
+    }
+    background-color: $c-white;
+    border: 1px solid $c-gray-light;
+    border-radius: 10px;
+    height: 4.5rem;
+    padding: 0.9rem;
+    display: flex;
+    align-items: center;
+    width: 23%;
+    @include laptops-xl-max {
+      width: 23%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include tablets-max {
+      width: 40%;
+    }
+    @include phones-max {
+      width: 100%;
+    }
+    .user-access-image-wrapper {
+      margin-right: 1rem;
+      @include rtl {
+        margin-left: 1rem;
+        margin-right: 0;
+      }
+      .user-access-image {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+        border: 1px solid $c-gray-light;
+        background-size: contain;
+      }
+    }
+    .user-access-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      .user-access-name {
+        font-size: 14px;
+        font-weight: bold;
+        @include tablets-max {
+          font-size: 12px;
+        }
+        @include phones-max {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

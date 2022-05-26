@@ -1,0 +1,37 @@
+{
+  "back": "السابق",
+  "next": "التالي",
+  "finish": "إنهاء",
+  "confirm": "تأكيد",
+  "delete-values": "حذف القيم",
+  "AddNewUnitModel": "اضافة نموذج وحدة جديد",
+  "Save": "حفظ",
+  "Cancel": "إلغاء",
+  "UpdatePropertySuccessfully": "تم تحديث العقار بنجاح",
+  "updatePropertyFail": "فشل تعديل العقار",
+  "Are-you-sure-you-want-to-Delete": "هل متأكد من ازالة كافة البيانات",
+  "Are-you-sure-you-want-to-Delete-lead-Owner":"هل انت متأكد من حذف العميل المالك",
+  "Are-you-sure-you-want-to-Delete-Lease-lead-Owner":"هل انت متأكد من حذف إيجار المالك الرئيسي ",
+  "delete-lead-owner":"حذف العميل المالك" ,
+  "EmailIsduplicate": "البريد الالكتروني مكرر",
+  "dialogs": {
+    "uploadDialog": {
+      "drag-&-drop-files": "سحب وإسقاط الملفات",
+      "upload-attachments": "تحميل المرفقات"
+    },
+    "contactsDialog": {
+      "view-contacts":"عرض جهة الإتصال" ,
+      "view-units":"عرض الوحدة"  , 
+      "view-properties":"عرض العقار"  , 
+      "add-new-contacts": "اضافه جهات الإتصال او تعديلها",
+      "add-new-units": "اضافه وحدات او تعديلها",
+      "add-new-properties": "اضافه العقارات او تعديلها",
+      "select-contacts-type": "اختر نوع جهات الإتصال",
+      "select-units-type": "اختر نوع الوحدات",
+      "contacts-option1": "فرد",
+      "contacts-option2": "شركه",
+      "units-option1": "بيع",
+      "units-option2": "اجار"
+    }
+  }
+}

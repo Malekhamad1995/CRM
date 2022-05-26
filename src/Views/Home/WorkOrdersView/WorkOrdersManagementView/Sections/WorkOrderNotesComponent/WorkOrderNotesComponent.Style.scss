@@ -1,0 +1,18 @@
+.work-order-notes-wrapper {
+  @include d-flex-column-center;
+  padding-top: 1rem;
+  .work-order-notes-header {
+    @include d-flex-column-center;
+    padding: 0 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    .notes-icon {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .work-order-notes-body {
+    @include d-flex;
+    width: 100%;
+    max-width: 767px;
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Team": "Team",
+  "search": "Search",
+  "AddTeamDialog": {
+    "AddTeam": "Add Team",
+    "TeamName": "Team Name",
+    "BusinessGroup": "Business Group",
+    "BusinessGroupin": " Add Team in Business Group",
+    "LimitNumber": "Limit Number of Members",
+    "Notes": "Notes",
+    "Cancel": "Cancel",
+    "Add": "Add New Team",
+    "NotificationAddTeam": "Add Team Successfully",
+    "NotificationErrorAdd": "Add Team Failed",
+    "select": "Select"
+  },
+  "DeleteDialog": {
+    "Alarm": "Are You Sure You Want To Delete",
+    "Cancel": "Cancel",
+    "Confirm": "Confirm",
+    "NotificationDeleteTeam": "Delete Team Successfully",
+    "NotificationErrorDelete": "Delete Team Failed"
+  },
+  "EditTeamDialog": {
+    "selectTeamLeadfaild": "Can't make this user as a team lead",
+    "EditTeam": "Edit Team",
+    "Team": "Team",
+    "BusinessGroup": "Business Group",
+    "limitnumber": "limit number of members",
+    "Notes": "Notes",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "NotificationEditTeam": "Save Change Successfully",
+    "NotificationErrorEdit": "Change Failed",
+    "NotificationSuccss": "Save Change Successfully"
+  },
+  "UserDialog": {
+    "addTeamLead": "Selected team lead successfuly",
+    "AssignTeam": "Assign Team",
+    "assign": "Assign",
+    "Cancel": "Cancel",
+    "Team": "Team",
+    "AddUser": "Add User",
+    "Search": "Search in Users",
+    "TeamName": "Team Name",
+    "labelSearch": "Search",
+    "titleDelete": "Delete User",
+    "NotificationDeleteTeamUser": "Delete Team User Successfully",
+    "NotificationADDTeamUser": "Add Team User Successfully",
+    "NotificationAddTeamUserFiled": "Add Team User Failure",
+    "done": "Done"
+  },
+  "SearchTeam": "Search in Team",
+  "AddTeam": "Add Team",
+  "EditTeam": "Edit Team",
+  "DeleteTeam": "Delete Team",
+  "BusinessGroup": "Business Group",
+  "NotificationErrorView": "View Team Failed",
+  "TreeTeam": {
+    "AddTeam": "Add",
+    "Edit": "Edit ",
+    "DeleteTeam": "Delete",
+    "User": "Users"
+  }
+}

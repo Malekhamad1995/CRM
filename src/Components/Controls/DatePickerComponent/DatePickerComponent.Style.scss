@@ -1,0 +1,127 @@
+.date-picker-wrapper {
+  @include d-flex-column;
+  width: 100%;
+  .date-picker-input-wrapper {
+    width: 100%;
+    .MuiInputBase-root {
+      @include d-flex-v-center;
+      min-width: 145px;
+      width: 100%;
+      min-height: 32px;
+      background-color: $c-white;
+      border: 1px solid $c-gray-lighter;
+      border-radius: 0.5rem;
+      &.Mui-focused,
+      &:hover {
+        &:not(.Mui-disabled) {
+          border-color: $c-gray-secondary;
+        }
+      }
+      .MuiInputAdornment-positionEnd{
+        margin-left: 0;
+      }
+    }
+  }
+  .MuiInputBase-input {
+    color: #000000;
+  }
+  .MuiInputBase-adornedStart {
+    > .mdi::before {
+      color: #000000;
+      padding: 0 0.5rem;
+    }
+  }
+  .MuiInputAdornment-positionEnd {
+    .MuiSvgIcon-root {
+      fill: $c-gray-primary;
+    }
+  }
+  // &.theme-dark {
+  //   .label-wrapper {
+  //     color: $c-white;
+  //   }
+  //   .date-picker-input-wrapper {
+  //     .MuiInputBase-root {
+  //       background-color: $c-primary-opacity;
+  //     }
+  //   }
+  //   .MuiInputBase-input {
+  //     color: $c-white;
+  //   }
+  //   .MuiInputBase-adornedStart {
+  //     > .mdi::before {
+  //       color: $c-white;
+  //     }
+  //   }
+  //   .MuiInputAdornment-positionEnd {
+  //     .MuiSvgIcon-root {
+  //       fill: $c-white;
+  //     }
+  //   }
+  //   &.is-open {
+  //     .date-picker-input-wrapper {
+  //       .MuiInputBase-root {
+  //         background-color: $c-primary;
+  //       }
+  //     }
+  //   }
+  // }
+  .MuiInput-underline:before,
+  .MuiInput-underline:after {
+    display: none;
+  }
+}
+.date-picker-dialog-wrapper {
+  .MuiDialog-paper {
+    border-radius: 1rem;
+    .MuiPickersDay-day:not(.MuiPickersDay-dayDisabled),
+    .MuiButton-textPrimary,
+    .MuiPickersCalendarHeader-dayLabel,
+    &.MuiPaper-root {
+      // :not(.Mui-disabled) {
+      color: $c-primary;
+      // }
+    }
+    .MuiPickersCalendarHeader-iconButton {
+      &:not(.Mui-disabled) {
+        .MuiSvgIcon-root {
+          fill: $c-primary;
+        }
+      }
+    }
+    .MuiIconButton-root {
+      padding: 0.25rem;
+    }
+    .MuiPickersToolbarText-toolbarBtnSelected,
+    .MuiPickersToolbarText-toolbarTxt {
+      color: $c-white;
+    }
+    .MuiPickersToolbar-toolbar {
+      background-color: $c-primary;
+    }
+    .MuiPickersDay-day.MuiPickersDay-daySelected {
+      background-color: $c-primary;
+      color: $c-white;
+    }
+  }
+  // &.theme-dark {
+  //   .MuiPickersDay-day,
+  //   .MuiButton-textPrimary,
+  //   .MuiPickersCalendarHeader-dayLabel,
+  //   .MuiPaper-root {
+  //     color: $c-white;
+  //   }
+  //   .MuiDialog-paper,
+  //   .MuiPickersCalendarHeader-switchHeader .MuiIconButton-root {
+  //     background-color: $c-primary;
+  //   }
+  //   .MuiPickersCalendarHeader-iconButton {
+  //     .MuiSvgIcon-root {
+  //       fill: $c-white;
+  //     }
+  //   }
+  // }
+  .Mui-disabled {
+    color: $c-gray-secondary !important;
+  }
+}

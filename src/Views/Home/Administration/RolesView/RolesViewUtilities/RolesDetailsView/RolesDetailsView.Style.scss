@@ -1,0 +1,119 @@
+.RoleView {
+  .MuiExpansionPanel-root {
+    box-shadow: 0 2px 8px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(187, 187, 187, 0.116) !important ;
+  }
+  .PrivateTabIndicator-colorPrimary-2 {
+    height: 3px !important;
+    background-color: $c-white !important;
+  }
+  .MuiFormControl-root {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .label-wrapper {
+    font-size: 14px;
+    margin-bottom: -0.3rem;
+  }
+  .MuiTabs-root {
+    background-color: $c-secondary !important;
+    color: $c-white !important;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .MuiAppBar-colorDefault {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .MuiTabs-flexContainer {
+    background-color: $c-primary !important;
+    color: $c-white !important;
+    .MuiGrid-container {
+      flex-wrap: nowrap;
+    }
+  }
+  .MuiTabs-root {
+    background-color: $c-primary !important;
+    color: $c-white !important;
+  }
+  .paperWraper {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+    width: 98% !important;
+    background-color: $c-white !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+  .globalCheckBox {
+    display: flex;
+    &.title {
+      flex-direction: row-reverse;
+    }
+    align-items: center;
+    .checkbox-wrapper.Mui-checked .mdi {
+      background-color: $c-purple !important;
+    }
+  }
+  .localCheckBox {
+    display: flex;
+    align-items: center;
+    &.title {
+      flex-direction: row-reverse;
+    }
+    .checkbox-wrapper.Mui-checked .mdi {
+      background-color: $c-green-dark !important;
+    }
+  }
+  .deepCheckBox {
+    display: flex;
+    &.title {
+      flex-direction: row-reverse;
+    }
+    align-items: center;
+    .checkbox-wrapper.Mui-checked .mdi {
+      background-color: $c-blue !important;
+    }
+  }
+  .basicCheckBox {
+    display: flex;
+    &.title {
+      flex-direction: row-reverse;
+    }
+    align-items: center;
+    .checkbox-wrapper.Mui-checked .mdi {
+      background-color: $c-danger !important;
+    }
+  }
+  .MuiExpansionPanelDetails-root {
+    display: inherit;
+  }
+  .MuiCheckbox-colorSecondary.Mui-checked {
+    color: white;
+  }
+  .checkbox-wrapper.Mui-checked .mdi {
+    border-radius: 5px !important;
+    font-size: 9px !important;
+  }
+  .mdi:before {
+    font-size: 18px !important;
+  }
+  .MuiGrid-container {
+    display: flex;
+    align-items: center;
+  }
+}
+.role-checkboxes-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  .label-wrapper {
+    font-size: 14px;
+    margin-bottom: -0.2rem;
+  }
+}

@@ -1,0 +1,17 @@
+.ActivityReportDialog-view-wapper {
+  .verticalLine {
+    border-left: 1px solid #8e8e93;
+    height: 100%;
+  }
+
+  .filter-title {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    @include rtl {
+      margin-right: 1rem;
+    }
+  }
+}

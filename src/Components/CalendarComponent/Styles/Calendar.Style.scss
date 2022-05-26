@@ -1,0 +1,177 @@
+.calendars {
+  position: relative;
+  z-index: 1;
+
+  .full-calendar-item {
+    background-color: $c-secondary-light;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.5rem;
+    max-height: 8rem;
+    overflow-y: auto;
+    &:hover {
+      background-color: $c-gray-lighter;
+    }
+    .activity-item {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      border-radius: 0.5rem;
+      width: 90%;
+      padding: 0.5rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+      .activity-item-subject {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 0.1rem;
+        .activity-item-badge {
+          width: 0.4rem;
+          height: 0.4rem;
+          background-color: $c-secondary;
+          border-radius: 50%;
+          margin-right: 0.5rem;
+          @include rtl {
+            margin-right: 0;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+      .activity-item-hour {
+        font-size: 12px;
+        margin-left: 1rem;
+        @include rtl {
+          margin-left: 0;
+          margin-right: 1rem;
+        }
+      }
+    }
+    .activity-date {
+      position: absolute;
+      top: 0;
+      right: 0;
+      @include rtl {
+        right: initial;
+        left: 0;
+      }
+    }
+  }
+  .MuiPickersStaticWrapper-staticWrapperRoot {
+    background-color: $c-white;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .MuiPickersCalendarHeader-iconButton {
+    background-color: transparent;
+  }
+
+  .MuiIconButton-root {
+    padding: 0.25rem;
+    min-height: 30px;
+    min-width: 30px;
+  }
+
+  &.hide-header {
+    .MuiPickersDatePickerRoot-toolbar {
+      display: none;
+    }
+  }
+
+  &.small-calender {
+    .MuiPickersStaticWrapper-staticWrapperRoot {
+      min-width: initial;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .MuiPickersBasePicker-pickerView {
+      max-width: initial;
+      min-width: initial;
+    }
+
+    .MuiPickersBasePicker-pickerView {
+      min-height: initial;
+      max-width: initial;
+      padding: 0.5rem;
+
+      .MuiPickersCalendar-transitionContainer {
+        min-height: 180px;
+      }
+    }
+
+    .MuiIconButton-root {
+      height: 30px;
+      width: 30px;
+    }
+
+    .MuiPickersCalendarHeader-dayLabel {
+      width: 30px;
+    }
+  }
+
+  &.transparent-calender {
+    .MuiPickersStaticWrapper-staticWrapperRoot {
+      min-width: initial;
+      display: inline-block;
+      width: 98%;
+      min-height: 21rem;
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    .MuiPickersDay-daySelected {
+      background-color: $c-primary;
+    }
+    .MuiPickersBasePicker-pickerView {
+      max-width: initial;
+      min-width: initial;
+    }
+
+    .MuiPickersBasePicker-pickerView {
+      min-height: initial;
+      max-width: initial;
+      padding: 0.5rem;
+
+      .MuiPickersCalendar-transitionContainer {
+        min-height: 240px;
+      }
+    }
+
+    .MuiIconButton-root {
+      height: 40px;
+      width: 40px;
+    }
+
+    .MuiPickersCalendarHeader-dayLabel {
+      width: 30px;
+    }
+
+    .MuiPickersCalendar-week {
+      margin-bottom: 0.5rem;
+    }
+    .MuiPickersBasePicker-pickerView {
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+
+    .MuiPickersBasePicker-container:after {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1) 90%
+      );
+      width: 100%;
+      height: 8em;
+    }
+  }
+}

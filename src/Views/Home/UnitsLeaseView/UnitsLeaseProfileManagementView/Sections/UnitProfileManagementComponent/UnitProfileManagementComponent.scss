@@ -1,0 +1,66 @@
+.unit-profile-managemnt-wrapper {
+  .is-disabled {
+    .autocomplete-wrapper
+      .autocomplete
+      .input-wrapper
+      .text-field-wrapper
+      .inputs
+      .MuiInputBase-root {
+      background-color: $c-gray-lighter;
+    }
+  }
+  .management-type-actions-wrapper {
+    display: flex;
+    flex-direction: column;
+    .actions-wrapper {
+      display: flex;
+    }
+    .managed-button {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      border: 1px solid $c-gray;
+      background-color: $c-white;
+      color: $c-black;
+      border-radius: 10px;
+      width: 13rem;
+      height: 8.5rem;
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      font-weight: bold;
+      .icons {
+        width: 4rem;
+        height: 4rem;
+        background-size: 3.5rem 3.5rem;
+      }
+      &.is-active {
+        background-color: $c-secondary-light;
+        color: $c-primary;
+        border: 2px solid $c-primary;
+      }
+    }
+    .non-managed-button {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      border: 1px solid $c-gray;
+      color: $c-black;
+      border-radius: 10px;
+      width: 13rem;
+      height: 8.5rem;
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      font-weight: bold;
+      .icons {
+        width: 4rem;
+        height: 4rem;
+        background-size: 3rem 3rem;
+      }
+      &.is-active {
+        background-color: $c-secondary-light;
+        color: $c-primary;
+        border: 2px solid $c-primary;
+      }
+    }
+  }
+}

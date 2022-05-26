@@ -1,0 +1,104 @@
+.progresses-wrapper {
+  width: 100%;
+  position: relative;
+  .progresses-line-wrapper {
+    @include d-flex;
+    width: 100%;
+  }
+  &.nowrap {
+    @include d-flex-center;
+
+    .progresses-text {
+      @include flex-center;
+      padding: 0 0.25rem;
+      order: 2;
+    }
+
+    .progresses {
+      width: 100%;
+      order: 1;
+    }
+  }
+
+  .progresses-text {
+    @include d-inline-flex-v-center-h-end;
+    color: $c-primary;
+  }
+
+  .progresses {
+    width: 100%;
+    &.MuiLinearProgress-colorPrimary {
+      background-color: $c-gray-lighter !important;
+      border-radius: 4px;
+      box-shadow: inset 0 0 4px 1px rgba(0, 0, 0, 0.13);
+
+      // box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.16);
+      .MuiLinearProgress-bar {
+        border-radius: 4px;
+      }
+    }
+
+    &.bg-primary {
+      .MuiLinearProgress-barColorPrimary {
+        background-color: $c-primary;
+      }
+    }
+
+    &.bg-success {
+      .MuiLinearProgress-barColorPrimary {
+        background-color: $c-success;
+      }
+    }
+
+    &.bg-warning {
+      .MuiLinearProgress-barColorPrimary {
+        background-color: $c-warning;
+      }
+    }
+
+    &.bg-danger {
+      .MuiLinearProgress-barColorPrimary {
+        background-color: $c-danger;
+      }
+    }
+  }
+  &.theme-gradient {
+    margin-top: 1.3rem;
+    .progresses-text {
+      color: $c-white;
+      border-radius: 0.25rem;
+      padding: 0.1rem 0.25rem;
+      bottom: 0 !important;
+      z-index: 2;
+    }
+    .progresses-line-wrapper {
+      width: 100%;
+      position: relative;
+      .progresses-other-hidder {
+        position: absolute;
+        right: 0;
+        background-color: $c-white;
+        height: 100%;
+        z-index: 1;
+        transition: width 0.4s linear;
+        @include rtl {
+          right: initial;
+          left: 0;
+        }
+      }
+    }
+    .progresses {
+      box-shadow: none;
+      border-radius: 0;
+      background-image: $bg-progress-gradient !important;
+      @include rtl {
+        background-image: $bg-progress-gradient-reversed !important;
+      }
+
+      .MuiLinearProgress-bar {
+        border-radius: 0;
+        background-color: transparent;
+      }
+    }
+  }
+}

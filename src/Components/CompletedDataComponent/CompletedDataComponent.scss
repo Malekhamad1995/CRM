@@ -1,0 +1,47 @@
+.completed-data-component-wrapper {
+  display: flex;
+  align-items: center;
+  .completed-history-wrapper {
+    display: flex;
+    align-items: center;
+    .history-button {
+      .MuiButtonBase-root {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mdi::before {
+        margin-top: 0.1rem;
+        font-size: 16px;
+        padding-right: 1rem;
+        @include rtl {
+          padding-left: 1rem;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  .completed-data-content {
+    margin: 0 1rem 0 1rem;
+    color: white;
+    padding: 0.1rem 0.8em 0.1rem 0.8rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 12px;
+    &.bg-primary {
+      background-color: $c-primary;
+    }
+
+    &.bg-success {
+      background-color: $c-success;
+    }
+
+    &.bg-warning {
+      background-color: $c-warning;
+    }
+
+    &.bg-danger {
+      background-color: $c-danger;
+    }
+  }
+}

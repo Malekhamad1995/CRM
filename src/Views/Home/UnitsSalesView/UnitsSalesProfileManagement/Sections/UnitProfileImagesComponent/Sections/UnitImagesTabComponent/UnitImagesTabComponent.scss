@@ -1,0 +1,40 @@
+.LocationImagesTabComponent{
+    margin-top: 20px;
+    .EmptyPage{
+        width: 480px;
+        height: 550px;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-image: url('../../../../../../../../assets/images/defaults/EmptyPage.png');
+    }
+    .Add{
+        margin: 25px;
+        text-align: center;
+        .Add-new {
+        width: 130px;
+        min-height: 32px;
+        height: 32px;
+        background-color: #3b72d9;
+        border-radius: 1rem;
+    margin-left: 20px;
+        .add-buttton {
+         color: white;
+        }
+      }
+    }
+    .Add-with-data{
+        margin: 25px;
+        .Add-new {
+        width: 130px;
+        min-height: 32px;
+        height: 32px;
+        background-color: #3b72d9;
+        border-radius: 1rem;
+    margin-left: 20px;
+        .add-buttton {
+         color: white;
+        }
+      }
+    }
+    
+}

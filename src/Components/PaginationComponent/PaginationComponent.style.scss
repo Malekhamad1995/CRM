@@ -1,0 +1,20 @@
+.pagination-component-wrapper {
+  @include d-flex-v-center-h-between;
+  flex-wrap: wrap;
+  @include tablets-max {
+    justify-content: center;
+  }
+  .pagination-section {
+    @include d-inline-flex-v-center;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    color: #000000;
+    .pagination-input {
+      max-width: 70px;
+      .text-field-wrapper .inputs .MuiInputBase-input {
+        color: $c-primary;
+        text-align: center;
+      }
+    }
+  }
+}

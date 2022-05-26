@@ -1,0 +1,43 @@
+import { createAction } from '@reduxjs/toolkit';
+const FORM_GET = createAction('FORM_GET');
+const FORM_GET_SUCCESS = createAction('FORM_GET_SUCCESS');
+const FORM_GET_FAIL = createAction('FORM_GET_FAIL');
+
+const FORM_POST = createAction('FORM_POST');
+const FORM_POST_SUCCESS = createAction('FORM_POST_SUCCESS');
+const FORM_POST_FAIL = createAction('FORM_POST_FAIL');
+
+const FORM_BY_ID_PUT = createAction('FORM_BY_ID_PUT');
+const FORM_BY_ID_PUT_SUCCESS = createAction('FORM_BY_ID_PUT_SUCCESS');
+const FORM_BY_ID_PUT_FAIL = createAction('FORM_BY_ID_PUT_FAIL');
+
+const FORM_BY_ID_GET = createAction('FORM_BY_ID_GET');
+
+const FORM_BY_ID_GET_SUCCESS = createAction('FORM_BY_ID_GET_SUCCESS');
+const FORM_BY_ID_GET_FAIL = createAction('FORM_BY_ID_GET_FAIL');
+
+const FORM_BY_ID_GET_DIALOG = createAction('FORM_BY_ID_GET_DIALOG');
+const FORM_BY_ID_GET_DIALOG_SUCCESS  = createAction('FORM_BY_ID_GET_DIALOG_SUCCESS ');
+const FORM_BY_ID_GET_DIALOG_FAIL  = createAction('FORM_BY_ID_GET_DIALOG_FAIL');
+
+const FORM_RESET = createAction('FORM_RESET');
+
+export {
+	FORM_GET,
+	FORM_GET_SUCCESS,
+	FORM_GET_FAIL,
+	FORM_POST,
+	FORM_POST_SUCCESS,
+	FORM_POST_FAIL,
+	FORM_BY_ID_PUT,
+	FORM_BY_ID_PUT_SUCCESS,
+	FORM_BY_ID_PUT_FAIL,
+	FORM_BY_ID_GET,
+	FORM_BY_ID_GET_SUCCESS,
+	FORM_BY_ID_GET_FAIL,
+	FORM_RESET,
+	FORM_BY_ID_GET_DIALOG,
+	FORM_BY_ID_GET_DIALOG_SUCCESS,
+	FORM_BY_ID_GET_DIALOG_FAIL
+
+};

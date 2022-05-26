@@ -1,0 +1,22 @@
+{
+  "role-management": "Role Management",
+  "role-name-is-required": "Role Name Is Required",
+  "add-role-name": "Add Role Name",
+  "edit-role-name": "Edit Role Name",
+  "role-updated-successfully": "Role Updated successfully",
+  "role-created-successfully": "Role Created successfully",
+  "role-update-failed": "Role Update Failed",
+  "role-create-failed": "Role Create Failed",
+  "role-name-description": "Role name here ex. CRM...",
+  "modules": "Modules",
+  "modules-description": "You must select Module to give permissions",
+  "components": "Components",
+  "components-description": "Components for selected",
+  "permission": "Permission",
+  "cancel": "Cancel",
+  "save-and-add-users": "Save and Add Users",
+  "update-and-add-users": "Update and Add Users",
+  "save-new-role": "Save New Role",
+  "update-role": "Update Role",
+  "please-select-at-least-one-permission": "Please select at least one permission"
+}

@@ -1,0 +1,46 @@
+.lead-profile-units-wrapper {
+  .title-box-wrapper {
+    @include d-flex-v-center-h-between;
+    border-radius: 1rem;
+    background-color: $c-secondary-light;
+    font-weight: $fw-simi-bold;
+    padding: 0.5rem;
+    // color: $c-;
+    .title-box-section {
+      @include d-inline-flex-column;
+      padding: 0 0.5rem;
+    }
+  }
+  .lead-profile-filter-section {
+    @include d-flex-v-center;
+    padding: 0.5rem 0;
+    .filter-section-item {
+      display: flex ;
+      justify-content: space-between ;
+      width: 100% ;
+      @include d-inline-flex-v-center;
+      flex-wrap: wrap;
+      padding: 0 0.5rem;
+      &:nth-child(even) {
+        padding: 0;
+        // &::after {
+        //   content: ' ';
+        //   position: absolute;
+        //   height: 100%;
+        //   width: 1px;
+        //   right: 0;
+        //   top: 0;
+        //   @include rtl {
+        //     left: 0;
+        //     right: initial;
+        //   }
+        // }
+        // border-left: 1px solid $c-gray-dark;
+        // @include rtl {
+        //   border-right: 1px solid $c-gray-dark;
+        //   border-left: none;
+        // }
+      }
+    }
+  }
+}

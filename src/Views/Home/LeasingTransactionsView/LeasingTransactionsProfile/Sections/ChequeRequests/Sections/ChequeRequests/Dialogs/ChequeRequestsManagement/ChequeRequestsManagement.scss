@@ -1,0 +1,17 @@
+.cheque-requests-management-dialog {
+  @include d-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  .dialog-item {
+    @include d-inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    width: 50%;
+    @include phones-max {
+      width: 100%;
+    }
+  }
+}

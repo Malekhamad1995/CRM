@@ -1,0 +1,19 @@
+.filterLeasingTransaction {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.twoFieldsOfFilter {
+  display: flex;
+}
+
+@media only screen and (max-width: 720px) {
+  .filterLeasingTransaction {
+    display: grid !important;
+    flex-wrap: unset;
+  }
+
+  .twoFieldsOfFilter {
+    display: grid;
+  }
+}

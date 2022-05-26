@@ -1,0 +1,242 @@
+.btns.MuiButtonBase-root {
+  border-radius: 30px;
+  min-height: 26px;
+  line-height: 100%;
+  min-width: 85px;
+  margin: 0 0.25rem;
+  padding: 0.219rem 0.5rem;
+  text-transform: initial;
+  font-size: $fz-13px;
+  color: $c-primary;
+  white-space: nowrap;
+  .mdi {
+    line-height: 14px;
+  }
+  &.theme-solid {
+    background-color: $c-primary;
+    color: $c-white;
+
+    &.bg-cancel {
+      background-color: $c-gray-lighter;
+      color: $c-black-dark;
+
+      .MuiButton-label {
+        color: $c-black-dark;
+      }
+    }
+  }
+
+  &.date-theme {
+    border-radius: 7px;
+    &:hover {
+      box-shadow: 0px 3px 6px #0000001c;
+      border: 1px solid #3b72d9;
+    }
+    &.is-active {
+      box-shadow: 0px 3px 6px #0000001c;
+      border: 1px solid #3b72d9;
+    }
+    .mdi::before {
+      font-size: 22px;
+    }
+  }
+
+  &.theme-outline {
+    color: #000000;
+    border: 1px solid $c-gray-light;
+  }
+
+  &.theme-menu {
+    color: #000000;
+    width: 100%;
+    border-radius: 0;
+    justify-content: flex-start;
+
+    &:not([disabled]) {
+      &:hover {
+        background-color: $c-gray-lighter;
+      }
+    }
+  }
+
+  &.theme-wide {
+    min-height: 66px;
+    color: #000000;;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    top: -5px;
+
+    .texts-large {
+      color: $c-black;
+      font-weight: 500;
+    }
+
+    .texts-small {
+      font-size: 10px;
+      text-align: initial;
+    }
+
+    &:not([disabled]) {
+      &:hover {
+        background-color: $c-gray-lighter;
+      }
+    }
+  }
+
+  &.theme-transparent {
+    background-color: transparent;
+    color: $c-primary;
+
+    .MuiButton-label {
+      color: $c-primary;
+    }
+  }
+
+  &:disabled {
+    background-color: $c-gray-secondary !important;
+    border-color: $c-gray-secondary !important;
+    cursor: not-allowed;
+    pointer-events: initial;
+    color: $c-white !important;
+  }
+}
+
+.btns-icon.MuiButtonBase-root {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  max-width: 24px;
+  border-radius: 100%;
+  color: $c-primary;
+  padding: 0.2rem;
+
+  .mdi {
+    &::before {
+      font-size: 16px;
+    }
+  }
+
+  &.theme-outline {
+    border: 1px solid $c-gray-secondary;
+     color: #000000;;
+
+    &:not([disabled]):hover {
+      background-color: $c-gray-primary;
+      color: $c-white !important;
+      border-color: $c-white;
+    }
+
+    &.c-blue-lighter {
+      border-color: $c-blue-lighter;
+      color: $c-blue-lighter;
+
+      &:not([disabled]):hover {
+        background-color: $c-blue-lighter;
+        color: $c-white;
+        border-color: $c-white;
+      }
+    }
+
+    .mdi {
+      &::before {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &.theme-outline-dark {
+    border: 1px solid $c-gray-lighter;
+    color: $c-black;
+    background-color: $c-white;
+
+    .mdi {
+      &::before {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &.btns-small {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    max-width: 24px;
+
+    .mdi {
+      &:before {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &.theme-transparent {
+    background-color: transparent;
+    color: $c-gray-dark;
+
+    .mdi {
+      color: $c-gray-dark;
+
+      &::before {
+        font-size: 24px;
+      }
+    }
+
+    &[disabled] {
+      background-color: transparent !important;
+      color: $c-gray-light;
+    }
+  }
+
+  &.theme-action {
+    color: $c-white;
+    &:not(:focus):not(:active):not(.active) {
+      background-color: $c-black-light !important;
+      &:hover {
+        background-color: $c-primary !important;
+      }
+    }
+  }
+
+  &.theme-solid {
+    background-color: $c-primary;
+    color: $c-white;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  &:disabled {
+    background-color: $c-gray-secondary !important;
+    cursor: not-allowed;
+    pointer-events: initial;
+    color: $c-white !important;
+    border-color: $c-gray-secondary !important;
+  }
+}
+
+.btns-menu {
+  height: 53px;
+  width: 57.5px;
+}
+
+.btns-tag.MuiButtonBase-root {
+  background-color: transparent;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  width: 1rem;
+  min-width: 1rem;
+  transform: rotateZ(-48deg);
+  height: 1rem;
+
+  .MuiButton-label {
+    color: $c-primary;
+  }
+}

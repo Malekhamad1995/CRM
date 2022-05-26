@@ -1,0 +1,16 @@
+.add-team-dialog-wrapper {
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+  }
+  .MuiDialogContent-root {
+    padding: 25px 4rem 1rem;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+  .form-name {
+    padding-bottom: 0.5rem;
+  }
+  .delete-group-dialog {
+    font-size: 14px !important;
+  }
+}

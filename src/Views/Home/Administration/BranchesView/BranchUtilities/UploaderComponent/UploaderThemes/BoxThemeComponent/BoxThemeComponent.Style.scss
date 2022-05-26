@@ -1,0 +1,47 @@
+.box-theme-component-wrapper {
+  min-height: 150px;
+  width: 100%;
+  position: relative;
+  @include d-flex-column-center;
+  background-color: $c-white;
+  border: 1px solid $c-gray-lighter;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  //   min-height: 30px;
+  &:hover {
+    :not([disabled]) {
+      border-color: $c-gray-light;
+    }
+  }
+  &:focus:not([disabled]) {
+    border-color: $c-primary !important;
+    box-shadow: 0 0 2px 2px rgba($c-primary, 0.3);
+  }
+  &.drag-over {
+    border-style: dashed;
+  }
+  .dropzone-wrapper {
+    @include d-flex-column-center;
+    position: relative;
+    .drop-here {
+      padding: 0 0.5rem .5rem;
+      @include d-flex-v-center;
+      pointer-events: none;
+    }
+    .box-theme-image {
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include rtl {
+      right: initial;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Team": "الفريق",
+  "search": "البحث",
+  "AddTeamDialog": {
+    "AddTeam": "أضافة الفريق",
+    "TeamName": "إسم الفريق",
+    "BusinessGroup": "القسم",
+    "BusinessGroupin": " اضافة فريق في القسم",
+    "LimitNumber": "عدد محدد من الأعضاء",
+    "Notes": "الملاحظات",
+    "Cancel": "إلغاء",
+    "Add": "أضف فريق جديد",
+    "NotificationAddTeam": "أضافة فريق جديد",
+    "NotificationErrorAdd": "فشل إضافة الفريق",
+    "select": "اختار"
+  },
+  "DeleteDialog": {
+    "Alarm": "هل أنت متأكد أنك تريد حذف",
+    "Cancel": "إلغاء",
+    "Confirm": "تأكيد",
+    "NotificationDeleteTeam": "تم حذف الفريق بنجاح",
+    "NotificationErrorDelete": "فشل حذف الفريق"
+  },
+  "EditTeamDialog": {
+    "selectTeamLeadfaild": "لا يمكن اختيار هذا المستخدم كقائد للفريق",
+    "EditTeam": "تعديل الفريق",
+    "Team": "الفريق",
+    "BusinessGroup": "القسم",
+    "limitnumber": "عدد محدد من الأعضاء",
+    "Notes": "الملاحظات",
+    "Cancel": "إلغاء",
+    "Save": "حفظ",
+    "NotificationEditTeam": "تم حفظ التغيير بنجاح",
+    "NotificationErrorEdit": "فشل التغيير",
+    "NotificationSuccss": "تم حفظ التغيير بنجاح"
+  },
+  "UserDialog": {
+    "addTeamLead": "تم اختيار قائد للفريق",
+    "AssignTeam": "تعيين الفريق",
+    "assign": "اضافة",
+    "Cancel": "إلغاء",
+    "Team": "الفريق",
+    "AddUser": " اضافة الفريق",
+    "Search": "البحث في المستخدمين",
+    "TeamName": "اسم الفريق",
+    "labelSearch": "البحث",
+    "titleDelete": "حذف المستخدم",
+    "NotificationDeleteTeamUser": "تم عملية حذف المستخدم بنجاح",
+    "NotificationADDTeamUser": "تم عملية اضافة المستخدم بنجاح",
+    "NotificationAddTeamUserFiled": "فشل إضافة فريق المستخدم",
+    "done": "تنفيذ"
+  },
+  "SearchTeam": "البحث في الفريق",
+  "AddTeam": "أضافة الفريق",
+  "EditTeam": "تعديل الفريق",
+  "DeleteTeam": "حذف الفريق",
+  "BusinessGroup": "القسم",
+  "NotificationErrorView": "فشل عرض الفريق",
+  "TreeTeam": {
+    "AddTeam": "اضافة",
+    "Edit": "تعديل ",
+    "DeleteTeam": "حذف",
+    "User": "المستخديمن"
+  }
+}

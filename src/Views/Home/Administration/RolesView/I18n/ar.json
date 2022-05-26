@@ -1,0 +1,40 @@
+{
+  "NoData": "لا يوجد بيانات",
+  "Roles": "المهام",
+  "RolesDetails": "معلومات المهام",
+  "Edit": "تعديل",
+  "Global": "عالمي",
+  "Local": "محلي",
+  "Deep": "عميق",
+  "Basic": "بسيط",
+  "AddNewRole": "إضافة مهمة جديدة",
+  "NotificationErrorViewRole": "فشل عرض المهمة",
+  "AddRole": {
+    "Role": "المهمة",
+    "Global": "عالمي",
+    "Local": "محلي",
+    "Deep": "عميق",
+    "Basic": "بسيط",
+    "UpdateRole": "تعديل المهمة",
+    "AddRole": "إضافة مهمة",
+    "NotificationAddRole": "تم إضافة المهمة بنجاح",
+    "NotificationErrorAdd": "فشل إضافة المهمة",
+    "NotificationUpdateRole": "تم تحديث المهمة بنجاح",
+    "NotificationErrorUpdate": "فشل تحديث المهام"
+  },
+  "RolesListView": {
+    "RolesName": "اسم المهام",
+    "RolesId": "رمز المهام",
+    "RolesId2": "عدد",
+    "SearchRoles": "بحث المهام",
+    "AddNewRole": "اضافة مهام"
+  },
+  "DeleteDialog": {
+    "DeleteText": "هل أنت متأكد أنك تريد حذف",
+    "Cancel": "إلغاء",
+    "Confirm": "تأكيد",
+    "role-deleted-successfully": "تم حذف الدور بنجاح",
+    "role-delete-failed": "فشل حذف الدور",
+    "confirm-message": "رسالة تأكيد"
+  }
+}

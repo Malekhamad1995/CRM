@@ -1,0 +1,92 @@
+.units-profile-marketing-wrapper {
+  .bt-0 {
+    border-top: 0;
+  }
+  .title-wrapper {
+    @include d-flex;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    .title-text {
+      font-weight: $fw-simi-bold;
+    }
+  }
+  .presentational-wrapper {
+    @include d-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .form-item,
+  .form-item-double {
+    @include d-inline-flex;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 25%;
+    @include laptops-xl-max {
+      width: 25%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include phones-max {
+      width: 100%;
+    }
+  }
+  .templates-wrapper {
+    @include d-flex-v-center;
+    flex-wrap: wrap;
+    .templates-title {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+    }
+  }
+  .form-item-double {
+    align-items: flex-start;
+    width: 50%;
+    @include laptops-xl-max {
+      width: 75%;
+    }
+    @include laptops-l-max {
+      width: 75%;
+    }
+    @include laptops-max {
+      width: 75%;
+    }
+    @include phones-max {
+      width: 100%;
+    }
+    .Requierd-Color::after {
+      content: ' *';
+      color: red;
+    }
+  }
+  .box-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: $c-secondary-light;
+    padding: 0.5rem 0.5rem 0;
+    margin-bottom: 1rem;
+    .box-item-wrapper {
+      @include d-inline-flex-v-center;
+      padding: 0 0.5rem;
+      margin-bottom: 0.5rem;
+      min-width: 200px;
+      width: 20%;
+      @include laptops-xl-max {
+        width: 25%;
+      }
+      @include laptops-l-max {
+        width: 33.3333%;
+      }
+      @include laptops-max {
+        width: 50%;
+      }
+      @include phones-max {
+        width: 100%;
+      }
+    }
+  }
+}

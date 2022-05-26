@@ -1,0 +1,149 @@
+.lead-profile-units-card-wrapper {
+  .units-card-wrapper {
+    .cards-wrapper {
+      @include d-flex-column;
+      position: relative;
+      border: 1px solid $c-gray-secondary;
+      border-radius: 0.5rem;
+      color: #000000;
+      .cards-header-wrapper {
+        @include d-flex-h-center;
+        flex-wrap: wrap;
+        padding-top: 0.5rem;
+        .card-header-item {
+          @include d-inline-flex;
+          padding: 0 0.5rem;
+          margin: 0 0 0.5rem;
+          min-height: 108px;
+          width: 33.3333%;
+          min-width: 100px;
+          @include phones-max {
+            width: 50%;
+          }
+          .card-header-btn {
+            border-radius: 0.5rem;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+          }
+          .cover-image {
+            background-color: $c-gray-lighter;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 100%;
+            width: 100%;
+            min-height: 100px;
+            border-radius: 0.5rem;
+          }
+        }
+      }
+      .cards-body-wrapper {
+        .card-title-wrapper {
+          @include d-flex-v-center-h-between;
+          padding: 0 0.5rem;
+          font-weight: $fw-simi-bold;
+        }
+        .card-statuses-wrapper {
+          @include d-flex-v-center;
+          padding: 0.25rem 0 0;
+          .card-statuses-items-wrapper {
+            @include d-flex-v-center-h-between;
+            flex-wrap: wrap;
+            .card-statuses-item {
+              @include d-inline-flex-v-center;
+              padding: 0 0.5rem;
+              margin-bottom: 0.5rem;
+              font-weight: $fw-simi-bold;
+            }
+          }
+          .flat-content-item {
+            margin: 0 0.5rem 0.5rem;
+            color: $c-white;
+          }
+        }
+        .details-icon,
+        .details-text {
+          font-weight: $fw-bold;
+          white-space: break-spaces;
+        }
+        .flat-contents-wrapper {
+          @include d-flex-v-center;
+          width: 100%;
+          flex-wrap: wrap;
+          padding: 0 0.25rem;
+        }
+        .flat-content-item {
+          @include d-inline-flex-v-center;
+          margin: 0 0.25rem 0.5rem;
+          padding: 0.1rem 0.5rem;
+          border-radius: 1rem;
+          background-color: $c-gray-lighter;
+          color: #000000;
+        }
+        .details-item-wrapper {
+          @include d-flex;
+          width: 100%;
+          padding: 0 0.5rem;
+          margin-bottom: 0.1rem;
+          min-width: 200px;
+          max-height: 35px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          .details-item {
+            @include d-flex;
+          }
+          @supports (display: -webkit-box) {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            .mdi {
+              vertical-align: bottom;
+            }
+          }
+        }
+        .description-wrapper {
+          padding: 1rem;
+        }
+      }
+      .cards-footer-wrapper {
+        @include d-flex-v-center-h-between;
+        flex: 1 1 auto;
+        overflow: hidden;
+        border-radius: 0 0 1.1rem 1.1rem;
+        width: 100%;
+        min-height: 40px;
+        padding: 0.2rem 0;
+        border-top: 1px solid $c-gray-secondary;
+        .footer-item {
+          @include d-inline-flex;
+          padding: 0 0.5rem;
+        }
+      }
+    }
+    @include d-inline-flex-column;
+    padding: 0 0.5rem;
+    min-width: 355px;
+    @include phones-max {
+      min-width: 290px;
+    }
+    margin-bottom: 1rem;
+    width: 20%;
+    max-width: 500px;
+    @include laptops-xl-max {
+      width: 25%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+
+    @include laptops-max {
+      width: 50%;
+    }
+
+    @include phones-max {
+      width: 100%;
+      max-width: initial;
+    }
+  }
+}

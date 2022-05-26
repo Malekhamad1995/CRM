@@ -1,0 +1,15 @@
+.leads {
+  .lead-filters {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0.5rem;
+  }
+}
+.property_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+}

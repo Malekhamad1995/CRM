@@ -1,0 +1,53 @@
+.my-leads-wrapper {
+  .add-new-lead-dialog-content-wrapper {
+    .MuiDialogContent-root {
+      padding: 1rem;
+      min-width: 30rem;
+    }
+    .dialog-content-wrapper {
+      width: 100%;
+      @include d-flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .form-item {
+        width: 50%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 0.5rem;
+      }
+      .form-item-case {
+        width: 50%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 0.5rem;
+        display: inline;
+      }
+      .form-item-two-fields {
+        display: flex;
+        .autocomplete-wrapper {
+          min-width: 200px;
+        }
+        .salutation-select {
+          padding-right: 0.5rem;
+          @include rtl {
+            padding-left: 0.5rem;
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    .Requierd-Color::after {
+      content: '*';
+      color: red;
+    }
+  }
+  .add-new-lead-dialog-actions-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    .action-item-next-back {
+      display: flex;
+    }
+  }
+}

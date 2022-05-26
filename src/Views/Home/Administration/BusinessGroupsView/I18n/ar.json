@@ -1,0 +1,45 @@
+{
+  "NotificationErrorView": "فشل عرض المجموعات",
+  "Username": "إسم المستخدم",
+  "AddGroup": "إضافة مجموعة",
+  "SearchGroup": "بحث المجموعة",
+  "Add": "إضافة",
+  "Edit": "تعديل",
+  "Delete": "حذف",
+  "ListViewGroups": {
+    "GroupName": "إسم المجموعة",
+    "GroupParent": "المجموعة الأم",
+    "Actions": "الإجراءات"
+  },
+  "AddDialog": {
+    "AddBusinessGroup": "إضافة القسم",
+    "BusinessGroups": "الأقسام",
+    "ParentBusinessGroup": "القسم الرئيسي",
+    "BusinessGroupParent": "مجموعة الأعمال ",
+    "Division": "قطاع",
+    "Notes": "الملاحظات",
+    "Cancel": "إلغاء",
+    "AddNewGroup": "إضافة مجموعة جديدة",
+    "NotificationAddGroup": "تم إضافة مجموعة جديدة بنجاح",
+    "NotificationErrorAdd": "فشلت إضافة المجموعة",
+    "select": "اختار"
+  },
+  "DeleteDialog": {
+    "DeleteText": "هل أنت متأكد أنك تريد حذف",
+    "Cancel": "إلغاء",
+    "Confirm": "تأكيد",
+    "NotificationDeleteGroup": "تم حذف المجموعة بنجاح",
+    "NotificationErrorDelete": "فشل الحذف",
+    "DELETE_RELATED_TEAMS_BEFORE_BUSINESS_GROUP": "يرجى حذف الفرق ذات الصلة قبل مجموعة الأعمال "
+  },
+  "EditDialog": {
+    "EditBusinessGroup": "تعديل القسم",
+    "BusinessGroupName": "إسم القسم",
+    "Division": "قطاع",
+    "Notes": "الملاحظات",
+    "Cancel": "إلغاء",
+    "Save": "حفظ",
+    "NotificationEditeGroup": "تم حفظ التغيير بنجاح",
+    "NotificationErrorEdit": "فشل التغيير"
+  }
+}

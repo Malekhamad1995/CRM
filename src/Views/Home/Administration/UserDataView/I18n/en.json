@@ -1,0 +1,23 @@
+{
+  "NotificationErrorView": "Views Failed",
+  "Search": "Search",
+  "View": "View",
+  "EditView": "Edit View",
+  "AddView": "Add View",
+  "ViewName": "View Name",
+  "Actions": "Actions",
+  "Edit": "Edit",
+  "Save": "Save",
+  "SaveItAsTemplate": "Save it as template",
+  "SetValuesFromTemplate": "Set values from template",
+  "CollapseView": {
+    "SuccessNotification": "View Succeded"
+  },
+  "DeleteDialog": {
+    "DeleteText": "Are you sure you want to delete",
+    "Cancel": "Cancel",
+    "Confirm": "Confirm",
+    "NotificationDeleteGroup": "View Deleted Successfully",
+    "NotificationErrorDelete": "Delete Failed "
+  }
+}

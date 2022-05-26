@@ -1,0 +1,17 @@
+{
+  "number-of-failed": "Number of Failed",
+  "number-of-success": "Number of Success",
+  "status": "Status",
+  "import-details": "Import Details",
+  "approve-valid-fields": "Approve Valid Fields",
+  "row": "Row",
+  "missing-required-field": "Missing Required Field",
+  "excel-row-number": "Excel Row Number",
+  "failed-reasons": "Failed Reasons",
+  "success": "Success",
+  "ready-for-import": "Ready for Import",
+  "approved-update-failed": "Approved Update Failed",
+  "approved-updated-successfully": "Approved Updated Successfully",
+  "approved": "Approved",
+  "pending": "Pending"
+}

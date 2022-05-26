@@ -1,0 +1,39 @@
+[
+  {
+    "City": "Abu Dhabi",
+    "District": [
+      "Abu Dhabi City",
+      "Abu Dhabi District",
+      "Al Ain District",
+      "Al Raha",
+      "Khalifa City A"
+    ]
+  },
+  { "City": "Al Ain", "District": ["Al Ain"] },
+  { "City": "Sharjah", "District": ["Al Hamriya", "Sharjah District"] },
+  {
+    "City": "Dubai",
+    "District": [
+      "Al Awir District",
+      "Bur Dubai District",
+      "Creek District",
+      "Deira District",
+      "District 11",
+      "Downtown District",
+      "Dubai Marina",
+      "Dubailand District",
+      "Emirates Living District",
+      "IMPZ District",
+      "Jabal Ali District",
+      "Jumeirah District",
+      "Marina District",
+      "Meydan District",
+      "Mirdif District",
+      "Palm Deira District",
+      "Palm Jumeirah District",
+      "Waterfront District",
+      "World Central District",
+      "Za'abeel District"
+    ]
+  }
+]

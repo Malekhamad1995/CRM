@@ -1,0 +1,168 @@
+@import "../../../../../assets/theme-style/Helpers/Helpers.Style.scss";
+.user-management-view {
+  .body-content {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0.5rem;
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      .team {
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
+        // align-items: center;
+        .team-header {
+          display: flex;
+          justify-content: flex-start;
+          padding: 0.5rem;
+          font-weight: 800px;
+          font-size: 1.25rem;
+        }
+        .team-scroll {
+          overflow-y: auto;
+          //height: calc(100vh - 270px);
+          padding-right: 0.5rem;
+
+          .team-section {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .information-section {
+      @include d-inline-flex;
+      width: 100%;
+      @include laptops-max {
+        width: 100%;
+      }
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+      color: #000000;
+      .information-box-wrapper {
+        @include d-flex-column;
+        // padding: 1rem 0;
+        border: 1px solid #e6e6e6;
+        border-radius: 1rem;
+      }
+      .information-section-content {
+        @include d-flex;
+        // flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+        width: 100%;
+        @include phones-s-max {
+          flex-direction: column;
+        }
+        .image-wrapper {
+          padding: 0.5rem;
+        }
+        .roles-wrapper {
+          @include d-flex-v-center;
+          @include phones-s-max {
+            flex-direction: column;
+          }
+          .roles-content {
+            color: #000000;
+            @include d-inline-flex-v-center;
+            flex-wrap: wrap;
+            margin-bottom: 0.25rem;
+
+            span {
+              //   padding: 0 0.5rem;
+              margin-bottom: 0.25rem;
+            }
+          }
+          .roles-button {
+            margin: 0 0.5rem 0.5rem;
+            border-radius: 0.5rem;
+            border-color: #000000;
+            justify-content: space-between;
+          }
+        }
+        .information-content-wrapper {
+          @include d-flex-column;
+          width: 100%;
+          padding: 0.5rem;
+        }
+      }
+      .footer-content-wrapper {
+        @include d-flex-v-center-h-between;
+        flex: wrap;
+        width: 100%;
+        padding: 1rem 0.5rem 0;
+        @include phones-s-max {
+        }
+        .footer-section {
+          @include d-inline-flex-column;
+          padding: 0 0.5rem;
+          margin-bottom: 0.5rem;
+          font-weight: bold;
+          flex: 1 1 auto;
+          .section-item {
+            @include d-flex-v-center;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    .form-item {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .account-dialog-section {
+      @include d-inline-flex-column;
+      width: 40%;
+      @include laptops-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .dialog-header {
+      @include d-flex-center;
+      background-color: #2153b1;
+      border-radius: 1rem 1rem 0 0;
+      padding: 1rem;
+      color: white;
+      font-size: 16px;
+    }
+    .dialog-body {
+      @include d-flex-column;
+      border: 1px solid #e6e6e6;
+      border-top: 0;
+      border-radius: 0 0 1rem 1rem;
+      padding: 1rem 1rem 0;
+    }
+  }
+  .Butt-wrpaer-password {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .fullName {
+    display: flex;
+  }
+  .fullName-wrapper {
+    width: 70%;
+  }
+  .userId {
+    display: flex;
+    align-items: center;
+  }
+  textarea {
+    width: 0;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,31 @@
+.bottom-box-wrapper {
+  @include d-flex;
+  flex: 0 1 auto;
+  position: sticky;
+  width: 100%;
+  padding: 0 1rem;
+  bottom: 0;
+  z-index: 8;
+  .bottom-box-content {
+    @include d-flex-v-center;
+    min-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0.5rem 0;
+    background-color: $c-white;
+    border-radius: 20px 20px 0 0 !important;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.29);
+    .bottom-box-two-sections {
+      @include d-flex-v-center-h-between;
+      > :nth-child(2) {
+        justify-content: flex-end;
+        @include tablets-max {
+          justify-content: center;
+        }
+      }
+      @include tablets-max {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

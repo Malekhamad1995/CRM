@@ -1,0 +1,19 @@
+.circular-progress-wrapper {
+  transform: translateX(-50%);
+
+  @include rtl {
+    transform: translateX(50%);
+    left: initial !important;
+    right: 50%;
+  }
+  .circular-progress-item-wrapper {
+    @include d-flex;
+    width: 100%;
+    .progress-wrapper {
+      min-width: 100%;
+      .MuiCircularProgress-svg {
+        width: 100%;
+      }
+    }
+  }
+}

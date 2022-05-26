@@ -1,0 +1,275 @@
+{
+  "home": "الصفحة الرئيسية",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "back": "السابق",
+  "next": "التالي",
+  "confirm": "تأكيد",
+  "add": "إضافة",
+  "All-Activities": "كل النشاطات",
+  "Related-Activities": "الأنشطة ذات الصلة",
+  "search-holder": "...بحث",
+  "call-center": "خدمة العملاء",
+  "sales": "مبيعات",
+  "any": "ايا",
+  "crm": "إدارة علاقات العملاء",
+  "system-admin": "مسؤول النظام",
+  "leasing": "عقود الإيجار",
+  "my-lead": "عملاء الوسيط",
+  "default": "افتراضي",
+  "night": "ليلي",
+  "view-style": "طريقةالعرض",
+  "retro": "فجر شاحب ",
+  "view": "عرض",
+  "silver": "اسود",
+  "Activities-Files": "ملفات الانشطة",
+  "hiding": "اماكن",
+  "graa": "واضح",
+  "FILE-VIEW": "عرض الملف",
+  "Files": "الملفات",
+  "Hopper": "هوبر",
+  "Rest": "إفتراضي",
+  "File-name": "اسم الملف",
+  "Add-files": "اضافة الملفات",
+  "uplode-File": "رفع الملفات",
+  "Map": "خريطة جوجل",
+  "latitude-longitude": "خط العرض وخط الطول",
+  "open-google-map-w": "افتح موقع خرائط جوجل ",
+  "delete-all": "حذف الكل",
+  "Image-Description": "وصف الصورة",
+  "Comments": "تعليقات",
+  "IsApproved": "موافق عليه",
+  "ApproveOwner": "المالك المعتمد",
+  "Publish-Approval": "نشر الموافقة",
+  "failed-add-Info": "فشل إضافة المعلومات",
+  "Need-owner-approval": "تحتاج موافقة المالك",
+  "IsPublished": "يتم نشر",
+  "isMarketing": "هل التسويق",
+  "Image-Title": "عنوان الصورة",
+  "publish-Order": "نشر الأمر",
+  "Info-add-successfully": "تم حفظ المعلومات بنجاح",
+  "hide-or-show-information-Fildes": "إخفاء أو إظهار حقول المعلومات ",
+  "system-parameters": "معلمات النظام",
+  "virtual-tour": "جولة افتراضية",
+  "dashboard": "لوحة القيادة",
+  "data-file-management": "إدارة ملف البيانات",
+  "lookups": "عمليات البحث",
+  "accounts-management": "إدارة الحسابات",
+  "activities": "أنشطة",
+  "form-builder": "منشئ النموذج",
+  "property-management": "إدارة الممتلكات",
+  "history": "التاريخ",
+  "select-all": "تحديد الكل",
+  "row-per-page": "صف لكل صفحة",
+  "Failure-Open-WhatsApp": "فشل فتح الواتسب تحقق من رقم الواتسب",
+  "download": "التنزيل",
+  "from": "من",
+  "to": "إلى",
+  "agent-management": "ادارة العملاء",
+  "agent": "العملاء",
+  "please-fill-all-required-field": "يرجى تعبئة جميع الحقول المطلوبة",
+  "please-fix-all-errors": "الرجاء إصلاح كافة الأخطاء",
+  "Copy-id-successfully": "تم نسخ رقم المعرف بنجاح",
+  "some-numbers-are-duplicated": "بعض الأرقام مكررة",
+  "some-emails-are-duplicated": "بعض رسائل البريد الإلكتروني مكررة",
+  "charaters": "أحرف",
+  "accounts": "الحسابات",
+  "search": "البحث",
+  "is-equal": "يساوي",
+  "is-contains": "يحتوي",
+  "is-start-with": "يبدء ب",
+  "is-end-with": "ينتهي ب",
+  "is-less-than": "أقل من",
+  "is-greater-than": "أكبر من",
+  "is-between": "بين",
+  "images-gallery": "معرض الصور",
+  "invalid-period": "فترة غير صالحة ، الرجاء اختيار تاريخ جديد",
+  "reassign-agent": "اعادة تعيين عميل",
+  "edit":"تعديل",
+  "editText":"تعديل النص",
+  "defaultImages": {
+    "corporate": "شركة",
+    "individual": "فرد",
+    "male": "ذكر",
+    "female": "أنثى",
+    "building": "مبنى"
+  },
+  "NotFoundViews": {
+    "Error-page-not-found": "الصفحة غير موجودة",
+    "not-found": "غير موجود",
+    "no-internet-connection": "لا يوجد اتصال بالانترنت",
+    "No-Content": "لا يوجد بيانات",
+    "This-page-is-empty": "هذه الصفحة فارغة",
+    "No-Result-Found": "لا يوجد نتائج",
+    "No-internet": "لا يوجد اتصال بالانترنت",
+    "Try-to-search-with-different-keywords": "حاول البحث باستخدام كلمات اخرى",
+    "This-page-is-in-a-vacation-now-please-try-again-later": "هذه الصفحة في اجازة الرجاء المحاولة لاحفا",
+    "oops": "حدث خطأ"
+  },
+  "tables": {
+    "rows-per-page": "الصفوف في كل صفحة",
+    "of": "من",
+    "previous-page": "الصفحة السابقة",
+    "next-page": "الصفحة التالية",
+    "open-file": "فتح الملف",
+    "view-details": "عرض التفاصيل"
+  },
+  "actions-buttons": {
+    "actions": "أجراءات",
+    "merge": "دمج",
+    "import": "إدخال",
+    "add": "إضافة",
+    "select-type": "إختر النوع",
+    "individual": "فرد",
+    "corporate": "شركة",
+    "sale": "بيع",
+    "bulk-assign": "تعيين مجمع",
+    "rent": "إيجار",
+    "owner": "مالك",
+    "seeker": "باحث",
+    "buyer-or-seller": "المشتري أو البائع",
+    "landlord-or-tenant": "المالك أو المستأجر",
+    "seller": "تاجر",
+    "buyer": "مشتر",
+    "landlord": "المالك",
+    "tenant": "مستأجر",
+    "bulk-update": "تحديث مجمع",
+    "select-report-type": "اختر نوع التقرير",
+    "activity-report": "تقرير النشاط" , 
+    "close-leads" :"اغلاق العميل" , 
+    "select-all": "اختار الكل",
+    "reassign-leads": "إعادة تعيين العملاء المحتملين"
+  },
+  "uploaderComponent": {
+    "drop-here": "الإسقاط هنا",
+    "image-uploaded": "صورة محملة",
+    "images-uploaded": "صور محملة",
+    "file-uploaded": "ملف محمل",
+    "files-uploaded": "ملفات محملة",
+    "browse-image": "إستعرض الصورة",
+    "browse-images": "إستعرض الصور",
+    "browse-file": "إستعرض الملف",
+    "Drag-and-drop-here-or-browse-File": "قم بالسحب والإفلات هنا أو تصفح الملف"
+  },
+  "homeLayout": {
+    "breadcrumbView": {
+      "home": "الصفحة الرئيسية"
+    },
+    "contactsManagementView": {
+      "contacts-management-view": "واجهة إدارة جهات الإتصال",
+      "merge-contacts": "دمج جهات الإتصال"
+    },
+    "activity-type": {
+      "activity-type": "نوع النشاط"
+    },
+    "propertiesManagementView": {
+      "properties-management-view": "واجهة إدارة العقارات"
+    },
+    "leadsManagementView": {
+      "leads-management-view": "واجهة إدارة العملاء المحتملون",
+      "merge-leads": "دمج العملاء المحتملون"
+    },
+    "unitsManagementView": {
+      "units-management-view": "واجهة إدارة الوحدات"
+    },
+    "lookupsView": {
+      "lookups": "البيانات المشتركة",
+      "lookup-type": "البيانات المشتركة",
+      "lookup-item": "عنصر البيانات المشتركة"
+    }
+  },
+  "mainMenuView": {
+    "contacts": "جهات الإتصال",
+    "leads": "العملاء المحتملون",
+    "properties": "عقارات",
+    "units": "وحدات",
+    "lookups": "البيانات المشتركة",
+    "lookup-types": "نوع البيانات المشتركة",
+    "business-groups": "الأقسام",
+    "roles": "الأدوار",
+    "teams": "الفرق",
+    "users": "المستخدمون"
+  },
+  "BreadcrumbHelper": {
+    "home": "الصفحة الرئيسية",
+    "contacts": "جهات الإتصال",
+    "leads": "العملاء المحتملون",
+    "properties": "عقارات",
+    "units": "وحدات",
+    "lookups": "البيانات المشتركة",
+    "lookup-types": "نوع البيانات المشتركة",
+    "business-groups": "الأقسام",
+    "roles": "الأدوار",
+    "teams": "الفرق",
+    "users": "المستخدمون"
+  },
+
+  "SideMenuView": {
+    "Dashboard": "لوحة القيادة",
+    "DataFiles": {
+      "DataFiles": "بيانات الملفات",
+      "Contacts": "جهات الإتصال",
+      "Leads": "العملاء المحتملون",
+      "Properties": "عقارات",
+      "Units": "الوحد"
+    },
+    "QAQAView": {
+      "QAView": "QA"
+    },
+    "ActivitiesView": {
+      "ActivitiesView": "انشطة"
+    },
+    "Lookups": {
+      "Lookup": "البيانات المشتركة",
+      "LookupList": "قائمة البيانات المشتركة"
+    },
+    "Administration": {
+      "Administration": "الإدارة",
+      "Roles": "المهام",
+      "Users": "المستخدمين",
+      "UsersDataViewing": "بيانات المستخدمين",
+      "Team": "الفريق",
+      "BusinessGroups": "الأقسام",
+      "CollapsePanelsView": "تصغير عرض اللوحات",
+      "RolesDetails": "تفاصيل المهام",
+      "AddRole": "اضافة مهام",
+      "EditRole": "تعديل المهام"
+    },
+    "Agents": "وسطاء",
+    "Workflows": "سير العمل",
+    "Agreements": "الإتفاقات",
+    "Accounts": "الحسابات",
+    "Sales": "المبيعات",
+    "Leasing": "التأجير",
+    "Marketing": "التسويق",
+    "Reports": "التقارير",
+    "Financials": "البيانات المالية",
+    "FormBuilder": "منشئ النموذج"
+  },
+  "Main": {
+    "HeaderView": {
+      "MainLabel": "CRM-PSI",
+      "Profile": "ملفي",
+      "Activities": "أنشطة",
+      "Logout": "تسجيل الخروج"
+    }
+  },
+  "pagination": {
+    "card-per-page": "البطاقات لكل صفحة:",
+    "of": "من",
+    "pages": "الصفحات"
+  },
+  "PhoneNumberIncorrectView": {
+    "Error-in-mobile-number-or-not-exist": "خطأ في رقم الهاتف المحمول أو غير موجود",
+    "Open-CRM": "CRM افتح",
+    "Phone": "الهاتف",
+    "check-Phone": "تحقق من الهاتف"
+  },
+  "manage-agents": "ادارةالعملاء",
+  "delete": "حذف",
+  "reply": "الرد",
+  "addPrimary": "إضافة سند قيد",
+  "print": "طباعة",
+  "transaction": "تحويل",
+  "addReceipt": "إضافة"
+}

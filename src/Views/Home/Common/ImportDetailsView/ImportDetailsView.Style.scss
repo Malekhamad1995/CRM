@@ -1,0 +1,52 @@
+.import-details-view {
+  padding: 1rem;
+  color: $c-black-light;
+  @include d-flex-center;
+  flex-wrap: wrap;
+  .header-section {
+    @include d-flex-center;
+    flex-wrap: wrap;
+    .item-section {
+      max-width: 550px;
+      &:nth-child(2) {
+        .box-wrapper {
+          border: 1px solid $c-success;
+          padding: 1rem 0 0;
+        }
+      }
+    }
+  }
+  .icon-circle {
+    @include d-inline-flex-center;
+    border-radius: 100%;
+    border: 2px solid $c-gray-lighter;
+    background-color: $c-success-light;
+    color: $c-success;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+  }
+  .item-section {
+    @include d-inline-flex;
+    width: 25%;
+    min-width: 300px;
+    padding: 0 0.5rem 0.5rem;
+    @include laptops-max {
+      width: 33.333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+
+    .box-wrapper {
+      @include d-flex-center;
+      background-color: $c-white;
+      border-radius: 1rem;
+      padding: 1rem 0.5rem;
+    }
+  }
+}

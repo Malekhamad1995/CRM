@@ -1,0 +1,76 @@
+{
+  "property": {
+    "property name": {
+      "keys": ["property_name"],
+      "title": "Property Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "property owner": {
+      "keys": ["property_owner"],
+      "title": "Property Owner",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "country": {
+      "keys": ["country"],
+      "title": "Country",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "city": {
+      "keys": ["city"],
+      "title": "City",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "district": {
+      "keys": ["district"],
+      "title": "District",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "ref unit no": {
+      "keys": ["ref_no"],
+      "title": "Ref No",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "land no": {
+      "keys": ["land_no"],
+      "title": "Land No",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "plot no": {
+      "keys": ["plot_no"],
+      "title": "Plot No",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "developer": {
+      "keys": ["developer"],
+      "title": "Developer",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "master developer": {
+      "keys": ["master_developer"],
+      "title": "Master Developer",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "no of floors": {
+      "keys": ["no_of_floors"],
+      "title": "No.of Floors",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "contact phone": {
+      "keys": ["contact_phone"],
+      "title": "Contact Phone",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    }
+  }
+}

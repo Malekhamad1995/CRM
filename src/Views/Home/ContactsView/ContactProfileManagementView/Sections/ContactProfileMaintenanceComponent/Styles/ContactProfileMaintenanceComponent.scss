@@ -1,0 +1,52 @@
+.maintenance-contact-wrapper {
+  .maintenance-table-wrapper {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: $c-white;
+    height: calc(100vh - 400px);
+    border: 1px solid $c-gray-lighter;
+    .services-row {
+      background-color: $c-white;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .service-item {
+      z-index: 9;
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 33.3333%;
+      padding: 0.5rem;
+      @include laptops-l-max {
+        width: 33.3333%;
+      }
+      @include laptops-max {
+        width: 50%;
+      }
+      @include tablets-max {
+        width: 40%;
+      }
+      @include phones-max {
+        width: 100%;
+      }
+    }
+  }
+  .services-item-wrapper {
+    height: calc(100vh - 400px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .service-item-row {
+      width: 100%;
+      height: 3.25rem;
+      &.is-gray {
+        background-color: $c-gray-lightest;
+      }
+    }
+  }
+}

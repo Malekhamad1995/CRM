@@ -1,0 +1,44 @@
+.leads-profile-wrapper {
+  padding: 0 0.5rem;
+  .childs-wrapper {
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 1rem;
+    // border: 1px solid $c-gray-secondary;
+    &.b-0 {
+      border-width: 0;
+    }
+    .title-section {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+      font-size: $fz-16px;
+      margin-bottom: 1rem;
+    }
+  }
+  .form-item {
+    @include d-inline-flex;
+    width: 25%;
+    @include laptops-xl-max {
+      width: 33.3333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .tabs-content-wrapper {
+    padding: 1rem 0.5rem 0;
+    align-items: flex-start;
+  }
+  .filter-sections-wrapper {
+    @include d-flex-v-center;
+    flex-wrap: wrap;
+    .filter-section-item {
+      @include d-inline-flex-v-center;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

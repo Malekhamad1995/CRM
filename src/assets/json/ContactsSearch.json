@@ -1,0 +1,74 @@
+{
+  "contact": {
+    "first name": {
+      "keys": ["first_name"],
+      "title": "First Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "last name": {
+      "keys": ["last_name"],
+      "title": "Last Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "company name": {
+      "keys": ["company_name"],
+      "title": "Company Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "city": {
+      "keys": ["city"],
+      "title": "City",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "community": {
+      "keys": ["community"],
+      "title": "Community",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "Mobile & Tel": {
+      "keys": [
+        "mobile_1",
+        "mobile_2",
+        "mobile_3",
+        "other_contact_mobile_no",
+        "representative_mobile_no_1",
+        "representative_mobile_no_2",
+        "whatsapp_mobile_number",
+        "landline_number"
+      ],
+      "title": "Mobile & Tel",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "email": {
+      "keys": [
+        "general_email",
+        "email_address_1",
+        "email_address_2",
+        "email_address_3",
+        "contact_1_email",
+        "contact_2_email"
+      ],
+      "title": "Email",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "nationality": {
+      "keys": ["nationality"],
+      "title": "Nationality",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "contact_class": {
+      "keys": ["contact_class"],
+      "title": "Contact Class",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    }
+  }
+}

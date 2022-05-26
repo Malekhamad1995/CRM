@@ -1,0 +1,58 @@
+.payables-wrapper {
+  .payable-name {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .payable-disabled {
+    width: 55%;
+  }
+  .payable-radio {
+    width: 55%;
+    .radio-groups-wrapper.theme-default.MuiFormControl-root
+      .radio-group-wrapper
+      .radio-wrapper
+      .radio-icon {
+      color: $c-gray;
+    }
+  }
+  .payable-header {
+    padding: 0.7rem 1.2rem 0.7rem 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $c-gray-lighter;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .payables-table {
+    padding: 0 0.7rem 0 0;
+    background-color: $c-white;
+    &.gray-index {
+      background-color: $c-gray-lightest;
+    }
+    &:hover {
+      background-color: $c-secondary-light;
+    }
+    .payable-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .radio-groups-wrapper.theme-default.MuiFormControl-root {
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+      .radio-groups-wrapper.theme-default.MuiFormControl-root::before {
+        border: 0;
+      }
+      .radio-groups-wrapper.theme-default.MuiFormControl-root .radio-group-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}

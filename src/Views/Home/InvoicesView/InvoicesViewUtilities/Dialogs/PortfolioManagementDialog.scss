@@ -1,0 +1,109 @@
+.portfoilio-management-dialog-wrapper {
+  .radio-groups-wrapper.theme-default.MuiFormControl-root::before {
+    display: none;
+  }
+  .ref-number {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 0.1rem;
+  }
+  .contact-id-wrapper {
+    width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    @include rtl {
+      width: 70%;
+    }
+    textarea {
+      width: 0;
+      height: 0;
+      padding: 0;
+      opacity: 0;
+    }
+    .contact-id {
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+    }
+    .mdi::before {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      font-size: 14px;
+      cursor: pointer;
+      color: $c-primary;
+    }
+  }
+  .active-inactive-portfolio {
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $c-white;
+    border-radius: 2rem;
+    height: 1.5rem;
+    &.active {
+      background-color: $c-success;
+    }
+    &.inactive {
+      background-color: $c-danger;
+    }
+  }
+  .is-active {
+    margin-left: -1.5rem;
+    margin-right: 1.5rem;
+    @include rtl {
+      margin-left: 1.5rem;
+      margin-right: -1.5rem;
+    }
+  }
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 2rem;
+  }
+  .MuiDialog-paper {
+    min-width: 50rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 30rem;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex;
+    flex-wrap: wrap;
+    .dialog-content-item {
+      width: 50%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+    }
+    .title-wrapper {
+      @include d-flex;
+      margin-bottom: 0.5rem;
+      padding: 0 0.5rem;
+      .title-text {
+        font-weight: $fw-simi-bold;
+      }
+    }
+    .reminder-wrapper {
+      @include d-flex-column;
+      .reminder-item-wrapper {
+        @include d-flex;
+        flex-wrap: wrap;
+        .reminder-section {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 1rem;
+          padding: 0 0.5rem;
+          width: 33.3333%;
+          @include phones-max {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

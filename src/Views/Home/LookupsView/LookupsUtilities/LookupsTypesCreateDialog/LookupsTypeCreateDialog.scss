@@ -1,0 +1,29 @@
+.add-type-dialog-wrapper {
+  .Requierd-Color::after {
+    content: ' *';
+    color: red;
+  }
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+  }
+  .MuiDialogContent-root {
+    padding: 25px 4rem 1rem;
+    min-width: 30rem;
+  }
+  .MuiFormControl-root {
+    width: 100%;
+  }
+  .MuiOutlinedInput-root {
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+  }
+  .MuiAutocomplete-endAdornment {
+    display: none;
+  }
+  .form-name {
+    padding-bottom: 0.5rem;
+  }
+  .lookupsName{
+    width: 100%;
+  }
+}

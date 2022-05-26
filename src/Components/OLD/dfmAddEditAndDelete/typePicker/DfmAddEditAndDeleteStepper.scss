@@ -1,0 +1,38 @@
+.form-builder-wrapper {
+  .form-builder-items-wrapper {
+    padding: 0 0.5rem;
+    padding-bottom: 3rem;
+
+    .form-builder-item-wrapper {
+      padding: 0 0.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .form-actions-wrapper {
+    z-index: 8;
+    position: fixed;
+    bottom: 0;
+    right: 2rem;
+    width: 94.5%;
+    .form-builder-footer-wrapper {
+      background-color: #ffffff;
+      padding: 0.6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border: 2px solid #cccccc;
+      box-shadow: 0px -2px 6px #00000029;
+      border-radius: 20px 20px 0 0;
+      &.is-dialog {
+        position: relative;
+      }
+    }
+  }
+
+  .form-item {
+    display: inline-flex;
+    flex: 0 1 auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

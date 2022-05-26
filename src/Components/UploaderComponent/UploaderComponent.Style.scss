@@ -1,0 +1,38 @@
+.uploader-wrapper {
+  width: 100%;
+  .file-input {
+    display: none;
+  }
+  .counter-text {
+    color: $c-secondary;
+  }
+  .drop-here {
+    padding: 0 0.5rem;
+    @include d-flex-v-center;
+    pointer-events: none;
+  }
+  .MuiChip-root .MuiChip-avatar{
+    width: 18px;
+    height: 18px;
+  }
+  .as-overlay,
+  .as-overlay-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    @include rtl {
+      right: 0;
+      left: initial;
+    }
+  }
+  .as-overlay {
+    color: $c-gray-lighter;
+  }
+  .as-overlay-spinner {
+    @include d-flex-center;
+  }
+}

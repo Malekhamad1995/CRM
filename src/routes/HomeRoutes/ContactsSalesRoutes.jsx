@@ -1,0 +1,128 @@
+import {
+  ContactProfileManagementView,
+  ContactsManagementView,
+  ContactsView,
+} from '../../Views/Home';
+
+export const ContactsSalesRoutes = [
+  {
+    path: '/view',
+    name: 'ContactsView:contacts',
+    component: ContactsView,
+    layout: '/home/contact-sales',
+    default: true,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'ContactsView:contacts',
+        isDisabled: false,
+        route: '/home/contact-sales/view',
+        groupName: 'sales',
+      },
+    ],
+  },
+  {
+    path: '/add',
+    name: 'homeLayout.contactsManagementView.contacts-management-view',
+    component: ContactsManagementView,
+    layout: '/home/contact-sales',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'ContactsView:contacts',
+        isDisabled: false,
+        route: '/home/contact-sales/view',
+        groupName: 'sales',
+      },
+      {
+        name: 'homeLayout.contactsManagementView.contacts-management-view',
+        isDisabled: true,
+        route: '/home/contact-sales/add',
+      },
+    ],
+  },
+  {
+    path: '/contact-profile-edit',
+    name: 'ContactProfileManagementView:contact-profile-edit',
+    component: ContactProfileManagementView,
+    layout: '/home/contact-sales',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'ContactsView:contacts',
+        isDisabled: false,
+        route: '/home/contact-sales/view',
+        groupName: 'sales',
+      },
+      {
+        name: 'ContactProfileManagementView:contact-profile-edit',
+        isDisabled: true,
+        route: '/home/contact-sales/contact-profile-edit',
+      },
+    ],
+  },
+  {
+    path: '/contact-profile-add',
+    name: 'ContactProfileManagementView:contact-profile-add',
+    component: ContactProfileManagementView,
+    layout: '/home/contact-sales',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'ContactsView:contacts',
+        isDisabled: false,
+        route: '/home/contact-sales/view',
+        groupName: 'sales',
+      },
+      {
+        name: 'ContactProfileManagementView:contact-profile-add',
+        isDisabled: true,
+        route: '/home/contact-sales/contact-profile-add',
+      },
+    ],
+  },
+  {
+    path: '/edit',
+    name: 'homeLayout.contactsManagementView.contacts-management-view',
+    component: ContactsManagementView,
+    layout: '/home/contact-sales',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'ContactsView:contacts',
+        isDisabled: false,
+        route: '/home/contact-sales/view',
+        groupName: 'sales',
+      },
+      {
+        name: 'homeLayout.contactsManagementView.contacts-management-view',
+        isDisabled: true,
+        route: '/home/contact-sales/edit',
+      },
+    ],
+  },
+];

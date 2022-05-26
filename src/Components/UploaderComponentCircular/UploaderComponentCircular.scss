@@ -1,0 +1,122 @@
+
+@import '../../assets/theme-style/Helpers/Helpers.Style.scss';
+
+.uploader-wrapper {
+  width: 100%;
+  &.is-circle {
+    width: initial;
+    .uploader-container {
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+      position: relative;
+    }
+    .dropzone-wrapper {
+      width: 100%;
+      overflow: hidden !important;
+      height: 100%;
+      border-radius: 100% !important;
+      max-height: initial !important;
+      max-width: initial !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .drop-here {
+        // display: none !important;
+        opacity: 0;
+        text-align: center;
+        justify-content: center;
+        transition: opacity 0.3s linear;
+      }
+      &:hover {
+        .drop-here {
+          opacity: 1;
+        }
+      }
+    }
+    .btns-icon {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      @include rtl {
+        right: initial;
+        left: 0;
+      }
+    }
+    .btn-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      @include rtl {
+        right: initial;
+        left: 0;
+      }
+    }
+  }
+  .uploader-container {
+    .file-input {
+      display: none;
+    }
+    @include d-flex-h-center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    //   min-height: 30px;
+    &:hover {
+      :not([disabled]) {
+        border-color:  #b3b3b3;
+      }
+    }
+    &:focus:not([disabled]) {
+      border-color:  #006186 !important;
+      box-shadow: 0 0 2px 2px rgba( #006186, 0.3);
+    }
+    &.drag-over {
+      border-style: dashed;
+    }
+
+    .dropzone-wrapper {
+      height: 100%;
+      border-radius: 0.5rem;
+      max-height: 92px;
+      overflow-y: auto;
+      width: 100%;
+      @include d-inline-flex-v-center;
+      flex-wrap: wrap;
+      max-width: calc(100% - 115px);
+      padding: 0.25rem 0.25rem 0;
+      .MuiChip-root {
+        height: 21px;
+      }
+      position: relative;
+      .drop-here {
+        padding: 0 0.5rem;
+        @include d-flex-v-center;
+        pointer-events: none;
+        &.as-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba($color: #000000, $alpha: 0.2);
+          color: #ffffff;
+          height: 100%;
+          width: 100%;
+          z-index: 3;
+          @include rtl {
+            right: 0;
+            left: initial;
+          }
+        }
+      }
+      .uploader-chip {
+        max-width: 100%;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+  .counter-text {
+    color: #31aec4;
+  }
+}

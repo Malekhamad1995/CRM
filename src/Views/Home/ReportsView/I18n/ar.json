@@ -1,0 +1,22 @@
+{
+  "reports": "التقارير",
+  "Empty-page": "صفحة فارغة ، يرجى تحديد نوع التقرير لعرض البيانات",
+  "leadName": "اسم العميل",
+  "leadStatus": "حالة العميل",
+  "leadType": "نوع العميل",
+  "No-of-BR": "عدد غرف النوم",
+  "budget": "الميزانية",
+  "location": "الموقع",
+  "createdDate": "وقت الإنشاء",
+  "lastActivity": "أخر نشاط",
+  "agentName": "اسم الوكيل",
+  "type": "النوع",
+  "Activity-date-time": "وقت تاريخ النشاط",
+  "export-excel": "تصدير اكسل",
+  "reportType": "نوع التقرير",
+  "continue": "استمرار",
+  "cancel": "إلغاء",
+  "specific-property": "تحديد العقار",
+  "Addfiltertocountinue": "اضف الفلتر للمتابعة",
+  "select-report-type": "اختر نوع التقرير"
+}

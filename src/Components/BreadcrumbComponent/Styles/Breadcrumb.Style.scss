@@ -1,0 +1,30 @@
+.breadcrumb-wrapper {
+  padding: 1.3rem 1rem 1rem;
+  background-color: $c-white;
+  font-size: 14px !important;
+
+  .MuiBreadcrumbs-separator {
+    color: $c-gray-light;
+  }
+
+  .breadcrumb-link {
+    color: $c-gray-light;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &.active {
+      color: $c-gray-dark;
+    }
+  }
+  .breadcrumb-seperator {
+    color: $c-gray-light;
+  }
+  .breadcrumb-group-name {
+    display: flex;
+    align-items: center;
+  }
+  .MuiBreadcrumbs-li {
+    display: flex;
+    align-items: center;
+  }
+}

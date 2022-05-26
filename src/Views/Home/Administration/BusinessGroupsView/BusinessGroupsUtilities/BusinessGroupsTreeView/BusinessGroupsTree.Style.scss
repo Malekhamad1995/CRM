@@ -1,0 +1,363 @@
+$linecolor: #c7c7cc;
+.genealogy-tree {
+  ul:first-child {
+    display: flex;
+    flex: 1 1 100%;
+  }
+}
+.bussines-groups-wrapper {
+  //display: flex;
+  // align-items: center;
+  overflow: auto;
+  margin: 1rem;
+  max-height: calc(100vh - 300px);
+  // justify-content: center;
+  @include laptops-l-max {
+    justify-content: right;
+  }
+}
+.businessGroupsTreeView {
+  .MuiGrid-spacing-xs-3 {
+    width: 100%;
+    margin: unset;
+    height: 100%;
+    .MuiGrid-item {
+      padding: 0 0.25rem;
+    }
+  }
+
+  .MuiPaper-root {
+    grid-area: auto;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .genealogy-tree {
+    width: 100%;
+    height: 100%;
+  }
+
+  .treePaper {
+    min-height: 250px;
+    margin-top: 15px !important;
+    border-radius: 1rem !important;
+  }
+
+  /*----------------genealogy-tree----------*/
+  .genealogy-tree ul {
+    padding-top: 20px;
+    position: relative;
+    padding-left: 0px;
+    display: flex;
+
+    &.more {
+      justify-content: flex-start;
+    }
+  }
+
+  .genealogy-tree li {
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+  }
+
+  .genealogy-tree li::before,
+  .genealogy-tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 2px solid $linecolor;
+    width: 50%;
+    height: 18px;
+
+    @include rtl {
+      left: 50%;
+      right: initial;
+    }
+  }
+
+  .genealogy-tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 2px solid $linecolor;
+
+    @include rtl {
+      right: 50%;
+      left: auto;
+      border-right: 2px solid $linecolor;
+      border-left: 0;
+    }
+  }
+
+  .genealogy-tree li:only-child::after,
+  .genealogy-tree li:only-child::before {
+    display: none;
+  }
+
+  .genealogy-tree li:only-child {
+    padding-top: 0;
+  }
+
+  .genealogy-tree li:first-child::before,
+  .genealogy-tree li:last-child::after {
+    border: 0 none;
+  }
+
+  .genealogy-tree li:last-child::before {
+    border-right: 2px solid $linecolor;
+    border-radius: 0 5px 0 0;
+
+    @include rtl {
+      border-left: 2px solid $linecolor;
+      border-right: 0;
+      border-radius: 5px 0 0 0;
+    }
+  }
+
+  .genealogy-tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+
+    @include rtl {
+      border-radius: 0 5px 0 0;
+    }
+  }
+
+  .genealogy-tree ul ul::before {
+    content: '';
+    // display: flex;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid $linecolor;
+    width: 0;
+    height: 20px;
+    z-index: -2;
+    @include rtl {
+      left: initial;
+      right: 50%;
+      border-left: 0;
+      border-right: 2px solid $linecolor;
+    }
+  }
+
+  .genealogy-tree li a {
+    text-decoration: none;
+    color: $linecolor;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  }
+
+  /*--------------memeber-card-design----------*/
+  .member-view-box {
+    position: relative;
+    display: inline-block;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 16rem;
+    max-width: 20rem;
+  }
+
+  .triangleDown {
+    position: absolute;
+    .icon-arrow {
+      color: #fff;
+    }
+    .MuiFab-sizeSmall {
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .MuiFab-primary {
+      color: #fff;
+      background-color: #4972d2 !important;
+    }
+    .MuiFab-root {
+      color: $c-gray-dark;
+      width: 56px;
+      height: 56px;
+      box-shadow: none !important;
+      min-height: 21px !important;
+    }
+  }
+
+  .flex-the-action-open {
+    position: absolute;
+    margin-top: -11px;
+    padding-left: 5px;
+  }
+  .add-bbt {
+    position: absolute;
+    z-index: 0;
+    color: #424245;
+    .MuiFab-sizeSmall {
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .MuiFab-primary {
+      color: #fff;
+      background-color: #ebf1fb !important;
+    }
+    .MuiFab-root {
+      color: rgba(0, 0, 0, 0.87);
+      width: 56px;
+      height: 56px;
+      border: 1px solid $c-gray-dark;
+      background-color: #ebf1fb;
+      box-shadow: none !important;
+      min-height: 21px !important;
+    }
+  }
+  .add-pt-lock {
+    margin-left: 2px;
+    margin-top: -11px;
+  }
+
+  .add-pt-open {
+    margin-left: -47px;
+    margin-top: -11px;
+    @include rtl {
+      margin-left: 47px;
+      margin-top: -11px;
+    }
+  }
+  .innerTriangle {
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid $c-white;
+
+    @include rtl {
+      margin-left: 0;
+      margin-right: -5px;
+    }
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: 0 0 0 0 transparent !important;
+  }
+  .cardControl {
+    min-height: 4.5rem;
+    border-color: 1px solid #c7c7cc !important;
+    cursor: pointer;
+  }
+
+  .member-card .MuiCard-root {
+    border: 1px solid #c7c7cc;
+    border-radius: 11px;
+    min-width: 182px;
+    height: 62px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .memberDetails {
+    color: #3a3a3c !important;
+    font-size: 14px !important;
+    font-family: 'Open Sans', Arial, Helvetica, Sans-Serif !important;
+  }
+
+  .memberCardBtn {
+    z-index: 0;
+    .MuiList-root {
+      display: flex !important;
+      direction: column !important;
+    }
+  }
+
+  .memberBtn {
+    color: white !important;
+  }
+
+  .memberPoper {
+    .MuiSvgIcon-root {
+      color: $c-primary !important;
+      font-size: 18px !important;
+    }
+
+    .MuiMenuItem-root {
+      font-size: 14px !important;
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+    }
+  }
+
+  /*--------------card-hover-design----------*/
+  .searchedCard {
+    .triangleDown {
+      border-top-color: $c-secondary;
+    }
+
+    .MuiCard-root {
+      background-color: #ebf1fb;
+      background-image: initial;
+    }
+
+    .genealogy-tree li div + ul li::after,
+    .genealogy-tree li div + ul li::before,
+    .genealogy-tree li div + ul::before,
+    .genealogy-tree li div + ul ul::before {
+      border-width: 3px;
+      border-color: $c-secondary;
+    }
+
+    .member-card .MuiCard-root {
+      border: 2px solid #4972d2 !important ;
+    }
+    .add-bbt {
+      .MuiFab-root {
+        border: 1.2px solid #c7c7cc !important ;
+      }
+    }
+  }
+  .icon-action {
+    position: absolute;
+    right: 20px;
+    .MuiIconButton-root {
+      flex: 0 0 auto;
+      color: rgba(0, 0, 0, 0.54);
+      padding: 5px !important ;
+      overflow: visible;
+      font-size: 1.5rem;
+      text-align: center;
+      transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      border-radius: 50%;
+    }
+    @include rtl {
+      left: -126px;
+    }
+    .Deleted {
+      color: #ff908b !important ;
+    }
+    .Edit {
+      color: #3a3a3c !important ;
+    }
+    .top {
+      padding-top: 5px;
+    }
+  }
+}
+.AddDialog {
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+  }
+  .MuiDialogContent-root {
+    padding: 25px 4rem 1rem;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+  .form-name {
+    padding-bottom: 0.5rem;
+  }
+}

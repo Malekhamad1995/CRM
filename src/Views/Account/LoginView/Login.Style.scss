@@ -1,0 +1,602 @@
+.account-layout-wrapper {
+  height: 100%;
+  min-width: 320px;
+  // min-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.login-wrapper {
+  .MuiFormLabel-root.Mui-error {
+    color: #f44336;
+    margin-top: -12px;
+    border-color: #f44336 !important;
+  }
+
+  .input-wrapper .Mui-error.MuiInputBase-root {
+    border-color: #fff !important;
+  }
+  @include d-flex-center;
+  // height: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: $bg-login;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  @include laptops-max {
+    align-items: flex-start;
+  }
+
+  .login-content-wrapper {
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    max-width: 991px;
+    @include d-flex;
+    padding: 0.5rem;
+
+    @include laptops-max {
+      // margin-bottom: 320px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .text-section-wrapper {
+      @include d-inline-flex-column;
+      @include flex-h-center;
+      width: 100%;
+      max-width: 50%;
+      padding: 0.5rem;
+
+      @include laptops-max {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+        .texts-large {
+          font-size: 19px;
+        }
+
+        .texts {
+          font-size: 14px;
+        }
+      }
+
+      @include phones-max {
+        max-width: 90%;
+        padding: 0.5rem;
+      }
+
+      .text-section-content {
+        @include d-inline-flex-column;
+
+        :nth-child(even) {
+          margin-bottom: 2rem;
+        }
+
+        .texts,
+        .texts-large {
+          margin-top: 2rem;
+          text-shadow: 29px -34px 30px rgba(150, 150, 150, 0);
+          animation: texts_shadow_animation 3s linear 0s 1 normal;
+        }
+      }
+    }
+
+    .box-section-wrapper {
+      padding: 0.5rem;
+      @include d-inline-flex;
+      width: 100%;
+      max-width: 50%;
+
+      @include laptops-max {
+        max-width: 300px;
+        padding-bottom: 200px;
+      }
+
+      .box-content {
+        position: relative;
+        background-color: $c-white;
+        border-radius: 0.5rem;
+        padding: 1rem 0.5rem 0;
+        @include d-flex;
+        flex-wrap: wrap;
+        min-height: 350px;
+        width: 100%;
+
+        .logo-wrapper {
+          margin: 0 0.5rem;
+          .logo {
+            max-width: 90px;
+            min-width: 50px;
+          }
+        }
+
+        .form-wrapper {
+          padding: 1rem 0.5rem;
+          width: 100%;
+        }
+
+        .curve-edge {
+          background-image: $bg-box-curve-right;
+          transform: scaleX(-1);
+          left: 0;
+
+          @include rtl {
+            left: initial;
+            right: 0;
+          }
+        }
+
+        .curve-edge-reverced {
+          background-image: $bg-box-curve-right;
+          right: 0;
+
+          @include rtl {
+            right: initial;
+            left: 0;
+          }
+        }
+
+        .animated-btn-wrapper {
+          padding-right: 50px;
+          @include d-inline-flex;
+          position: relative;
+          transition: padding 0.3s linear;
+
+          @include rtl {
+            padding-right: 0;
+            padding-left: 50px;
+          }
+
+          &.in-animate {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+          }
+
+          .btns {
+            position: relative;
+            z-index: 2;
+            border-radius: 0.5rem;
+            margin: 0;
+          }
+
+          .animated-icon {
+            position: absolute;
+            @include d-flex-center;
+            border-radius: 0.5rem;
+            z-index: 1;
+            width: 60px;
+            padding-left: 10px;
+            right: 0;
+            height: 100%;
+            border: 1px solid $c-gray-secondary;
+
+            @include rtl {
+              right: initial;
+              left: 1px;
+            }
+          }
+        }
+
+        .curve-edge,
+        .curve-edge-reverced {
+          position: absolute;
+          top: calc(100% - 5px);
+          width: 45%;
+          background-size: cover;
+          min-height: 35px;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+
+  .light-shadow {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 50%;
+    border-radius: 100%;
+    transform: rotateZ(-35deg);
+    background-color: rgba($color: #fffbdd, $alpha: 0.08);
+    box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.08);
+    animation: light_animation 3s linear 0s 1 normal;
+
+    @include rtl {
+      left: initial;
+      right: 0;
+    }
+  }
+
+  .city-wrapper {
+    overflow: hidden;
+    height: 34.63%;
+    width: 27.97%;
+    // min-width: 537px;
+    // min-height: 374px;
+    min-width: 300px;
+    z-index: 3;
+
+    @include rtl {
+      left: initial;
+      right: 0;
+    }
+
+    .city {
+      background-image: $bg-city;
+      z-index: 2;
+      animation: city_animation 3.5s linear 0s 1 normal;
+    }
+
+    .city-shadow {
+      background-image: $bg-city-shadow;
+      z-index: 1;
+      animation: city_shadow_animation 3.5s linear 0s 1 normal;
+    }
+
+    .city-shadow,
+    .city {
+      background-position: bottom left;
+      width: 100%;
+      height: 100%;
+
+      @include rtl {
+        transform: scaleX(-1);
+      }
+    }
+  }
+
+  .city-wrapper,
+  .city,
+  .city-shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    // background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@keyframes texts_shadow_animation {
+  0% {
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
+  }
+
+  100% {
+    text-shadow: 29px -34px 20px rgba(150, 150, 150, 0);
+  }
+}
+
+@keyframes light_animation {
+  0% {
+    bottom: -90%;
+    left: -40%;
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+    background-color: rgba($color: #fffbdd, $alpha: 0.1);
+    box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.1);
+  }
+
+  30% {
+    box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.3);
+    background-color: rgba($color: #fffbdd, $alpha: 0.3);
+  }
+
+  50% {
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.25);
+    background-color: rgba($color: #fffbdd, $alpha: 0.25);
+    border-radius: 100%;
+    height: 100%;
+  }
+
+  100% {
+    height: 200%;
+    width: 50%;
+    border-radius: 100%;
+    background-color: rgba($color: #fffbdd, $alpha: 0.08);
+    box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.08);
+  }
+}
+
+@keyframes city_shadow_animation {
+  0% {
+    bottom: -50%;
+    left: -100%;
+  }
+
+  100% {
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@keyframes city_animation {
+  0% {
+    bottom: -100%;
+    left: -100%;
+  }
+
+  100% {
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@include rtl-in {
+  @keyframes light_animation {
+    0% {
+      bottom: -90%;
+      right: -40%;
+      border-radius: 100%;
+      width: 30%;
+      height: 30%;
+      background-color: rgba($color: #fffbdd, $alpha: 0.1);
+      box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.1);
+    }
+
+    30% {
+      box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.3);
+      background-color: rgba($color: #fffbdd, $alpha: 0.3);
+    }
+
+    50% {
+      bottom: 0;
+      right: 0;
+      box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.25);
+      background-color: rgba($color: #fffbdd, $alpha: 0.25);
+      border-radius: 100%;
+      height: 100%;
+    }
+
+    100% {
+      height: 200%;
+      width: 50%;
+      border-radius: 100%;
+      background-color: rgba($color: #fffbdd, $alpha: 0.08);
+      box-shadow: 0 0 1.5rem 0.8rem rgba($color: #fffbdd, $alpha: 0.08);
+    }
+  }
+
+  @keyframes city_shadow_animation {
+    0% {
+      bottom: -50%;
+      right: -100%;
+    }
+
+    100% {
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  @keyframes city_animation {
+    0% {
+      bottom: -100%;
+      right: -100%;
+    }
+
+    100% {
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+.forget-password-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.desc-text-newpassword {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.View-new-password {
+  .input-wrapper.MuiFormControl-root {
+    margin-bottom: -0.5rem;
+  }
+}
+.forget-password {
+  margin-bottom: 2.6rem;
+  font-size: 1.5rem;
+  color: $c-secondary;
+  text-align: center;
+}
+.new-password {
+  font-size: 1.5rem;
+  color: $c-secondary;
+  text-align: center;
+}
+.rest-password {
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
+  color: $c-secondary;
+}
+.desc-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+}
+.verifyidentity {
+  text-align: center;
+  font-size: 0.8rem;
+  color: $c-secondary;
+}
+.verifyidentitytext {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #2153b1;
+}
+.cancel-forget-passwrod {
+  border: 1px solid #3b72d9 !important;
+  width: 40%;
+}
+.submit-forget-password {
+  background-color: #3b72d9 !important;
+  color: rgb(255, 255, 255) !important;
+  width: 40%;
+}
+
+.verification-text {
+  max-width: 23rem !important;
+  text-align: center;
+}
+.contral-bbt {
+  padding-top: 3rem;
+}
+.contral-bbtvlad {
+  padding-top: 0.2rem;
+}
+.forget-password-radio {
+  .radio-groups-wrapper.MuiFormControl-root .radio-group-wrapper {
+    flex-direction: column;
+  }
+  .radio-groups-wrapper.MuiFormControl-root {
+    padding: 0 0.5rem 0 2.5rem;
+    margin-top: 12px;
+  }
+  .MuiFormControl-root::before {
+    content: ' ';
+    border: 0rem solid #c7c7cc;
+    position: absolute;
+    left: 0.25rem;
+    top: 0;
+    height: 100%;
+  }
+}
+.submit-forget-password {
+  background-color: $c-primary;
+  color: $c-white;
+  width: 40%;
+}
+.verification-text {
+  max-width: 23rem !important;
+  text-align: center;
+}
+
+.ChangePasswordView-Page-progresses {
+  .ChangePasswordView-wrpaer {
+    .progresses-text {
+      left: 3.4rem !important;
+      margin: 6px !important;
+      @include rtl {
+        right: 58% !important;
+        transform: translateX(-37%) !important;
+        -webkit-transform: translateX(-37%);
+        -moz-transform: translateX(-37%);
+        -ms-transform: translateX(-37%);
+        -o-transform: translateX(-37%);
+      }
+    }
+  }
+}
+
+$fadeUp: 100px;
+$fallDown: -200px;
+$delay: 50ms;
+$duration: 5s;
+
+.text-container-s {
+  span {
+    display: inline-block;
+  }
+  @include laptops-max {
+    width: 50%;
+  }
+
+  @include phones-max {
+    width: 48%;
+    font-size: 36px;
+  }
+
+  @include phones-s-max {
+    width: 86%;
+
+    font-size: 36px;
+  }
+  @include phones-xs-max {
+    width: 90%;
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 81%;
+    font-size: 36px;
+  }
+  position: absolute;
+  letter-spacing: 4px;
+  font-size: 44px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.reg-text {
+  transform: translateY($fadeUp);
+  opacity: 0;
+
+  transition: transform $duration/1.5 ease-out, opacity $duration ease;
+
+  &.loaded {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.letter {
+  transition: transform $duration cubic-bezier(0.43, 0.1, 0.57, 0.9), filter $duration ease,
+    opacity $duration ease;
+  opacity: 0;
+  filter: blur(5px);
+
+  &:nth-of-type(2) {
+    transform: translateY($fallDown + 40px);
+    transition-duration: $duration/2;
+  }
+
+  &:nth-of-type(3) {
+    filter: blur(0);
+    transform: translateY($fallDown + 30px);
+    transition-duration: $duration/1.3;
+  }
+
+  &:nth-of-type(4) {
+    transform: translateY($fallDown);
+    transition-duration: $duration/1.5;
+  }
+
+  &:nth-of-type(5) {
+    transform: translateY($fallDown + 50px);
+    transition-duration: $duration/2;
+  }
+
+  &:nth-of-type(6) {
+    filter: blur(0);
+    transform: translateY($fallDown + 20px);
+    transition-duration: $duration/2.3;
+  }
+
+  &.loaded {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}

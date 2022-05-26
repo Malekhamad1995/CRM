@@ -1,0 +1,486 @@
+.qa-cards-wrapper {
+  position: relative;
+  @include d-flex-h-center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 0.5rem;
+
+  .qa-sub-card-wrapper {
+    .cards-wrapper {
+      border: 1px solid $c-gray-secondary;
+      border-radius: 1.1rem;
+      color: #000000;
+      .cards-header-wrapper {
+        @include d-flex-v-center;
+        padding: 0.5rem 0.5rem 0;
+      }
+      .cards-body-wrapper {
+        @include d-flex;
+        padding: 0.5rem;
+        padding-top: 0.8rem;
+        .cover-image {
+          background-color: $c-gray-lighter;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          height: 50px;
+          min-height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          margin: 0 0 0.5rem;
+        }
+        .body-title-wrapper {
+          width: 56%;
+          padding: 0.8rem;
+          padding-top: 0.1rem;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          .created-on {
+            .mdi {
+              vertical-align: bottom;
+              padding-right: 0.5rem;
+              @include rtl {
+                padding-right: 0;
+                padding-left: 0.5rem;
+              }
+              &::before {
+                font-size: 16px;
+              }
+            }
+          }
+
+          .body-title {
+            display: flex;
+            width: 10rem;
+            font-size: $fz-16px;
+            font-weight: $fw-simi-bold;
+            padding-bottom: 0.3rem;
+            white-space: nowrap;
+            display: inline-block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+        .contact-Id {
+          border-left: outset;
+
+          .contact {
+            font-size: $fz-12px;
+            font-weight: $fw-simi-bold;
+            text-align: center;
+          }
+          .id {
+            text-align: center;
+          }
+          width: 44%;
+          text-align: left;
+          white-space: nowrap;
+        }
+        .actions-wrapper {
+          @include d-flex-column-v-center;
+          // @include flex-;
+          height: 100%;
+          width: 100%;
+          padding: 0 0.5rem 0;
+          .btns-icon {
+            margin-bottom: 1rem;
+          }
+        }
+        .card-body-section {
+          max-width: 60%;
+        }
+        .card-body-section:first-child {
+          @include d-flex-column-v-center;
+          min-width: 50px;
+          max-width: 60px;
+        }
+        .card-body-section:nth-child(2) {
+          @include d-flex-column;
+          width: 100%;
+          .details-item-wrapper {
+            @include d-flex;
+            width: 100%;
+            padding: 0 0.5rem;
+            margin-bottom: 0.3rem;
+            min-width: 200px;
+            max-height: 35px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            align-self: flex-start;
+          }
+          .details-text {
+            // white-space: nowrap;
+            white-space: break-spaces;
+          }
+          .details-icon {
+            vertical-align: bottom;
+          }
+          .details-icon,
+          .details-text {
+            font-weight: $fw-bold;
+            white-space: break-spaces;
+          }
+          .details-item {
+            display: block;
+            // white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            @supports (display: -webkit-box) {
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+            }
+          }
+          &.is-expanded {
+            flex-direction: row;
+            flex-wrap: wrap;
+            .details-item-wrapper {
+              width: 33.3333%;
+              max-width: 33.3333%;
+              @include phones-max {
+                width: 100%;
+                max-width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .container {
+        text-align: center;
+        display: block;
+        position: relative;
+        .MuiAccordionSummary-root {
+          min-height: 20px;
+        }
+        .collapes {
+          margin: auto;
+          background-color: #eaf1ff;
+          border-radius: 7px;
+          width: 100%;
+          height: 30px;
+          margin: 10px 0;
+          .Accordion-collapes {
+            font-size: small;
+          }
+
+          .MuiButton-label {
+            justify-content: start; 
+            margin: 0 5px;
+          }
+        }
+        .none {
+          display: none;
+        }
+        .Typography {
+          width: 100%;
+          .view-all-data {
+            padding: 10px;
+            border-bottom: inset;
+
+            font-size: small;
+            display: block;
+            text-align: initial;
+            .data {
+              display: flex;
+              justify-content: space-around;
+              color: #7c828a;
+              .mdi-circle-medium {
+                color: #3b72d9;
+              }
+            }
+            .history {
+              display: flex;
+              justify-content: space-between;
+              .history-click {
+                width: 50%;
+                margin: 5px;
+                font-size: 13px;
+                text-align: center;
+              }
+              .title {
+                width: 50%;
+                font: 18px;
+                margin: 5px 0 0 10px;
+                text-align: left;
+                letter-spacing: 0px;
+                color: #3a3a3c;
+                opacity: 1;
+              }
+            }
+
+            .last-activity {
+              width: 100%;
+              cursor: pointer;
+              padding: 10px;
+              text-align: left;
+              letter-spacing: 0px;
+              color: #3a3a3c;
+              opacity: 1;
+              background-color: #f2f2f7;
+              border-radius: 12px;
+              .last-activity-div {
+                display: flex;
+                .first-call-1 {
+                  width: 50%;
+                  color: #3a3a3c;
+                  font: normal normal bold 12px/18px Poppins;
+                }
+                .first-call-2 {
+                  text-align: center;
+                  width: 50%;
+                  color: #3a3a3c;
+                  font: normal normal bold 12px/18px Poppins;
+                }
+              }
+              .last-activity-description {
+                display: flex;
+                .last-activity-name {
+                  display: grid;
+                  width: 50%;
+                  .agent-name {
+                    color: #a5a5a5;
+                  }
+                  .agent-name-value {
+                    font: normal medium;
+                    letter-spacing: 0px;
+                    color: #3a3a3c;
+                    opacity: 1;
+                  }
+                }
+                .last-activity-type {
+                  display: grid;
+                  width: 50%;
+                  .date {
+                    text-align: center;
+                    color: #a5a5a5;
+                  }
+                  .date-value {
+                    text-align: center;
+                    letter-spacing: 0px;
+                    color: #3a3a3c;
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .card-user-info {
+        @include d-flex;
+        width: 100%;
+        padding: 0.5rem;
+        padding-top: 0.8rem;
+        .info-1 {
+          width: 33%;
+          text-align: center;
+          border-left: outset;
+          border-right: inset;
+
+          display: grid;
+          .body-info {
+            font-size: $fz-18px;
+            font-weight: $fw-simi-bold;
+            padding-bottom: 0.3rem;
+          }
+        }
+        .info {
+          width: 33%;
+          text-align: center;
+          border-right: inset;
+
+          display: grid;
+          .body-info {
+            font-size: $fz-18px;
+            font-weight: $fw-simi-bold;
+            padding-bottom: 0.3rem;
+          }
+        }
+        .side {
+          width: 33%;
+          text-align: center;
+          display: grid;
+          .body-side {
+            font-size: $fz-18px;
+            font-weight: $fw-simi-bold;
+            padding-bottom: 0.3rem;
+          }
+        }
+      }
+      .cards-progress-wrapper {
+        width: 100%;
+      }
+      .cards-footer-wrapper {
+        @include d-flex-v-center;
+        flex: 1 1 auto;
+        height: 40px;
+        min-height: 40px;
+        overflow: hidden;
+        border-radius: 0 0 1.1rem 1.1rem;
+        width: 100%;
+        padding: 0;
+        border-top: 1px solid $c-gray-secondary;
+        .edit-power-icon {
+          position: absolute;
+          top: 50%;
+          right: 1rem;
+          transform: translateY(-50%);
+        }
+        .btns {
+          position: relative;
+          border-radius: 0;
+          height: 100%;
+          min-height: 40px;
+          color: #000000;
+          &:first-child {
+            border-right: 1px solid $c-gray-secondary;
+            @include rtl {
+              border-left: 1px solid $c-gray-secondary;
+              border-right: none;
+            }
+          }
+        }
+      }
+      .type-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0.25rem;
+        margin-top: -0.2rem;
+        .type-item {
+          color: #000000;
+          border-radius: 12px;
+          margin-left: 0.2rem;
+          margin-right: 0.2rem;
+          min-width: 3rem;
+          min-height: 1.3rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &.seller {
+            background-color: #e8f0ff;
+          }
+          &.buyer {
+            background-color: #ffe6e5;
+          }
+          &.landlord {
+            background-color: #ffebcc;
+          }
+          &.tenant {
+            background-color: #d6f4ee;
+          }
+        }
+      }
+      .contact-id-wrapper {
+        width: 50%;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        @include rtl {
+          width: 70%;
+        }
+        textarea {
+          width: 0;
+          height: 0;
+          padding: 0;
+          opacity: 0;
+        }
+        .contact-id {
+          margin-left: 0.3rem;
+          margin-right: 0.3rem;
+        }
+        .mdi::before {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+          font-size: 14px;
+          cursor: pointer;
+          color: $c-primary;
+        }
+      }
+      .merge-wrapper {
+        position: relative;
+        .merged-contact {
+          cursor: pointer;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 0.2rem;
+          position: absolute;
+          bottom: 7px;
+          left: 1px;
+          background-color: $c-white;
+          .mdi::before {
+            font-size: 16px;
+            color: $c-primary;
+          }
+        }
+      }
+    }
+    &.is-open {
+      .cards-wrapper {
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+        color: $c-secondary;
+        .cards-footer-wrapper {
+          .btns {
+            color: $c-secondary;
+          }
+        }
+      }
+    }
+    position: relative;
+    @include d-inline-flex-column;
+    padding: 0 0.5rem;
+    min-width: 355px;
+    @include phones-max {
+      min-width: 290px;
+    }
+    margin-bottom: 1rem;
+    width: 20%;
+    max-width: 380px;
+    @include laptops-xl-max {
+      width: fit-content;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+
+    @include laptops-max {
+      width: 50%;
+    }
+
+    @include phones-max {
+      width: 100%;
+      max-width: initial;
+    }
+    &.is-expanded {
+      width: 50%;
+      max-width: initial;
+      // @include laptops-xl-max {
+      //   width: 33.3333%;
+      // }
+
+      // @include laptops-l-max {
+      //   width: 50%;
+      // }
+
+      @include laptops-max {
+        width: 100%;
+      }
+    }
+  }
+}
+.popover-contact-prefernces {
+  .MuiPaper-elevation8 {
+    box-shadow: 0 2px 8px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(187, 187, 187, 0.116) !important;
+    padding: 0.5rem;
+  }
+  .MuiPaper-root {
+    margin-top: 0.3rem;
+    border-radius: 0.5rem;
+  }
+}

@@ -1,0 +1,48 @@
+
+.assign-agents{
+.agent-header-section{
+.header-section2{
+    .Process-details{
+        //width: 65%;
+    //margin: 10px;
+    display: block;
+    .All-agent{
+        margin-bottom: .5rem;
+        color: #3B72D9;
+        font-weight:bold;
+        font-size: 1rem;
+    }
+    .details.false{
+        font-size: .0.875rem;
+        color: #717171;
+    }
+    .details.true{
+        display: none;
+    }
+    .detalis-Auto.false{
+        display: none;
+    }
+}    
+
+.search-btn.true{
+    display: none;
+}
+
+.search.false{
+    display: none;
+}
+.search.true{
+    width: 55%;
+    margin-right: 15px;
+}
+}
+}
+
+.MuiButtonBase-root{
+    height: 32px;
+}
+.search{
+   // margin: auto;
+}
+ 
+}

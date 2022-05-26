@@ -1,0 +1,39 @@
+{
+    "Branches":{
+        "branches": "Branches",    
+        "add-new-branch":"Add New Branch",
+        "branch-activated-successfully":"Branch Activated Successfully",
+        "branch-activation-failed":"Branch Activation Failed",
+        "filter":"Filter",
+        "search-branches":"Search Branches",
+        "branch-image":"Branch Image",
+        "branch-number":"Branch Number",
+        "city":"City",
+        "country":"Country",
+        "maximum-number-of-users":"Maximum Number Of Users",
+        "edit-branch":"Edit Branch",
+        "branch-name":"Branch Name",
+        "branch-country":"Branch Country",
+        "branch-city":"Branch City",
+        "documents-footer-image":"Document Footer Image",
+        "documents-header-image":"Document Header Image",
+        "cancel":"Cancel",
+        "add-branch":"Add Branch",
+        "active":"Active",
+        "close":"Close",
+        "edit":"Edit",
+        "status":"Status",
+        "confirm-message":"Confirm Message",
+        "deactivation-text":"Are you sure you want to deactive",
+        "branch-updated-successfully":"Branch Updated Successfully",
+        "branch-created-successfully":"Branch Created Successfully",
+        "branch-update-failed":"Branch Update Failed",
+        "branch-create-failed":"Branch Create Failed",
+        "branch-number-is-required":"Branch Number Is Required",
+        "branch-name-is-required":"Branch Name Is Required",
+        "please-fill-required-fields":"Please Fill Required Fields"
+    }
+
+}
+    
+

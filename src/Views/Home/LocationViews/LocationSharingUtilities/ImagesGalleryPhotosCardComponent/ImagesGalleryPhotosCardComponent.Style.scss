@@ -1,0 +1,108 @@
+.images-gallery-photos-card-wrapper-postion {
+  @include d-flex-v-center;
+  width: 100%;
+  .Fab-contenar {
+    position: relative;
+    .MuiFab-sizeSmall {
+      width: 28px;
+      height: 28px;
+
+      box-shadow: none;
+    }
+    .icon {
+      position: absolute;
+      left: -6.3rem;
+      @include rtl {
+        left: 0;
+        right: -11.3rem;
+      }
+      top: 48px;
+      z-index: 5;
+      transition: width 2s;
+    }
+    .MuiFab-root {
+      min-height: 28px;
+    }
+    .MuiFab-secondary {
+      color: #ff827c;
+      background-color: #ffffff;
+    }
+    //  position: absolute;
+    // top: 93px;
+    // left: 10px;
+    // display: flex;
+    // @include rtl {
+    //   right: 10px;
+    //   left: 0px;
+    // }
+    // .icon1 {
+    //   padding-right: 10px;
+    //   @include rtl {
+    //     padding-right: 0px;
+    //     padding-left: 10px;
+    //   }
+    // }
+  }
+  .images-gallery-photos-item-wrapper {
+    @include d-inline-flex;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    max-width: 25%;
+    min-width: 200px;
+    @include phones-max {
+      max-width: 100%;
+    }
+    .images-gallery-photos-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      .images-gallery-photos-image {
+        border-radius: 0.5rem;
+        min-width: 150px;
+        min-height: 170px;
+      }
+
+      .images-gallery-tooltip-wrapper {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        @include d-flex-column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        overflow: hidden;
+        height: 0;
+        width: 100%;
+        transition: height 0.25s linear;
+      }
+      &:hover {
+        .images-gallery-tooltip-wrapper {
+          height: 100%;
+        }
+      }
+    }
+    .Checkbox-wraper {
+      .MuiFormControl-root {
+        position: absolute;
+        z-index: 5;
+      }
+    }
+  }
+}
+.photo-tooltip-wrapper {
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+  color: $c-white;
+  .photo-tooltip-item {
+    @include d-flex-v-center;
+    flex-wrap: wrap;
+    margin-bottom: 0.25rem;
+    text-align: left;
+    @include rtl {
+      text-align: right;
+    }
+    &:last-child {
+      font-weight: $fw-bold;
+    }
+  }
+}

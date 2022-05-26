@@ -1,0 +1,17 @@
+.open-file-component {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 500px;
+  width: 100%;
+  overflow: hidden;
+  background-color: $c-white;
+  border-radius: 1rem;
+  margin-bottom: 15px;
+  box-shadow: 0 0 7px 1.5px rgba(0, 0, 0, 0.15);
+  .body-wrapper {
+    height: 100%;
+  }
+  .separator-v {
+    min-height: 430px;
+  }
+}

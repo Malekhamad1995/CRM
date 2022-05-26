@@ -1,0 +1,40 @@
+
+
+.asign-role-dialog
+{
+ .autocomplete-wrapper .autocomplete .MuiAutocomplete-endAdornment .MuiAutocomplete-clearIndicator{
+  display: none;
+
+ }
+.remove-assigned-lead{
+display: flex;
+justify-content: center;
+color: red;
+}
+
+.remove-Sale-Lease-assigned-lead{
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+
+
+    .center {
+        text-align: center ;
+        padding: 0.5rem 0  ;
+       
+      }
+    }
+
+
+    .sale-Lease-assigned-lead{
+      display: flex;
+      justify-content: start;
+  
+  
+      .center {
+          //text-align: center ;
+          padding: 0.5rem 0  ;
+         
+        }
+      }
+    }

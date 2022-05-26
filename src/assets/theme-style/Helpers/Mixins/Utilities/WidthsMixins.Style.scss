@@ -1,0 +1,13 @@
+@mixin widths {
+  @each $key, $value in $widths {
+    .w-#{$key} {
+      width: #{$value} !important;
+    }
+    .mxw-#{$key} {
+      max-width: #{$value} !important;
+    }
+    .miw-#{$key} {
+      min-width: #{$value} !important;
+    }
+  }
+}

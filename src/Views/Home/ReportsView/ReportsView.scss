@@ -1,0 +1,52 @@
+.reports-view-wrapers {
+  display: block;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+
+  .export-excel {
+    text-align: end;
+  }
+
+  .filter-section {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    justify-items: center;
+    position: relative;
+    width: 100%;
+  }
+  .btns-icon.MuiButtonBase-root.theme-solid {
+    border-radius: 30%;
+  }
+  .section-top {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .arrowImage {
+    @include rtl {
+      transform: rotateY(180deg);
+    }
+  }
+  .ReportEmptyPage {
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: auto;
+  }
+
+  .excelPhoto {
+    border: 1px solid #dedede;
+    border-radius: 100%;
+    padding: 0.5rem;
+    background-color: white;
+    .excelImage {
+      min-width: 20px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+}

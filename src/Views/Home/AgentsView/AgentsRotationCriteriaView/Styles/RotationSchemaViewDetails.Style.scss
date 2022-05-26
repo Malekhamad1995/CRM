@@ -1,0 +1,49 @@
+.rotation-detail-wrapper {
+  .input-wrapper.theme-default .text-field-wrapper .inputs .MuiInputBase-root {
+    border: none;
+  }
+  padding: 0 3rem 1rem 5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  .title-text {
+    font-size: 1rem;
+    color: #3a3a3c;
+  }
+  .details-sec {
+    border: 1px solid #c7c7cc;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    min-width: fit-content;
+    .autocomplete-wrapper {
+      min-width: unset !important;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+      margin: 0.5rem;
+      div {
+        margin-bottom: 0.2rem;
+      }
+    }
+    .col3 {
+      min-width: fit-content;
+    }
+    .detail-title {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .details-sec {
+    display: flex;
+    flex-direction: column !important;
+    max-width: 30%;
+    min-width: 10%;
+    margin-left: 10px;
+  }
+}

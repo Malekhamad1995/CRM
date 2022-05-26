@@ -1,0 +1,52 @@
+.work-order-reference-wrapper {
+  .work-order-reference-header {
+    @include d-flex;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+    .header-item {
+      @include d-inline-flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 0.5rem;
+      padding: 0 0.5rem;
+      width: 20%;
+      @include laptops-xl-max {
+        width: 25%;
+      }
+      @include laptops-l-max {
+        width: 33.3333%;
+      }
+      @include laptops-max {
+        width: 50%;
+      }
+      @include tablets-max {
+        width: 100%;
+      }
+      .title-wrapper {
+        min-height: 1.6rem;
+        @include d-flex-v-center;
+      }
+      .description-wrapper {
+        font-weight: $fw-simi-bold;
+      }
+    }
+    position: relative;
+    &::after {
+      position: absolute;
+      content: ' ';
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: calc(100% - 1.5rem);
+      height: 1px;
+      background-color: $c-gray;
+    }
+  }
+  .work-order-reference-body {
+    @include d-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+.activities-management-dialog-wrapper {
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 2rem;
+  }
+  .MuiDialog-paper {
+    min-width: 50rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 30rem;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex;
+    flex-wrap: wrap;
+    .dialog-content-item {
+      width: 50%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+    }
+  }
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "date-and-time-viewed": "تاريخ ووقت المشاهدة",
+  "user": "مستخدم",
+  "type": "اكتب",
+  "field-name": "اسم الحقل",
+  "changed-from": "تغير من",
+  "changed-to": "تغير إلى",
+  "value-has-changed": "تغيرت القيمة",
+  "history": "تاريخ",
+  "transaction-history": "سجل المعاملات",
+  "date-and-time": "التاريخ و الوقت",
+  "client": "عميل",
+  "amount-paid": "المبلغ المدفوع",
+  "module": "وحدة",
+  "remarks": "ملاحظات",
+  "reservation-type": "نوع الحجز",
+  "agent": "وكيل"
+}

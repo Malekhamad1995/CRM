@@ -1,0 +1,76 @@
+.dragDrop-section {
+  display: flex;
+  .section1 {
+    width: 10%;
+  }
+  .section2 {
+    width: 90%;
+    .Process-details {
+      .rule-user {
+        margin: 10px 0;
+        color: #3a3a3c;
+        font-size: 1rem;
+      }
+      .AgentsInRotation {
+          margin: 10px 0;
+        color: #717171;
+        font-size: .875rem;
+      }
+    }
+  }
+  .dropBoxOver{
+    height: 120px;
+    padding: 10px;
+    border: 10px  #aeaeb2;
+    border-style: dashed;
+    flex: 1 1 100%;
+    flex-direction: row;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    margin: 15px 0;
+    .account-multiple{
+        display: flex;
+        justify-content: center;
+        margin: 6px 0;
+    }
+    .drop-here{
+        display: flex;
+        justify-content: center;
+    }
+  }
+  .dropBox {
+    height: 100px;
+    padding: 10px;
+    border: 1px #FFFFFF;
+    border-style: dashed;
+    flex: 1 1 100%;
+    flex-direction: row;
+    width: 100%;
+    background: #3B72D9;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    margin: 15px 0;
+    .account-multiple{
+        display: flex;
+        justify-content: center;
+        margin: 6px 0;
+    }
+    .drop-here{
+        display: flex;
+        justify-content: center;
+    }
+  }
+}
+
+
+@media (max-width:1300px){
+.MuiButtonBase-responsive{
+  margin-bottom: 20px !important;
+    text-align: left;
+    margin-left: 5px !important;
+}
+}

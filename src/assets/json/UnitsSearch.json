@@ -1,0 +1,64 @@
+{
+  "unit": {
+    "property name": {
+      "keys": ["property_name"],
+      "title": "Property Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "unit owner": {
+      "keys": ["unit_owner"],
+      "title": "Unit Owner",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "unit number": {
+      "keys": ["unit_number"],
+      "title": "Unit Number",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "country": {
+      "keys": ["property.country"],
+      "title": "Country",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "city": {
+      "keys": ["property.city"],
+      "title": "City",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "community": {
+      "keys": ["property.community"],
+      "title": "Community",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "Baedrooms": {
+      "keys": ["Baedrooms"],
+      "title": "No.of Bedrooms",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "developer": {
+      "keys": ["developer"],
+      "title": "Developer",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "unit model": {
+      "keys": ["unit_model"],
+      "title": "Unit Model",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "listing agent": {
+      "keys": ["listing_agent"],
+      "title": "Listing Agent",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    }
+  }
+}

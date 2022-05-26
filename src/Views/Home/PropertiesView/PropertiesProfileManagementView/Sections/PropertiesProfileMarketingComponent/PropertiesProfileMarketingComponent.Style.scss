@@ -1,0 +1,16 @@
+.properties-profile-marketing-wrapper {
+  .presentational-wrapper {
+    @include d-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0.5rem 0;
+  }
+  .title-wrapper {
+    @include d-flex;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    .title-text {
+      font-weight: $fw-simi-bold;
+    }
+  }
+}

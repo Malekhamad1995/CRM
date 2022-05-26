@@ -1,0 +1,22 @@
+{
+  "reports": "Reports",
+  "Empty-page": "Empty page , please select report type  to view data",
+  "leadName": "Lead Name",
+  "leadType": "Lead Type",
+  "leadStatus": "Lead Status",
+  "No-of-BR": "No Of BR",
+  "budget": "Budget",
+  "location": "Location",
+  "createdDate": "Created Date",
+  "lastActivity": "Last Activity",
+  "agentName": "Agent Name",
+  "type": "Type",
+  "Activity-date-time": "Activity date && time",
+  "export-excel": "Export excel",
+  "reportType": "Report type",
+  "continue": "Continue",
+  "cancel": "Cancel",
+  "specific-property": "Specific Property",
+  "Addfiltertocountinue": "Add filter to countinue",
+  "select-report-type": "Select report type"
+}

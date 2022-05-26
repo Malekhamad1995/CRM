@@ -1,0 +1,92 @@
+.animated-open-close {
+  position: relative;
+  display: inline-flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-width: 20px;
+  max-width: 20px;
+  background-color: $c-white;
+  box-shadow: -3px 3px 8px #0000001a;
+  transition-property: max-width, min-width;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+
+  @include rtl {
+    box-shadow: 3px 3px 8px #0000001a;
+  }
+
+  .open-button {
+    position: fixed;
+    top: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid #d1d1d6;
+    z-index: 1;
+    transform: translateX(50%);
+    background-color: $c-white;
+
+    @include rtl {
+      transform: translateX(-50%);
+    }
+    .mdi::before {
+      color: $c-gray-dark;
+    }
+    &.Mui-disabled {
+      .mdi::before {
+        color: $c-white;
+      }
+    }
+  }
+
+  &.is-open {
+    min-width: 310px;
+
+    .open-close-content {
+      position: fixed;
+      height: 100%;
+      max-width: 300px;
+      min-width: 300px;
+      opacity: 1;
+      transition-property: max-width, opacity;
+      transition-delay: 0.18s;
+    }
+  }
+
+  &.on-left {
+    min-height: 660px;
+    .open-button {
+      align-self: flex-start;
+      transform: translateX(-50%);
+
+      @include rtl {
+        transform: translateX(50%);
+      }
+    }
+  }
+  &.collabse-vertical {
+    min-width: 55px;
+    max-width: 55px;
+    transition-property: max-width, min-width;
+    box-shadow: initial;
+    .MuiButtonBase-root:not(.Mui-selected):not(.open-button) {
+      color: $c-blue-lighter;
+    }
+
+    .open-close-content {
+      overflow: visible;
+      width: 100%;
+      max-width: 170px;
+      opacity: 1;
+      transition-property: max-width, min-width;
+    }
+    &.is-open {
+      max-width: 170px;
+      min-width: 160px;
+
+      .open-close-content {
+        max-width: 170px;
+      }
+    }
+  }
+}

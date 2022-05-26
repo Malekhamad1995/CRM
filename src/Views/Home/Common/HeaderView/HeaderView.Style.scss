@@ -1,0 +1,250 @@
+.header-wrapper {
+  @include d-flex-v-center-h-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  min-height: 70px;
+  background-color: $c-white;
+  box-shadow: 3px 3px 8px #5c5c5c1a;
+  z-index: 10;
+  .activity-events-wrapper {
+    .events-button {
+      top: -5px;
+    }
+    box-shadow: 0px 7px 19px #99999933;
+    .calendars .MuiPickersStaticWrapper-staticWrapperRoot {
+      border-radius: 0;
+      box-shadow: 0 0 0 0 transparent;
+      max-height: 18rem;
+    }
+    .cards .card-header {
+      background: transparent linear-gradient(90deg, #0066cc 0%, #003366 100%) 0% 0% no-repeat
+        padding-box;
+      padding: 0.5rem 0 0 0;
+      min-height: 50px;
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+  }
+  .view-all-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    margin-top: -1.2rem;
+  }
+  .event-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .event-badge-subject-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .events-badge {
+      background-color: $c-secondary;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+    }
+    .events-hour-badge {
+      background-color: $c-secondary;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3rem;
+      height: 1.5rem;
+      color: $c-white;
+      border-radius: 2rem;
+    }
+  }
+  @include phones-s-max {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btns.MuiButtonBase-root {
+    &.user-button-wrapper {
+      @include phones-max {
+        margin: 0rem;
+      }
+      margin: 0 1rem;
+      padding: 0;
+      min-width: initial;
+      .user-image {
+        min-width: 35px;
+        height: 35px;
+        width: 35px;
+        border-radius: 100%;
+      }
+      .user-name-wrapper {
+        @include d-inline-flex;
+        @include phones-s-max {
+          display: none !important;
+        }
+        color: #3a3a3c;
+        margin: 0 0.5rem;
+        .user-name-text {
+          display: inline-block;
+          @include texts-truncate;
+          max-width: 147px;
+
+          @include phones-max {
+            max-width: 80px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .img-logo {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .section {
+    padding: 0.5rem;
+    @include d-inline-flex-v-center;
+
+    .section-conteaner {
+      @include rtl {
+        transform: scale(-1);
+      }
+    }
+  }
+
+  .logo-text {
+    font-size: $fz-10px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    color: $c-green;
+  }
+
+  .logo-text-small {
+    font-size: $fz-9px;
+    color: $c-blue-light;
+
+    .text-small {
+      font-variant: small-caps;
+    }
+  }
+
+  .logo-text,
+  .logo-text-small {
+    font-family: AcuminConcept, serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .btns-icon:not(.btns-small) {
+    margin: 0 1rem !important;
+    @include laptops-max {
+      margin: 0 0.25rem !important;
+    }
+  }
+  .i-text-gray {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .user-img {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+  }
+
+  .user-btn {
+    position: absolute;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    transform: translate(50%, -50%);
+  }
+  .privet-icon {
+    color: $c-gray-dark !important;
+  }
+  .privet-icon:hover {
+    color: $c-primary !important;
+  }
+  .btns-active {
+    &.mdi,
+    .mdi {
+      color: $c-secondary;
+    }
+
+    &.icons,
+    .icons {
+      filter: invert(101%) sepia(98%) saturate(545%) hue-rotate(344deg) brightness(98.5%)
+        contrast(95%);
+      -webkit-filter: invert(101%) sepia(98%) saturate(545%) hue-rotate(344deg) brightness(98.5%)
+        contrast(95%);
+    }
+
+    &img,
+    img {
+      border: 2px solid #c7c7cc;
+      border-radius: 100%;
+    }
+  }
+  .notifcationImage {
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+  }
+  .logout-footer:hover {
+    font-weight: 700;
+    transition-duration: 0.7s;
+    background-color: #db504a;
+    color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+  }
+
+  .textNotification{
+    white-space:pre-wrap;
+    width: 200px;
+  }
+  // .search-hedar-wrapper {
+  //   width:50% ;
+  //   max-width: 50%;
+  //   padding-top: 10px;
+  //   margin-left: 2.7rem;
+  //   @include rtl {
+  //     margin-right: 50px;
+  //     margin-left: 0px;
+  //   }
+  //   @include phones-max {
+  //     width: 81%;
+  //     margin-left: 0rem;
+  //   }
+  //   display: flex;
+  //   transition-property: max-width, min-width;
+  //   transition-duration: 0.18s;
+  //   justify-content: center;
+  //   align-items: center;
+  //   .mdi::before {
+  //     color: $c-primary;
+  //     font-size: 24px !important;
+  //     cursor: pointer;
+  //   }
+  //   .inputs.theme-form-builder .MuiInputBase-root {
+  //     border-radius: 20rem !important;
+  //     min-height: 37px !important;
+  //   }
+  //   .inputs.theme-form-builder .MuiInput-underline:before {
+  //     border-bottom: 0 solid transparent;
+  //   }
+  //   .MuiInput-underline:after {
+  //     border-bottom: 0 solid transparent;
+  //   }
+  //   // .input-wrapper .text-field-wrapper .inputs .MuiInputBase-input {
+  //   //   color: #3a3a3c;
+  //   //   font-size: 14px;
+  //   //   width: 100%;
+  //   //   padding: 0.25rem 0.5rem !important;
+  //   //   font-size: 12px;
+  //   //   height: 36px;
+  //   // }
+  // }
+}

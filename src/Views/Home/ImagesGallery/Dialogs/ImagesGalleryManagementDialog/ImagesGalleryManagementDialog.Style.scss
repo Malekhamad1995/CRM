@@ -1,0 +1,11 @@
+.image-gallery-management-dialog {
+  .dialog-item {
+    @include d-inline-flex;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    padding: 0 0.5rem;
+    @include phones-max {
+      width: 100%;
+    }
+  }
+}

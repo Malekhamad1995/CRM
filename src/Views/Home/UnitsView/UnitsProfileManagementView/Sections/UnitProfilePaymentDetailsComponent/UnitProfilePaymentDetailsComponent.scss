@@ -1,0 +1,52 @@
+.unit-profile-payment-details-component-wrapper {
+  .form-item {
+    .radio-groups-wrapper.theme-default.MuiFormControl-root::before {
+      display: none;
+    }
+  }
+  .tab-item-wrapper {
+    display: contents;
+  }
+  .radio-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .radio-groups-wrapper.theme-default.MuiFormControl-root {
+    padding: 0;
+    width: 100%;
+  }
+  .radio-groups-wrapper .MuiFormControlLabel-root {
+    padding-right: 3rem;
+    @include rtl {
+      padding-left: 3rem;
+      padding-right: 0;
+    }
+  }
+  .radio-title {
+    padding-left: 1rem;
+    @include rtl {
+      padding-left: 0;
+      padding-right: 1rem;
+    }
+  }
+}
+
+
+  .form-item-wrapper{
+    position: relative;
+    
+    .input-container{
+    position: absolute;
+    right: 9px;
+    width:40%;
+    margin-top: 21px;
+
+    .MuiInputBase-adornedEnd{
+      min-height: 30px !important;
+      margin: 1px 0px !important;
+    }
+  }
+  .inner-span{
+  margin-right: 42%;
+  }
+}

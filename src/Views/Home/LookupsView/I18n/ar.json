@@ -1,0 +1,44 @@
+{
+  "Delet":" تم حذف العنصر",
+  "AddType": "أضف النوع",
+  "Search": "البحث",
+  "LookupName": "إسم البيانات المشتركة",
+  "Description": "الوصف",
+  "Actions": "أجراءات",
+  "add-item": "إضافة عنصر",
+  "search-lookups-types": "البحث عن أنواع البيانات المشتركة",
+  "search-lookups": "البحث عن البيانات المشتركة",
+  "LookupItems": {
+    "AddItem": "إضافة عنصر",
+    "LookupName": "إسم البيانات المشتركة",
+    "LookupParentName": "إسم البيانات المشتركة للأب",
+    "LookupParentType": "نوع البيانات المشتركة للأب",
+    "NotificationLookupadd": "إضافة البيانات المشتركة بنجاح",
+    "NotificationLookupaddErorr": "فشل في إضافة البيانات المشتركة "
+  },
+  "DeleteDialog": {
+    "DeleteLookupItem": "حذف عنصر البيانات المشتركة",
+    "ConfirmText": "هل أنت متأكد أنك تريد الحذف",
+    "Cancel": "إلغاء",
+    "Delete": "حذف"
+  },
+  "CreateLookupTypeDialog": {
+    "LookupType": "نوع البيانات المشتركة",
+    "LookupName": "إسم البيانات المشتركة",
+    "LookupDescription": "وصف البيانات المشتركة",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "CreateLookupItemDialog": {
+    "UpdateItem":"تم تحديث العنصر بنجاح",
+    "CreateItem":"تم انشاء العنصر بنجاح",
+    "LookupItem": "نوع البيانات المشتركة",
+    "LookupName": "إسم البيانات المشتركة",
+    "HasParent": "يمتلك أب?",
+    "LookupType": "نوع البيانات المشتركة",
+    "ParentLookupItem": "عنصر البيانات المشتركة للأب",
+    "LookupDescription": "وصف البيانات المشتركة",
+    "Cancel": "إلغاء",
+    "Save": "حفظ"
+  }
+}

@@ -1,0 +1,185 @@
+.contacts-merge-view-wrapper {
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-top: 0;
+  position: relative;
+  @include laptops-max {
+    padding-left: 2rem;
+  }
+  .contacts-merge-content {
+    height: calc(100vh - 240px);
+    border: 1px solid #aeaeb2;
+    overflow: hidden;
+    border-radius: 1.3rem;
+    .content-header {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid $c-gray-light;
+      padding-left: 5rem;
+      @include rtl {
+        padding-left: 0;
+        padding-right: 5rem;
+      }
+      @include laptops-max {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      .header-item-postion {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &.reverse {
+          flex-direction: row-reverse;
+        }
+      }
+      .header-item {
+        width: 45%;
+        display: flex;
+        align-items: flex-start;
+        font-size: 14px;
+        .item-name {
+          min-width: 6rem;
+          font-weight: bold;
+        }
+        .details-img {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 11px;
+          border: 1px solid $c-gray-light;
+          background-color: $c-white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .obsolete-item {
+          color: $c-danger;
+          font-weight: bold;
+        }
+        .original-item {
+          color: $c-primary;
+          font-weight: bold;
+        }
+        .item-info {
+          padding-top: 0.5rem;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+      }
+      .header-button {
+        width: 5%;
+        .MuiIconButton-root {
+          color: $c-white;
+          background-color: $c-primary;
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+    .content-body {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 360px);
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      .content-container {
+        width: 100%;
+        .radio-groups-wrapper.MuiFormControl-root {
+          width: 100%;
+          background-color: $c-white;
+          border-bottom: 0.5px solid $c-gray-light;
+        }
+        &.is-gray {
+          .radio-groups-wrapper.MuiFormControl-root {
+            background-color: #fafafa;
+          }
+        }
+        .MuiFormControlLabel-root {
+          width: 50%;
+          margin: 0;
+          min-height: 4rem;
+          padding-left: 4rem;
+          @include rtl {
+            padding-left: 0;
+            padding-right: 4rem;
+          }
+          @include laptops-max {
+            padding-left: 0;
+            padding-right: 0;
+          }
+        }
+        .MuiTypography-body1 {
+          font-size: 14px;
+          padding-left: 2rem;
+          padding-right: 2rem;
+          width: 40rem;
+          overflow: hidden;
+        }
+        .radio-groups-wrapper.MuiFormControl-root
+          .radio-group-wrapper
+          .radio-wrapper.Mui-checked
+          .radio-icon {
+          color: $c-primary;
+          border-color: $c-primary;
+        }
+        .radio-groups-wrapper.MuiFormControl-root .radio-group-wrapper .radio-wrapper .radio-icon {
+          width: 1rem;
+          height: 1rem;
+        }
+        .radio-groups-wrapper.MuiFormControl-root .radio-group-wrapper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        &.reverse {
+          .radio-groups-wrapper.MuiFormControl-root .radio-group-wrapper {
+            flex-direction: row-reverse;
+          }
+        }
+        .radio-groups-wrapper.MuiFormControl-root::before {
+          border: 0 solid transparent;
+        }
+      }
+    }
+  }
+}
+.bottom-box-merge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .merge-bottom {
+    background-color: $c-white;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px -2px 6px #00000029;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    z-index: 10;
+    @include rtl {
+      border-radius: 0 0 20px 20px;
+    }
+    @include laptops-xxl-max {
+      width: 80%;
+    }
+    @include laptops-l-max {
+      width: 70%;
+    }
+    @include laptops-max {
+      width: 65%;
+    }
+    .contacts-merge-bottom {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      @include rtl {
+        justify-content: flex-start;
+      }
+    }
+  }
+}

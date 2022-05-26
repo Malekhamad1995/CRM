@@ -1,0 +1,44 @@
+{
+  "Delet":"Item deleted",
+  "AddType": "Add Type",
+  "Search": "Search",
+  "LookupName": "Lookup Name",
+  "Description": "Description",
+  "Actions": "Actions",
+  "add-item": "Add Item",
+  "search-lookups-types": "Search Lookups Types",
+  "search-lookups": "Search Lookups",
+  "LookupItems": {
+    "AddItem": "Add Item",
+    "LookupName": "Lookup Name",
+    "LookupParentName": "Lookup Parent Name",
+    "LookupParentType": "Lookup Parent Type",
+    "NotificationLookupadd": "Add Lookup Successfully",
+    "NotificationLookupaddErorr": "Add Lookup Failed"
+  },
+  "DeleteDialog": {
+    "DeleteLookupItem": "Delete Lookup Item",
+    "ConfirmText": "Are you sure that you want to delete",
+    "Cancel": "Cancel",
+    "Delete": "Delete"
+  },
+  "CreateLookupTypeDialog": {
+    "LookupType": "Lookup Type",
+    "LookupName": "Lookup Name",
+    "LookupDescription": "Lookup Description",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "CreateLookupItemDialog": {
+    "UpdateItem":"Item updated successfully",
+    "CreateItem":"Item created successfully",
+    "LookupItem": "Lookup Type",
+    "LookupName": "Lookup Name",
+    "HasParent": "Has Parent?",
+    "LookupType": "Lookup Type",
+    "ParentLookupItem": "Parent Lookup Item",
+    "LookupDescription": "Lookup Description",
+    "Cancel": "Cancel",
+    "Save": "Save"
+  }
+}

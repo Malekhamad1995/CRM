@@ -1,0 +1,13 @@
+.table-columns-filter-wrapper {
+  @include d-flex;
+  margin-bottom: 0.5rem;
+  justify-content: flex-end;
+  .table-columns-filter-autocomplete-wrapper {
+    @include d-inline-flex;
+    width: 25%;
+    min-width: 270px;
+    .select-menu-wrapper .MuiMenu-paper {
+      max-height: 400px;
+    }
+  }
+}

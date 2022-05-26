@@ -1,0 +1,21 @@
+.unit-profile-remarks-wrapper {
+  .remarks-items-wrapper {
+    .remarks-item-wrapper {
+      @include d-flex-v-center-h-between;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0 0.5rem .5rem;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+        border-bottom: 1px solid $c-gray-secondary;
+      }
+      .item-section {
+        @include d-inline-flex-column;
+        flex-wrap: wrap;
+        &:last-child {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}

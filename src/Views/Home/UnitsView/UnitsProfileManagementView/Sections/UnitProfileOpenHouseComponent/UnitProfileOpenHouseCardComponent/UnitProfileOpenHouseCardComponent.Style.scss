@@ -1,0 +1,122 @@
+.UnitProfileOpenHouseCardComponent-wraper {
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .MuiFab-sizeSmall {
+    width: 35px;
+    height: 11px;
+  }
+
+  .MuiFab-secondary {
+    color: #00000080;
+    background-color: #ffffff;
+  }
+  .MuiFab-secondary:hover {
+    background-color: #ffffff8a;
+  }
+
+  .UnitProfileOpenHouseCard {
+    width: 207px;
+    height: 238px;
+    position: relative;
+
+    .Fab-contenar {
+      position: absolute;
+      top: 93px;
+      left: 10px;
+      display: flex;
+      @include rtl {
+        right: 10px;
+        left: 0px;
+      }
+      .icon1 {
+        padding-right: 10px;
+        @include rtl {
+          padding-right: 0px;
+          padding-left: 10px;
+        }
+      }
+    }
+    .OpenHouseCard-wrapperactions {
+      display: flex;
+      flex: 1 1 100%;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      max-width: 45px;
+      .btns {
+        margin: 0 0 0.5rem;
+        min-width: initial;
+        border-radius: 1rem 0 0 1rem;
+      }
+    }
+
+    .Image-wraper {
+      width: 207px;
+      height: 139px;
+      border-radius: 15px;
+    }
+    .data-wraper {
+      padding-top: 14px;
+      padding-left: 8px;
+      @include rtl {
+        padding-left: 0px;
+        padding-right: 8px;
+      }
+    }
+    .details-wraper {
+      display: inline-flex;
+      padding-top: 10px;
+      width: 100%;
+      justify-content: space-around;
+      .arrow {
+        margin-top: 7px;
+      }
+    }
+    .Name-House {
+      font-size: 14px;
+      color: #3a3a3c;
+      font-weight: 800;
+    }
+    .title {
+      font-size: 12px;
+      color: #3a3a3c;
+      font-weight: 800;
+    }
+    .title-low-weight {
+      font-size: 12px;
+      color: #3a3a3c;
+      font-weight: 800;
+    }
+    .calendar-wraper {
+      padding-top: 5.7px;
+      display: flex;
+    }
+    .calendar-open {
+      @include rtl {
+        padding-left: 0px;
+        padding-right: 6px;
+      }
+      padding-left: 6px;
+      padding-top: 1px;
+    }
+  }
+
+  .uploader-wrapper .uploader-container .dropzone-wrapper {
+    height: 100%;
+    border-radius: 0.5rem;
+    max-height: 92px;
+    overflow-y: auto;
+    width: 100%;
+    display: inline-flex;
+    flex: 0 1 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: calc(100% - 115px);
+    padding: 0.25rem 0.25rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+}

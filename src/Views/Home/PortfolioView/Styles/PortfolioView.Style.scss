@@ -1,0 +1,173 @@
+.bbt-Leased {
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 2rem;
+    height: 1.5rem;
+    background-color: #ff827c;
+  }
+  .title-section-Portfolio {
+    padding: 0 0.5rem;
+    font-weight: $fw-simi-bold;
+    font-size: $fz-16px;
+  }
+  .bbt-Available {
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 2rem;
+    height: 1.5rem;
+    background-color: #31c7aa;
+  }
+  .bbt-mange {
+    margin-top: 22px;
+  }
+  .hedar-seaction {
+    width: 74%;
+  }
+  .filter-text {
+    margin-top: 7px;
+    font-size: 12px;
+  }
+  .box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .land-container {
+    @include d-inline-flex-v-center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  .select-conteaner {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .CARD-Landlords {
+    padding: 1rem;
+    .body-card {
+      textarea {
+        width: 0px !important;
+        height: 0px !important;
+        opacity: 0;
+      }
+      padding-left: 16.49px;
+      @include rtl {
+        padding-left: 0px;
+        padding-right: 16.49px;
+      }
+      height: 126px;
+      .text-title {
+        color: #3a3a3c;
+        font-size: 12px;
+        font-weight: 900;
+      }
+      .text-title-id {
+        color: #3a3a3c;
+        font-size: 14px;
+        font-weight: 900;
+      }
+      .ref {
+        padding-top: 4.5px;
+        font-weight: 500;
+      }
+      .ref-led {
+        padding-bottom: 8.6px;
+      }
+      .copyicon {
+        padding-left: 15px;
+        @include rtl {
+          padding-left: 0px;
+          padding-right: 15px;
+        }
+      }
+    }
+    .hedar-Card-wrapper {
+      @include d-inline-flex-v-center;
+      height: 75px;
+      padding-left: 16.49px;
+      @include rtl {
+        padding-left: 0px;
+        padding-right: 16.49px;
+      }
+      .contact-name {
+        font-weight: 900;
+      }
+  
+      .land {
+        background: #fe9900 0% 0% no-repeat padding-box;
+        border-radius: 12px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+        padding-top: 2px;
+        width: 61px;
+        height: 18px;
+      }
+      .img-land {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+      }
+      .contact-name {
+        font-size: 14px;
+        color: #1d1d1f;
+      }
+      .text-contenar {
+        @include d-flex-column;
+        padding-left: 26px;
+        @include rtl {
+          padding-left: 0px;
+          padding-right: 26px;
+        }
+      }
+    }
+  
+    .Card-wrapper {
+      width: 289px;
+      height: 215px;
+      min-width: 289px;
+      min-height: 243px;
+      border: 1px solid #c7c7cc;
+      border-radius: 10px;
+    }
+  
+    .cards-body-wrapper {
+      display: flex;
+      flex: 1 1 100%;
+      width: 100%;
+      padding: 0.5rem;
+      flex-direction: column;
+      padding-top: 0.8rem;
+    }
+  
+    .cards-footer-wrapper {
+      display: flex;
+      flex: 1 1 100%;
+      align-items: center;
+      flex: 1 1 auto;
+      height: 18px;
+      min-height: 26px;
+      overflow: hidden;
+      width: 100%;
+      padding: 20px !important;
+      font-size: 12px !important;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top: 1px solid #c7c7cc;
+      .icon-floder {
+        padding-right: 15px;
+      }
+    }
+  }
+  

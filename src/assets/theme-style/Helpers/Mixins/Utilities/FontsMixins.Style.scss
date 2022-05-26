@@ -1,0 +1,14 @@
+@mixin font-sizes {
+  @each $key, $value in $font-sizes {
+    .fz-#{$key} {
+      font-size: #{$value} !important;
+    }
+  }
+}
+@mixin font-weights {
+  @each $key, $value in $font-weights {
+    .fw-#{$key} {
+      font-weight: #{$value} !important;
+    }
+  }
+}

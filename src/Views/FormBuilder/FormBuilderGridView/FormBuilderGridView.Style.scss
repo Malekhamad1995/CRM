@@ -1,0 +1,62 @@
+
+.FormBuilderGridView {
+  @include rtl {
+    transform: scaleX(-1);
+  }
+  .cardName {
+    @include rtl {
+      float: left;
+      transform: scaleX(-1);
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    margin-top: 7px;
+  }
+  font-size: 16px;
+  .MuiSvgIcon-root {
+    @include rtl {
+      transform: scaleX(-1);
+    }
+    width: 35px !important;
+    height: 35px !important;
+    color: $c-secondary !important;
+  }
+  .FormCard {
+    .MuiCardContent-root {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      align-content: space-between;
+    }
+    cursor: pointer !important;
+    :hover {
+      background-color: $c-lavender !important;
+    }
+    box-shadow: 0 2px 8px 0 rgba(114, 114, 114, 0.2), 0 6px 20px 0 rgba(187, 187, 187, 0.116) !important ;
+    &.disabled {
+      .MuiCardContent-root {
+        cursor: not-allowed;
+        background-color: $c-gray-light;
+        color: $c-gray-dark;
+      }
+      .MuiSvgIcon-root {
+        color: $c-gray-dark !important;
+      }
+      :hover {
+        background-color: $c-gray-light !important;
+      }
+    }
+  }
+  .FormWraper {
+    padding: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 98%;
+    background-color: $c-white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+}

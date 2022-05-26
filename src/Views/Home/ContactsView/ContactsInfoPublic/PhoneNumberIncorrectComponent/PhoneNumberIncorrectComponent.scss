@@ -1,0 +1,50 @@
+.phone-number-incorrect-result {
+  padding-top: 130px;
+  display: grid;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  .input-wrapper.theme-default .text-field-wrapper .inputs .MuiInputBase-root {
+    min-height: 32px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #3b72d9;
+    color: #3a3a3c;
+    border-radius: 0.5rem;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .img-1 {
+    display: flex;
+    justify-content: center;
+  }
+  .ACTION-wraper {
+    padding-bottom: 5rem;
+  }
+  .no-result-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .no-result-title {
+    color: #31aec4;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Poppins;
+    letter-spacing: 0px;
+  }
+  .phone-number-incorrect-result-subtitle {
+    color: #006186;
+  }
+  .phone-number-incorrect-img {
+    bottom: 30px;
+    height: 350px;
+  }
+}

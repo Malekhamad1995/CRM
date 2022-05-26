@@ -1,0 +1,43 @@
+.dialog-wrapper.MuiDialog-root {
+  .MuiPaper-root {
+    width: 100%;
+  }
+  .dialog-title-wrapper {
+    padding: 0;
+    .MuiTypography-root {
+      padding: 0.5rem 0 0;
+      @include d-flex-v-center-h-between;
+    }
+    .dialog-title-text {
+      border-bottom: 1px solid $c-primary;
+      color: $c-primary;
+      font-size: 16px;
+      padding: 0 0.5rem 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .dialog-footer-wrapper {
+    @include d-flex-column;
+    &.MuiDialogActions-spacing > :not(:first-child) {
+      margin: 0 !important;
+    }
+    &.MuiDialogActions-root {
+      padding: 0;
+      margin-bottom: 0;
+      .dialog-pagination-wrapper {
+        padding: 1rem 1rem 0;
+        .dialog-pagination-content {
+          @include d-flex-center;
+          width: 100%;
+          padding: 0.5rem 0.5rem 0;
+          border-radius: 20px 20px 0 0 !important;
+          box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.29);
+        }
+      }
+      .save-cancel-wrapper,
+      .dialog-pagination-wrapper {
+        width: 100%;
+      }
+    }
+  }
+}

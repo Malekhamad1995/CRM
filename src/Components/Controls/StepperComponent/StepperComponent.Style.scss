@@ -1,0 +1,66 @@
+.stepper-wrapper {
+  &.MuiStepper-root {
+    background-color: transparent;
+    padding: 0 0.5rem 1.5rem;
+    @include d-flex;
+    align-items: flex-end;
+  }
+  overflow-x: auto;
+
+  .MuiStepConnector-alternativeLabel {
+    top: initial;
+    // left: calc(-50% + 20px);
+    // right: calc(50% + 20px);
+    // position: absolute;
+    bottom: 12px;
+
+    @include rtl {
+      left: calc(50% + 20px);
+      right: calc(-50% + 20px);
+    }
+  }
+
+  .step-progress-text-wrapper {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .step-label-wrapper,
+  .step-button-wrapper {
+    height: 100%;
+
+    .MuiStepLabel-iconContainer {
+      order: 2;
+
+      svg {
+        fill: $c-gray-secondary;
+      }
+      .MuiStepIcon-active {
+        // svg {
+        fill: $c-secondary;
+        // }
+      }
+    }
+
+    .MuiStepLabel-label {
+      color: $c-gray-dark;
+      order: 1;
+      margin-top: 0;
+
+      &.MuiStepLabel-active {
+        color: $c-black;
+      }
+    }
+  }
+  .step-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    &.has-error-step {
+      .MuiStepIcon-root {
+        fill: $c-error;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.leasing-transactions-profile-wrapper {
+  @include d-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 0.5rem;
+  > .childs-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.5rem;
+    position: relative;
+    .childs-wrapper {
+      @include d-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      width: 100%;
+      position: relative;
+      padding: 0.5rem 0.5rem 0;
+    }
+  }
+  .presentational-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  .details-items-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.5rem;
+    .details-item-wrapper {
+      @include d-flex;
+      flex-wrap: wrap;
+      .details-title {
+        color: #000000;
+        min-width: 50%;
+      }
+      .details-value {
+        padding: 0 0.5rem;
+      }
+    }
+  }
+  .form-item {
+    @include d-inline-flex;
+    width: 25%;
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include tablets-max {
+      width: 100%;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .title-wrapper {
+    @include d-flex;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    .title-text {
+      font-weight: $fw-simi-bold;
+    }
+  }
+  .form-double-item {
+    @include d-inline-flex;
+    flex-wrap: wrap;
+    width: 50%;
+    @include tablets-max {
+      width: 100%;
+    }
+    .presentational-wrapper {
+      width: 100%;
+    }
+    .form-item {
+      @include d-inline-flex;
+      width: 50%;
+      @include tablets-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .title-wrapper {
+      .title-text {
+        font-size: $fz-16px;
+      }
+    }
+  }
+}

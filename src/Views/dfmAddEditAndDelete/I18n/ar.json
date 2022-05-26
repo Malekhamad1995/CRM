@@ -1,0 +1,112 @@
+{
+  "View": {
+    "Actions": "أجراءات",
+    "Merge": "دمج",
+    "Import": "إدخال",
+    "Add": "إضافة",
+    "Search": "البحث في",
+    "total": "المجموع"
+  },
+  "SearchOptions": {
+    "Individual": "الأفراد",
+    "Corporate": "الشركات",
+    "ContactType": "نوع جهة الإتصال",
+    "LeadType": "نوع العميل المحتمل",
+    "PropertyPlan": "مخطط العقار",
+    "PropertyType": "نوع العقار",
+    "Country": "الدولة",
+    "UnitOperation": "نوع الحركة",
+    "UnitType": "نوع الوحدة",
+    "Price": "السعر",
+    "Size": "الحجم"
+  },
+  "Contacts": {
+    "Creation": "تكوين",
+    "Type": "النوع",
+    "Nationality": "الجنسية",
+    "Mobile": "رقم الموبايل",
+    "Class": "الصنف",
+    "Edit": "تعديل",
+    "OpenFiles": "فتح الملفات",
+    "MissingData": "البيانات المفقودة",
+    "Lead": "العميل المحتمل",
+    "Name": "الإسم",
+    "Completed": "إكتمل",
+    "Actions": "أجراءات",
+    "Email": "البريد الإلكتروني",
+    "NotificationAddCONTACTS": "تم إضف جهات إتصال جديدة بنجاح",
+    "NotificationAddErrorCONTACTS":"لم يتم إضافة جهات إتصال بنجاح",
+    "NotificationEditContacts": "تم حفظ التغيير بنجاح"
+  },
+  "Leads": {
+    "Type": "النوع",
+    "Required": "المطلوب",
+    "Rating": "تقييم",
+    "Status": "الحالة",
+    "Lead": "العميل المحتمل",
+    "Property": "العقار",
+    "LeadOn": "يعتمد على",
+    "Edit": "تعديل",
+    "OpenFiles": "فتح الملفات",
+    "MissingData": "البيانات المفقودة",
+    "Name": "الإسم",
+    "Completed": "إكتمل",
+    "Actions": "أجراءات",
+    "PropertyUnitNumber": "رقم العقار / الوحدة",
+    "OperationType": "نوع الحركة",
+    "LeadStage": "مرحلة العميل المحتمل",
+    "NotificationAddLeads": "تم إضافة عملاء محتملين بنجاح",
+    "NotificationEditLeads": "تم حفظ التغيير بنجاح"
+  },
+  "Property": {
+    "District": "المنطقة",
+    "Owner": "المالك",
+    "Type": "النوع",
+    "Developer": "المطور",
+    "Edit": "تعديل",
+    "OpenFiles": "فتح الملفات",
+    "MissingData": "البيانات المفقودة",
+    "PropertyName": "إسم العقار",
+    "Completed": "إكتمل",
+    "Actions": "أجراءات",
+    "City": "المدينة",
+    "OwnerName": "إسم المالك",
+    "PropertyType": "نوع العقار",
+    "NotificationEditLeadsAddProperty": "تم إضافة عقار جديد بنجاح",
+    "NotificationEditLeadsAddErrorProperty": "لم يتم إضافة عقار بنجاح",
+    "NotificationEditProperty": "تم حفظ التغيير بنجاح"
+  },
+  "Units": {
+    "Property": "العقار",
+    "Unit": "الوحدة",
+    "Bedrooms": "غرف نوم",
+    "Bathrooms": "الحمامات",
+    "Size": "الحجم قدم مربع",
+    "Edit": "تعديل",
+    "OpenFiles": "فتح الملفات",
+    "MissingData": "البيانات المفقودة",
+    "PropertyName": "إسم العقار",
+    "Area": "المساحة (قدم مربع)",
+    "UnitType": "نوع الوحدة",
+    "Unitnumber": "رقم الوحدة",
+    "ServiceType": "نوع الخدمة",
+    "Completed": "إكتمل",
+    "Actions": "أجراءات",
+    "NotificationAddUnits": "تم إضافة وحدة جديدة بنجاح",
+    "NotificationAddErrorUnits": "لم يتم إضافة وحدة بنجاح",
+    "NotificationEditUnits": "تم حفظ التغيير بنجاح"
+  },
+  "Import": {
+    "Importfile": "تم رفع الملف بنجاح",
+    "ErrorImport": "فشل رفع الملف"
+  },
+  "ImportAction": {
+    "NotificationFileDownload": "تم تنزيل الملف بنجاح",
+    "NotificationErrorDownload": "فشل تنزيل الملف"
+  },
+  "DfmMerge": {
+    "NotificationMerge": "تم الدمج بنجاح",
+    "NotificationErrorMerge": "فشل الدمج"
+  },
+  "NotificationErrorMessage_EDIT": "فشل التعديل"
+}

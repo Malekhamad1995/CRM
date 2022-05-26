@@ -1,0 +1,13 @@
+@mixin heights {
+  @each $key, $value in $heights {
+    .w-#{$key} {
+      height: $value !important;
+    }
+    .mxw-#{$key} {
+      max-height: $value !important;
+    }
+    .miw-#{$key} {
+      min-height: $value !important;
+    }
+  }
+}

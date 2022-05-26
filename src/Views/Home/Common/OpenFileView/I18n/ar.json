@@ -1,0 +1,57 @@
+{
+  "dialogs": {
+    "phones": "الهواتف",
+    "emails": "البريد الإلكتروني"
+  },
+  "contact": "جهة الإتصال",
+  "leads-units": "وحدات العملاء المحتملين",
+  "units": "الوحدات",
+  "activities": "أنشطة",
+  "transactions-history": "تاريخ المعاملات",
+  "user-access": "صلاحيات المستخدم",
+  "payment-plans": "طرق الدفع",
+  "finance-company": "شركة تمويل",
+  "marketing": "تسويق",
+  "matching": "مطابقات",
+  "maintenance-services": "خدمات الصيانة",
+  "images": "صور",
+  "property": "العقار",
+  "lead": "العميل المحتمل",
+  "unit": "الوحدة",
+  "units-and-properties": "الوحدات والعقارات",
+  "notifications": "إشعارات",
+  "sales-details": "تفاصيل المبيعات",
+  "buyer-summary": "ملخص المشتري",
+  "remarks": "ملاحظات",
+  "open-house": "البيت المفتوح",
+  "openFileContactsComponent": {
+    "edit": "تعديل",
+    "save": "حفظ",
+    "contact-image": "صورة جهة الإتصال",
+    "NotificationEditContacts": "تم حفظ التغيير بنجاح",
+    "NotificationEditErrorContacts": "لم يتم التغيير بنجاح"
+  },
+  "openFilePropertiesComponent": {
+    "edit": "تعديل",
+    "save": "حفظ",
+    "property-image": "صورة العقار",
+    "NotificationEditProperty": "تم حفظ التغيير بنجاح",
+    "NotificationEditErrorProperty": "لم يتم التغيير بنجاح"
+  },
+  "openFileLeadsComponent": {
+    "edit": "تعديل",
+    "save": "حفظ",
+    "lead-image": "صورة العميل المحتمل",
+    "NotificationEditLeads": "تم حفظ التغيير بنجاح",
+    "NotificationEditErrorLeads": "لم يتم التغيير بنجاح"
+  },
+  "openFileUnitsComponent": {
+    "edit": "تعديل",
+    "save": "حفظ",
+    "unit-image": "صورة الوحدة",
+    "NotificationEditUnits": "تم حفظ التغيير بنجاح",
+    "NotificationEditErrorUnits": "لم يتم التغيير بنجاح" , 
+    "EnterSellerHasPaidLessThanSellingPrice":"ادخل دفعة البائع اقل من سعر البيع"
+    
+  }
+}

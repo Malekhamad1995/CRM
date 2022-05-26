@@ -1,0 +1,327 @@
+.properties-profile-wrapper {
+  .property-card-image-wrapper {
+    cursor: pointer;
+  }
+  .associated-Properties-wrapper {
+    .map-conteaner {
+      min-height: 500px;
+      > div {
+        width: 100%;
+        min-height: 550px !important;
+      }
+    }
+    .contral {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 0.5rem;
+    }
+  }
+  padding: 0 0.5rem;
+  .childs-wrapper {
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 1rem;
+    border: 1px solid $c-gray-secondary;
+    &.b-0 {
+      border-width: 0;
+    }
+    .title-section {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+      font-size: $fz-16px;
+      margin-bottom: 1rem;
+    }
+  }
+  .form-item {
+    @include d-inline-flex;
+    width: 25%;
+    @include laptops-xl-max {
+      width: 33.3333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .tabs-content-wrapper {
+    padding: 1rem 0.5rem 0;
+    align-items: flex-start;
+  }
+  .filter-sections-wrapper {
+    @include d-flex-v-center;
+    flex-wrap: wrap;
+    .filter-section-item {
+      @include d-inline-flex-v-center;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .VerticalLine {
+    border-left: 1px solid #707070;
+    height: 21px;
+    margin-left: 7px;
+    @include rtl {
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
+  .pigeon-attribution {
+    display: none;
+  }
+}
+.properties-images-tabs {
+  .tabs-wrapper.theme-curved .MuiTabs-flexContainer .MuiTab-root {
+    margin: 10px 10px 0px 30px;
+    min-height: initial;
+    color: #3a3a3c;
+    text-transform: capitalize;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.Uploaded-icon {
+  height: 46px;
+  width: 54px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+.property-cards {
+  .childs-wrapper {
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem 1rem;
+    border-bottom: 1px solid $c-gray-secondary;
+    border-left: 1px solid $c-gray-secondary;
+    border-right: 1px solid $c-gray-secondary;
+    border-top: 0px;
+    &.b-0 {
+      border-width: 0;
+    }
+    .title-section {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+      font-size: $fz-16px;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.property-imgaes-wrapers {
+  .EmptyPage {
+    width: 480px;
+    height: 550px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url('../../../../assets/images/defaults/EmptyPage.png');
+  }
+}
+.Location-images-wrapers {
+  .EmptyPage {
+    width: 480px;
+    height: 550px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url('../../../../assets/images/defaults/EmptyPage.png');
+  }
+}
+
+.DialogsPropertiesImage {
+  display: inline-flex;
+  flex-wrap: wrap; // on mobile just
+  width: 100%;
+  min-height: 24rem;
+  justify-content: space-around;
+  .inter-wraper {
+    @include phones-s-max {
+      width: 100%;
+    }
+    width: 50%;
+  }
+  .inter-wraper-empty {
+    width: 100%;
+  }
+  .item-img {
+    position: relative;
+  }
+  // .loadable-overlay
+  // {
+  //   width: 155px;
+  //   height: 103px;
+  // }
+
+  .Import-Component-wrapered {
+    top: 494px;
+    left: 756px;
+    width: 427px;
+    height: 202px;
+    background: #dbecff;
+    border: 1px solid #c7c7cc;
+    border-radius: 8px;
+  }
+
+  .Uploaded-images-wraper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 22rem;
+    width: 25rem;
+    position: relative;
+    @include tablets-max {
+      margin-top: 5rem;
+    }
+    @include phones-s-max {
+      margin-top: 5rem;
+    }
+    .details-img {
+      width: 155px;
+      height: 103px;
+      border-radius: 15px;
+      margin: 1rem;
+    }
+    .Overlay {
+      width: 155px;
+      height: 103px;
+      border-radius: 15px;
+      margin: 1rem;
+      position: absolute;
+    }
+    .Overlay:hover {
+      width: 155px;
+      height: 103px;
+      border-radius: 15px;
+      background-color: #00000080;
+      margin: 1rem;
+    }
+
+    .Fab-contenar {
+      position: relative;
+      .MuiFab-sizeSmall {
+        width: 28px;
+        height: 28px;
+
+        box-shadow: none;
+      }
+      .icon {
+        position: absolute;
+        left: 8.3rem;
+        top: 5.2rem;
+        z-index: 10;
+      }
+      .MuiFab-root {
+        min-height: 28px;
+      }
+      .MuiFab-secondary {
+        color: #ff827c;
+        background-color: #ffffff;
+      }
+      //  position: absolute;
+      // top: 93px;
+      // left: 10px;
+      // display: flex;
+      // @include rtl {
+      //   right: 10px;
+      //   left: 0px;
+      // }
+      // .icon1 {
+      //   padding-right: 10px;
+      //   @include rtl {
+      //     padding-right: 0px;
+      //     padding-left: 10px;
+      //   }
+      // }
+    }
+  }
+
+  .UploaderComponent-wrapered {
+    .uploader-wrapper .uploader-container .dropzone-wrapper {
+      height: 100%;
+      border-radius: 0.5rem;
+      max-height: 192px;
+      overflow-y: auto;
+      width: 100%;
+      display: flex;
+      flex: 0 1 auto;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: calc(100% - 186px);
+      padding: 0.25rem 0.25rem 0;
+      position: relative;
+      overflow: hidden;
+      justify-self: center;
+      @include phones-max {
+        max-width: 77%;
+      }
+      @include tablets-max {
+        max-width: 100%;
+      }
+      @include phones-s-max {
+        max-width: 80%;
+      }
+      @include phones-xs-max {
+        max-width: 77%;
+      }
+    }
+    .box-theme-image {
+      height: 46px;
+      width: 54px;
+      display: flex;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 1rem;
+    }
+    .box-theme-component-wrapper {
+      min-height: 14rem;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex: 1 1 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px dashed #c7c7cc;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+    .drop-here {
+      padding: 0.7rem 0.7rem !important;
+      display: flex;
+      flex: 1 1 100%;
+      align-items: center;
+      pointer-events: none;
+      width: 100%;
+      justify-content: center;
+    }
+    .btns-icon.MuiButtonBase-root.theme-solid {
+      background-color: #3b72d9;
+      color: #ffffff;
+      display: none;
+    }
+    .MuiInput-underline:before {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '\00a0';
+      position: absolute;
+      transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      border-bottom: none;
+      pointer-events: none;
+    }
+    .MuiInput-underline:hover:not(.Mui-disabled):before {
+      border-bottom: none;
+    }
+    .add-new-company .DatePicker .MuiInputBase-root {
+      border-bottom: none;
+    }
+  }
+}
+.pagination-Images-Gallery-Photos {
+  width: 70% !important;
+  margin: 0rem !important;
+}
+.DialogsProperties-GalleryPhotosCardComponen {
+  min-height: 10rem;
+  height: 32rem;
+  max-height: 40rem;
+}

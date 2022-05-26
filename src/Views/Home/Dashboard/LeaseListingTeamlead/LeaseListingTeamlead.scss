@@ -1,0 +1,35 @@
+.report-style-class {
+  width: 1350px;
+  height: 900px;
+  @media only screen and (max-width: 1350px) {
+    width: 750px !important;
+    height: 450px !important;
+}
+}
+
+.bttnrefresh {
+  display: flex;
+  justify-content: center;
+   }
+.dashboardMain {
+    display: flex;
+    justify-Content: center;
+}
+.item-dashboard {
+  display: grid;
+  justify-content: center;
+}
+.btnnChoose{
+    display: flex;
+    justify-content: center;
+}
+.muiButton{
+    min-width: 150px !important ;
+}
+
+.dashboardMain-PowerBIEmbed
+{
+  iframe {
+    border: none;
+  }
+}

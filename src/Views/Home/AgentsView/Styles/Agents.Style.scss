@@ -1,0 +1,171 @@
+.Agents-wrapper {
+  .ROTATION-ON {
+    width: 47px;
+    height: 21px;
+    background-color: #3b72d9;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    font-weight: 900;
+    color: white;
+  }
+
+  .ROTATION-Off {
+    width: 47px;
+    height: 21px;
+    background-color: #ff827c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    font-weight: 900;
+    color: white;
+  }
+  .seaction-tabel {
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    height: 15rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  .Date-div {
+    width: 23%;
+    padding-top: 2rem;
+    .Requierd-Color::after {
+      content: ' *';
+      color: red;
+    }
+    &.labelhide {
+      .label-wrapper {
+        padding: 0 0.5rem 0.25rem;
+        color: #ffffff;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Poppins, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+          'Courier New', monospace;
+        margin-bottom: 0;
+        opacity: 0;
+      }
+    }
+  }
+  .Date-wraper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-tabel {
+    background-color: #c7c7cc80;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 13px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    .date-range {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+  .seaction {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .seaction-title {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  .input-wraper {
+    width: 40%;
+    .radio-groups-wrapper.theme-default.MuiFormControl-root {
+      padding: 0 0rem 0 0rem;
+    }
+    .radio-groups-wrapper.theme-default.MuiFormControl-root::before {
+      content: ' ';
+      border: 0rem solid #c7c7cc;
+      position: absolute;
+      left: 0.25rem;
+      top: 0;
+      height: 100%;
+    }
+  }
+  .main-title {
+    background-color: #5b88d9;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    height: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .action-wraper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #3b72d9;
+    text-transform: capitalize;
+  }
+  .content-tabel {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 12.6rem;
+    overflow: auto;
+    .item {
+      width: 100%;
+      padding: 0.4rem 0rem 0.4rem 0rem;
+      @include d-inline-flex-center;
+    }
+    .row-date {
+      width: 25%;
+    }
+    .row-time {
+      width: 25%;
+    }
+    .row-media-name {
+      width: 25%;
+    }
+    .row-media-type {
+      width: 25%;
+    }
+  }
+
+  .select-wraper {
+    @include d-inline-flex-center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 3rem;
+    .select {
+      width: 49%;
+    }
+  }
+}
+.DialogComponent-WorkingHoursDialogView {
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  width: 100% !important;
+  font-size: 16px;
+  padding: 0 0.5rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.wrapperClasses-WorkingHoursDialogView {
+  .dialog-title-text {
+    border-bottom: 0px solid #000000 !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding: 1rem 2rem 0.5rem !important;
+    margin-bottom: 0.5rem;
+  }
+}
+.Tables-AgentsTabelDialogView {
+  .MuiTableContainer-root {
+    height: 19rem !important;
+  }
+}

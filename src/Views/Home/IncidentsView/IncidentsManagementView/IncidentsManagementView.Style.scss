@@ -1,0 +1,67 @@
+.work-orders-management-wrapper {
+  padding: 0.5rem;
+  .work-order-details-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .childs-wrapper {
+    padding: 1rem 0.5rem;
+  }
+  .form-title-wrapper {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    .form-title {
+      font-weight: $fw-simi-bold;
+      font-size: $fz-14px;
+    }
+  }
+  .title-text {
+    font-weight: $fw-simi-bold;
+  }
+  .form-item {
+    @include d-inline-flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    width: 20%;
+    @include laptops-xl-max {
+      width: 25%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include tablets-max {
+      width: 100%;
+    }
+  }
+}
+.state-Circle-offline {
+  background: #ff1e00;
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  margin-left: 4px;
+  width: 6px;
+}
+.state-Circle-online {
+  background: #42b72a;
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  margin-left: 4px;
+  width: 6px;
+}
+.state-Circle-pending {
+  background: #ffca00;
+  border-radius: 50%;
+  display: inline-block;
+  height: 6px;
+  margin-left: 4px;
+  width: 6px;
+}

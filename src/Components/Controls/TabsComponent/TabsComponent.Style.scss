@@ -1,0 +1,163 @@
+.tabs-wrapper {
+  &.MuiTabs-root {
+    min-height: 33px;
+    .MuiTab-root {
+      min-width: 100px;
+    }
+  }
+  &.theme-default {
+    .MuiTab-textColorPrimary.Mui-selected {
+      color: $c-primary;
+      font-weight: $fw-bold;
+    }
+    .PrivateTabIndicator-colorPrimary-2 {
+      background-color: $c-primary;
+    }
+    .MuiTab-root {
+      min-height: 35px;
+      font-size: $fz-14px;
+      padding: 0.25rem 0.5rem;
+      text-transform: none;
+    }
+    &.is-with-line {
+      .MuiTabs-flexContainer {
+        position: relative;
+        &::after {
+          content: ' ';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          width: 100%;
+          height: 1px;
+          min-height: 1px;
+          background-color: $c-gray-secondary;
+        }
+      }
+    }
+    .MuiButtonBase-root {
+      color: $c-gray-777;
+      // color: green;
+      transition: min-width 0.3s linear;
+    }
+  }
+  .MuiTabScrollButton-root {
+    color: #000000;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    height: 25px;
+    width: 25px;
+    min-width: 25px;
+    &.Mui-disabled {
+      opacity: 1;
+      background-color: $c-gray-secondary;
+      .MuiSvgIcon-fontSizeSmall {
+        fill: $c-white;
+      }
+    }
+  }
+  &.theme-solid {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    .MuiTabs-scroller {
+      background-color: $c-gray-lighter;
+      border-radius: 0.5rem;
+    }
+    .MuiTabs-flexContainer {
+      .MuiTab-root {
+        min-height: initial;
+        color: #000000;
+        text-transform: capitalize;
+        padding: 0.25rem 0.5rem;
+        margin: 0 auto;
+        &.Mui-selected {
+          color: $c-primary;
+        }
+        .MuiTab-wrapper {
+          :first-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .MuiTabs-indicator {
+      display: none;
+    }
+  }
+  &.theme-curved {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    // min-height: 34px;
+    .MuiTabs-scroller {
+      background-color: $c-white;
+    }
+
+    .MuiTabs-flexContainer {
+      border-bottom: 1px solid $c-gray-secondary;
+      min-height: 33px;
+      .MuiTab-root {
+        margin: 0 auto;
+        min-height: initial;
+        color: #000000;
+        text-transform: capitalize;
+        padding: 0.25rem 0.5rem;
+
+        &.Mui-selected {
+          color: $c-primary;
+          border-radius: 0.5rem 0.5rem 0 0;
+          border: 1px solid $c-gray-secondary;
+          background-color: $c-white;
+          border-bottom: 0;
+          position: relative;
+          top: 1px;
+        }
+        .MuiTab-wrapper {
+          :first-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    &.tab-flex-start {
+      .MuiTabs-flexContainer {
+        .MuiTab-root {
+          margin: 0 0.5rem;
+        }
+      }
+    }
+    .MuiTabs-indicator {
+      display: none;
+    }
+
+    + .tabs-content-wrapper,
+    + div {
+      border: 1px solid $c-gray-secondary;
+      border-radius: 0.5rem;
+      border-top: 0;
+    }
+    .MuiTabs-scrollButtons {
+      position: relative;
+      &::after {
+        content: ' ';
+        position: absolute;
+        bottom: -0.265rem;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 1px;
+        width: calc(100% + 1.2rem);
+        background-color: $c-gray-secondary;
+        @include rtl {
+          left: initial;
+          right: 50%;
+          transform: translateX(50%);
+        }
+      }
+    }
+  }
+  &.icon-only {
+    .MuiButtonBase-root {
+      color: green;
+      min-width: 55px !important;
+    }
+  }
+}

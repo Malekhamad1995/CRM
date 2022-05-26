@@ -1,0 +1,16 @@
+.property-quick-add-wrapper {
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 30rem;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex;
+    flex-wrap: wrap;
+    .form-item {
+      width: 50%;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+}

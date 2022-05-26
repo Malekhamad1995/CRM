@@ -1,0 +1,25 @@
+{
+  "admin-dashboard": "لوحة تحكم المسؤول",
+  "agent-dashboard": "لوحة تحكم الوكيل",
+  "agentsaleslisting-dashboard": "قائمة لوحة تحكم الوكيل",
+  "agentleaselisting-dashboard": "قائمة لوحة تحكم الوكيل",
+  "leaselistingteamlead-dashboard": "لوحة تحكم قائد قائمة التأجير",
+  "salesteamlead-dashboard": "لوحة تحكم قائد المبيعات",
+  "leaseteamlead-dashboard": "لوحة تحكم قائد التأجير",
+  "saleslistingteamlead-dashboard": "لوحة تحكم قائد قائمة المبيعات",
+  "sales":"مبيعات",
+  "lease":"ايجار",
+  "accounts":"حسابات",
+  "call-center":"مركز الاتصال",
+  "marketing":"التسويق",
+  "DialogComponent": {
+    "choose":"اختر الفريق",
+    "cancel":"الغاء"
+
+  },
+
+  "saleslistingmanager":"مدير قائمة المبيعات",
+  "leaselistingmanager":"مدير قائمةالتاجير",
+  "PSI-Daily":"تقرير يومي"
+
+}

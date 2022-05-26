@@ -1,0 +1,18 @@
+.actions-buttons-wrapper {
+  @include d-flex;
+  padding: 0 0.5rem;
+  .MuiInputBase-root {
+    font-size: $fz-14px;
+  }
+  .select-wrapper.MuiFormControl-root {
+    min-width: 100px;
+    .selects .MuiSelect-select {
+      min-height: 24px;
+    }
+  }
+  .select-wrapper.MuiFormControl-root .MuiSelect-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,93 @@
+.GalleryShowThemeComponent {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .uploader-card {
+    width: 155px;
+    height: 103px;
+    border-radius: 15px;
+    margin: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 7px;
+    border-radius: 10px;
+  }
+  .select-card
+  {
+    width:  155px;
+    height:  103px;
+    border-radius: 10px;
+    position: absolute;
+  }
+  .select-card:hover
+  {
+    width: 155px;
+    height: 103px;
+    border-radius: 10px;
+    background-color: rgba(26, 24, 24, 0.692);
+    transition: all 0.55s linear;
+    position: absolute;
+    -webkit-transition: all 0.55s linear;
+    -moz-transition: all 0.55s linear;
+    -ms-transition: all 0.55s linear;
+    -o-transition: all 0.55s linear;
+}
+  .uploader-outer-card {
+    position: relative;
+    border: 1px dashed $c-gray-secondary;
+    border-radius: 8px;
+    min-width: 427px;
+    min-height: 202px;
+    max-width: 427px;
+    max-height: 202px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    &.drag-over {
+      border-style: dashed;
+      background-color: #3b72d921;
+      cursor: move !important;
+      border: 1px double #5568d3;
+    }
+  }
+  .Files-uplded {
+    position: relative;
+    padding: 0rem 1rem 0rem 1rem;
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 12.5rem;
+    overflow: auto;
+  }
+
+  .Fab-contenar {
+    position: relative;
+    .MuiFab-sizeSmall {
+      width: 22px;
+      height: 22px;
+
+      box-shadow: none;
+    }
+    .icon {
+      position: absolute;
+      left: 7.5rem;
+      top: 4.5rem;
+      z-index: 10;
+    }
+    .MuiFab-root {
+      min-height: 22px;
+    }
+    .MuiFab-secondary {
+      color: $c-warning;
+      background-color: $c-white;
+    }
+  }
+}

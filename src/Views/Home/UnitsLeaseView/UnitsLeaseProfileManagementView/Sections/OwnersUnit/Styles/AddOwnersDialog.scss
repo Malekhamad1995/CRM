@@ -1,0 +1,18 @@
+.add-content {
+  display: flex !important;
+  width: 50%;
+  margin: 0 0 1rem 0;
+  width: 100%;
+  align-items: center;
+  .auto-wrapper {
+    width: 90% !important;
+    margin-bottom: 20px;
+  }
+}
+.addOwner-view-wrapper {
+  table tr th:first-child,
+  table tr th:nth-child(2) {
+    min-width: 10px !important;
+    max-width: fit-content !important;
+  }
+}

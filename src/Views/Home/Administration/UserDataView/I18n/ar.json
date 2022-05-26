@@ -1,0 +1,23 @@
+{
+  "Search": "بحث",
+  "NotificationErrorView": "فشل عرض المهمة",
+  "View": "عرض",
+  "EditView": "تعديل البيانات",
+  "AddView": "اضافة بيانات",
+  "ViewName": "الاسم",
+  "Actions": "الاجراءات",
+  "Edit": "تعديل",
+  "Save": "حفظ",
+  "SaveItAsTemplate": "حفظ كقالب",
+  "SetValuesFromTemplate": "تعبأة البيانات من قالب",
+  "CollapseView": {
+    "SuccessNotification": "تمت العملية بنجاح"
+  },
+  "DeleteDialog": {
+    "DeleteText": "هل انت متأكد من الحذف",
+    "Cancel": "الغاء",
+    "Confirm": "تأكيد",
+    "NotificationDeleteGroup": "تم الحذف بنجاح",
+    "NotificationErrorDelete": "فشل الحذف"
+  }
+}

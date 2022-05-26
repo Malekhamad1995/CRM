@@ -1,0 +1,119 @@
+.units-profile-wrapper {
+  padding: 0 0.5rem;
+  
+  .leadOwner{
+    margin: .8rem ;
+    font-size: .9rem ; 
+    color : #3b72d9 ; 
+    .leadName {
+      color : #8e8e93 ; 
+
+    }
+   }
+  .childs-wrapper {
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 1rem;
+    border: 1px solid $c-gray-secondary;
+    width: 100%;
+    &.b-0 {
+      border-width: 0;
+    }
+    .title-section {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+      font-size: $fz-16px;
+      margin-bottom: 1rem;
+    }
+  }
+  .form-item {
+    @include d-inline-flex;
+    width: 25%;
+    @include laptops-xl-max {
+      width: 33.3333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .tabs-content-wrapper {
+    padding: 1rem 0.5rem 0;
+    @include d-flex-h-center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .filter-sections-wrapper {
+
+
+
+    @include d-flex-v-center;
+    .Disabled-color {
+      width: 100%;
+      display: flex;
+      flex: 1 1 100%;
+      align-items: center;
+      min-height: 32px;
+    }
+    flex-wrap: wrap;
+    .filter-section-item {
+      @include d-inline-flex-v-center;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .unit-profile-payables-wrapper {
+    max-width: 700px;
+    width: 100%;
+  }
+  .pigeon-attribution {
+    display: none;
+  }
+  .UnitProfileOpenHouseseaction {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    //    padding: 1rem;
+    @include phones-s-max {
+      justify-content: center;
+    }
+  }
+
+  .btns.MuiButtonBase-root.c-success-light:disabled {
+    background-color:  $c-success-light  !important;
+  }
+  
+  .btns.MuiButtonBase-root.c-primary:disabled {
+    background-color:  $c-primary !important;
+  }
+  
+  .btns.MuiButtonBase-root.c-black-light:disabled {
+    background-color: $c-black-light!important;
+  }
+
+  .btns.MuiButtonBase-root.c-warning-light:disabled {
+    background-color: $c-warning-light!important;
+  }
+ 
+.popover-unit-share{
+position: absolute;
+  border-radius: 0.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fafafa;
+  z-index: 1;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 0px 5px 1px #00000029;
+  .btns.MuiButtonBase-root{
+    display: block;
+  }
+}
+
+}
+
+

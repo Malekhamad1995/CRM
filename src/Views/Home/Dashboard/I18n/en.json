@@ -1,0 +1,25 @@
+{
+  "admin-dashboard": "Admin",
+  "agent-dashboard": "Sales Agent",
+  "agentsaleslisting-dashboard": "Sales Listing Agent",
+  "agentleaselisting-dashboard": "Lease Listing Agent",
+  "lease-listing-teamlead-dashboard": "Lease Listing Team Lead",
+  "salesteamlead-dashboard": "Sales Team Lead",
+  "leaseteamlead-dashboard":"Lease Team Lead",
+  "saleslistingteamlead-dashboard":"Sales Listing Team Lead",
+  "sales":"Sales",
+  "lease":"Lease Manager",
+  "call-center":"Call Center",
+  "accounts":"Accounts",
+  "marketing":"Marketing",
+  "DialogComponent": {
+    "choose":"Choose Team",
+    "cancel":"Cancel"
+
+  },
+
+  "saleslistingmanager":"Sales Listing Manager",
+  "leaselistingmanager":"Lease Listing Manager",
+  "PSI-Daily":"PSI Daily"
+
+}

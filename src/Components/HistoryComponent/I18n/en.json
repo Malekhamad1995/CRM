@@ -1,0 +1,18 @@
+{
+  "date-and-time-viewed": "Date and time viewed",
+  "user": "User",
+  "type": "Type",
+  "field-name": "Field name",
+  "changed-from": "Changed from",
+  "changed-to": "Changed to",
+  "value-has-changed": "Value has changed",
+  "history": "History",
+  "transaction-history": "Transaction history",
+  "date-and-time": "Date and time",
+  "client": "Client",
+  "amount-paid": "Amount paid",
+  "module": "Module",
+  "remarks": "Remarks",
+  "reservation-type": "Reservation type",
+  "agent": "Agent"
+}

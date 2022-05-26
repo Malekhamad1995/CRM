@@ -1,0 +1,33 @@
+.RotationSchema-wrapper {
+  .leadType {
+    width: 74px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #3a3a3c;
+    border-radius: 12px;
+  }
+  .tenant {
+    background-color: #d6f4ee;
+  }
+  .seller {
+    background-color: #e8f0ff;
+  }
+  .buyer {
+    background-color: #ffe6e5;
+  }
+  .landlorb {
+    background-color: #ffebcc;
+  }
+  .btns.MuiButtonBase-root .mdi{
+    padding: 3px;
+    border-radius: 100%;
+  }
+  .btns.MuiButtonBase-root.theme-transparent .MuiButton-label
+  {
+    color :white ; 
+
+  }
+
+}

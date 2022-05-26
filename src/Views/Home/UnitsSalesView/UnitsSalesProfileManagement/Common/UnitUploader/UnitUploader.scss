@@ -1,0 +1,34 @@
+.unit-Uploader-wrapper{
+.unit-Uploader{
+  height: 210px;
+  text-align: center;
+  border: 1pt dashed ;
+  border: 1pt dashed #C7C7CC;
+  span{
+    display: grid;
+    margin: 20px;
+    
+  }
+  .inputfile{
+    display: none;
+  }
+  .inputButton1{
+    margin: auto;
+    width: 130px;
+    min-height: 32px;
+    height: 32px;
+    background-color: #3b72d9;
+    border-radius: 1rem;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+  
+  }
+  .MuiButton-root:hover{
+    background-color: #3b72d9;
+  }
+
+  
+}
+
+}

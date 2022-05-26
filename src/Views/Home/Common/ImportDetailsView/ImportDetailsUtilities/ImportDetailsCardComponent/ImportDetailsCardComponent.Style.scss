@@ -1,0 +1,29 @@
+.import-details-card-wrapper {
+  @include d-flex-center;
+  flex-wrap: wrap;
+  .box-wrapper {
+    position: relative;
+    justify-content: flex-start !important;
+    border: 1px solid $c-gray-light;
+    .ready-wrapper {
+      @include d-flex-column;
+      align-items: flex-start;
+    }
+    &::after {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      pointer-events: none;
+      border-radius: 1rem;
+    }
+    &:hover {
+      &::after {
+        content: ' ';
+      }
+    }
+    &.selected:not([disabled]) {
+      box-shadow: $bs-primary;
+    }
+  }
+}

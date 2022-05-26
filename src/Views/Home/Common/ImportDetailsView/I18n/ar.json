@@ -1,0 +1,17 @@
+{
+  "number-of-failed": "عدد الفشل",
+  "number-of-success": "عدد النجاح",
+  "status": "الحالة",
+  "import-details": "تفاصيل الإدخال",
+  "approve-valid-fields": "الموافقة على الحقول الصالحة",
+  "excel-row-number": "رقم صف Excel",
+  "row": "الصف",
+  "missing-required-field": "حقل مطلوب مفقود",
+  "failed-reasons": "أسباب الفشل",
+  "success": "النجاح",
+  "ready-for-import": "جاهز للإدخال",
+  "approved-update-failed": "فشل تحديث الموافقة",
+  "approved-updated-successfully": "تم تحديث الموافقة بنجاح",
+  "approved": "تمت الموافقة",
+  "pending": "قيد الإنتظار"
+}

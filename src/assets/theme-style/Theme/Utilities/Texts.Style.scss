@@ -1,0 +1,33 @@
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.texts,
+.texts-header,
+.texts-form {
+  font-size: $fz-default;
+
+  &.gray-primary-bold,
+  &.primary-bold {
+    font-weight: bold;
+  }
+
+  &.primary-bold {
+    color: $c-primary;
+  }
+
+  &.gray-primary-bold {
+    color: #000000;
+  }
+}
+
+.texts-form {
+  padding: 0 1rem 0.5rem;
+  color: #000000;
+}
+.texts-truncate {
+  @include texts-truncate;
+}
+.texts-header {
+  font-size: 45px;
+}

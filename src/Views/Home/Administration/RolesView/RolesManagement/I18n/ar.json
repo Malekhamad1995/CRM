@@ -1,0 +1,22 @@
+{
+  "role-management": "إدارة الدور",
+  "role-name-is-required": "إسم الدور مطلوب",
+  "add-role-name": "إضافة إسم الدور",
+  "edit-role-name": "تعديل إسم الدور",
+  "role-updated-successfully": "تم تحديث الدور بنجاح",
+  "role-created-successfully": "تم إنشاء الدور بنجاح",
+  "role-update-failed": "فشل تحديث الدور",
+  "role-create-failed": "فشل إنشاء الدور",
+  "role-name-description": "اسم الدور هنا على سبيل المثال. CRM ...",
+  "modules": "الوحدات",
+  "modules-description": "يجب عليك تحديد الوحدة لمنح الصلاحيات",
+  "components": "المكونات",
+  "components-description": "المكونات للمختار",
+  "permission": "الصلاحية",
+  "cancel": "إلغاء",
+  "save-and-add-users": "حفظ و إضافة المستخدمين",
+  "update-and-add-users": "تحديث وإضافة مستخدمين",
+  "save-new-role": "حفظ دور جديد",
+  "update-role": "تحديث الدور",
+  "please-select-at-least-one-permission": "الرجاء تحديد صلاحية واحدة على الأقل"
+}

@@ -1,0 +1,13 @@
+.import-details-component-wrapper {
+  .icon-circle {
+    @include d-inline-flex-center;
+    border-radius: 100%;
+    border: 2px solid $c-gray-lighter;
+    background-color: $c-success-light;
+    color: $c-success;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+  }
+}

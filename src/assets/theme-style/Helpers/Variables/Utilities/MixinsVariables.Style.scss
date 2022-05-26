@@ -1,0 +1,77 @@
+$spacing-types: (
+  margin: m,
+  padding: p,
+) !default;
+$spaces: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  3P5: 1.5,
+  4: 2,
+  5: 3,
+) !default;
+$colors: (
+  primary: $c-primary,
+  purple: $c-purple,
+  primary-dark: $c-primary-dark,
+  secondary: $c-secondary,
+  secondary-light: $c-secondary-light,
+  success: $c-success,
+  success-light: $c-success-light,
+  warning: $c-warning,
+  warning-light: $c-warning-light,
+  danger: $c-danger,
+  info: $c-info,
+  black: $c-black,
+  black-dark: $c-black-dark,
+  black-light: $c-black-light,
+  white: $c-white,
+  white-dark: $c-white-dark,
+  blue: $c-blue,
+  blue-light: $c-blue-light,
+  blue-lighter: $c-blue-lighter,
+  blue-lightest: $c-blue-lightest,
+  red: $c-red,
+  green-dark: $c-green-dark,
+  green: $c-green,
+  green-light: $c-green-light,
+  gray-primary: $c-gray-primary,
+  gray-secondary: $c-gray-secondary,
+  gray-darker: $c-gray-darker,
+  gray-dark: $c-gray-dark,
+  gray: $c-gray,
+  gray-light: $c-gray-light,
+  gray-lighter: $c-gray-lighter,
+  gray-lightest: $c-gray-lightest,
+) !default;
+$spaces-unit: rem !default;
+$widths: (
+  0: 0,
+  25: 25%,
+  33: 33.3333%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  40px: 40px,
+  270px: 270px,
+  320px: 320px,
+  435px: 435px,
+  auto: auto,
+) !default;
+$heights: (
+  40px: 40px,
+) !default;
+$font-sizes: (
+  default: $fz-default,
+  15px: $fz-15px,
+  22px: $fz-22px,
+  30px: $fz-30px,
+) !default;
+$font-weights: (
+  default: $fw-default,
+  bold: $fw-bold,
+  simi-bold: $fw-simi-bold,
+  medium: $fw-medium,
+  normal: $fw-normal,
+) !default;

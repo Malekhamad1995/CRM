@@ -1,0 +1,10 @@
+@mixin colors-loop {
+  @each $prop, $value in $colors {
+    .c-#{$prop} {
+      color: $value !important;
+    }
+    .bg-#{$prop} {
+      background-color: $value !important;
+    }
+  }
+}

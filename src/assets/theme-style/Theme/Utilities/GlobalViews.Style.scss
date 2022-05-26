@@ -1,0 +1,181 @@
+.view-wrapper {
+  width: 100%;
+
+  .header-section {
+    @include d-flex-column;
+    background-color: $c-white;
+
+    .filter-section {
+      .dateSaleDiv {
+        margin-top: 1.5%;
+        width: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .dateLeasDiv {
+        margin-top: 1.5%;
+        width: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      @include d-flex;
+      @include flex-v-center-h-between;
+      position: relative;
+      width: 100%;
+
+      @include tablets-max {
+        flex-direction: column;
+      }
+
+      .section {
+        @include d-inline-flex;
+        @include flex-center;
+        // @include flex-v-center;
+        margin-bottom: 1rem;
+       
+
+        &:first-child {
+          justify-content: flex-start;
+        }
+        &:nth-child(2) {
+          min-width: 50%;
+        }
+        &.autocomplete-section {
+          padding: 0 0.5rem;
+          align-items: flex-start;
+          @include phones-max {
+            align-items: center;
+          }
+        }
+        .btns-icon {
+          width: 30px;
+          height: 30px;
+          min-width: 30px;
+        }
+        @include tablets-max {
+          width: 100%;
+
+          &:first-child {
+            order: 2;
+
+            .actions-buttons-wrapper {
+              @include flex-h-center;
+            }
+          }
+
+          &:nth-child(2) {
+            @include phones-max {
+              flex-direction: column;
+
+              .d-flex-column {
+                margin-bottom: 1rem;
+              }
+            }
+
+            order: 1;
+          }
+        }
+      }
+    }
+
+    .contacts-hidder-section {
+      display: flex;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem;
+      align-items: center;
+    }
+  }
+
+  .body-section {
+    @include d-flex;
+    @include flex-h-center;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.filter-type-btn {
+  position: absolute !important;
+  right: 3.5rem;
+  margin: 0;
+  @include rtl {
+    left: 3.5rem;
+    right: initial;
+  }
+  border-radius: 0rem !important;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cards-filter-section {
+  @include d-flex-v-center;
+  flex-wrap: wrap;
+}
+.tag-curve-wrapper {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  @include rtl {
+    left: -1px;
+    right: initial;
+    transform: scaleX(-1);
+  }
+  // background-color: $c-white;
+}
+.card-tooltip {
+  @include d-inline-flex;
+  background-color: $c-secondary;
+  color: $c-white;
+  padding: 0.25rem 0.5rem;
+  font-weight: $fw-simi-bold;
+  margin: 0 0.5rem;
+  border-radius: 1rem;
+}
+.card-checkbox-wrapper {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  z-index: 1;
+
+  &.trl-15px {
+    top: 15px;
+    right: 15px;
+  }
+
+  @include rtl {
+    right: initial;
+    left: 1rem;
+
+    &.trl-15px {
+      left: 15px;
+    }
+  }
+}
+.presentational-wrapper {
+  position: relative;
+}
+.popover-quick-add {
+  z-index: 9999 !important;
+}
+// Start Slider
+.slide-images {
+  margin-bottom: 1rem;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  .slide-image {
+    background-color: $c-white;
+    position: absolute;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px 1px rgba($c-black-dark, 0.3);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover {
+      z-index: 999999 !important;
+    }
+  }
+}
+// End Slider

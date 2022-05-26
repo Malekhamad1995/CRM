@@ -1,0 +1,208 @@
+.roles-management-wrapper {
+  @include d-flex-h-center;
+  flex-wrap: wrap;
+  width: 100%;
+  .roles-form-content-wrapper {
+    @include d-inline-flex-column;
+    min-width: 270px;
+    padding: 0 0.5rem;
+    .role-name-wrapper {
+      max-width: 500px;
+      padding: 0 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .roles-sections-wrapper {
+      @include d-flex-h-center;
+      width: 100%;
+      align-items: flex-start;
+      @include laptops-l-max {
+        flex-wrap: wrap;
+      }
+      .roles-modules-wrapper {
+        @include d-inline-flex-column;
+        min-width: 301px;
+        @include phones-max {
+          min-width: 285px;
+        }
+        .roles-module-items-wrapper {
+          @include d-flex-column;
+          width: 100%;
+          padding-top: 0.5rem;
+          .roles-module-item {
+            margin: 0 0 0.5rem;
+            border-radius: 0.5rem;
+            min-height: 35px;
+            &:not(.active-module) {
+              background-color: $c-gray-ef;
+              color: $c-black-light;
+            }
+            &.active-module {
+              position: relative;
+              &::before {
+                content: '\F0794';
+                font-family: 'Material Design Icons';
+                position: absolute;
+                right: -2rem;
+                color: $c-gray;
+                font-size: $fz-22px;
+              }
+            }
+          }
+        }
+      }
+      .roles-components-wrapper {
+        @include d-inline-flex-column;
+        padding: 0 0.5rem;
+        max-width: 1200px;
+        width: 100%;
+        @include laptops-l-max {
+          min-width: 285px;
+        }
+        .roles-component-items-wrapper {
+          @include d-flex-column;
+          width: 100%;
+          margin-top: 0.5rem;
+          .roles-component-item {
+            @include d-flex-v-center;
+            flex: 0 1 auto;
+            width: 100%;
+            margin-bottom: 0.5rem;
+            border: 1px solid $c-gray;
+            border-radius: 0.5rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+            @include tablets-max {
+              min-width: 100%;
+            }
+            &.active-component {
+              box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+              border-color: $c-primary;
+            }
+            .roles-permissions-wrapper {
+              @include d-flex-v-center;
+              flex-wrap: wrap;
+              width: 100%;
+              min-height: 40px;
+              padding: 0.25rem 0.5rem;
+              border-radius: 0.5rem;
+              align-content: center;
+              .roles-permission-item {
+                @include d-inline-flex;
+                padding: 0 0.5rem;
+                min-width: 200px;
+                // width: 20%;
+                @include laptops-max {
+                  width: auto;
+                }
+              }
+              .roles-permission-items-wrapper {
+                @include d-flex-v-center;
+                flex-wrap: wrap;
+                width: 100%;
+                .title-text {
+                  min-width: 115px;
+                  // width: 20%;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  @include laptops-max {
+                    width: auto;
+                  }
+                }
+              }
+              .expanding-btn {
+                margin: 0;
+                position: absolute;
+                right: -0.75rem;
+                @include rtl {
+                  right: initial;
+                  left: -0.75rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      .roles-access-types-wrapper {
+        margin-top: 2.75rem;
+        @include laptops-max {
+          margin-top: 1rem;
+        }
+        padding: 0 0.5rem;
+        .access-types-content-wrapper {
+          @include d-inline-flex-column;
+          min-width: 319px;
+          @include phones-max {
+            min-width: 285px;
+          }
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.141);
+          border-radius: 0.5rem;
+          .access-types-header-wrapper {
+            @include d-flex-v-center-h-between;
+            padding: 0.5rem 0.5rem 0;
+            margin-bottom: 0.5rem;
+            .description-text {
+              padding: 0 0.5rem;
+            }
+          }
+          .access-types-body-wrapper {
+            @include d-flex-v-center;
+            flex-wrap: wrap;
+            white-space: nowrap;
+            padding: 0.5rem;
+          }
+        }
+      }
+      .checkbox-wrapper.Mui-checked {
+        &.access-type-color-2 {
+          .mdi {
+            background-color: $c-success;
+          }
+        }
+        &.access-type-color-1 {
+          .mdi {
+            background-color: $c-warning;
+          }
+        }
+        &.access-type-color-3 {
+          .mdi {
+            background-color: $c-primary;
+          }
+        }
+        &.access-type-color-6 {
+          .mdi {
+            background-color: $c-info;
+          }
+        }
+      }
+    }
+    .roles-actions-wrapper {
+      margin: 1rem 0 0.5rem;
+      @include d-flex-center;
+      width: 100%;
+      .roles-actions {
+        @include d-inline-flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        @include phones-max {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+      width: 100%;
+    }
+  }
+  .title-text {
+    font-size: $fz-13px;
+    font-weight: $fw-simi-bold;
+  }
+  .description-text {
+    color: $c-gray-777;
+  }
+  .roles-title {
+    .title-text {
+      font-size: $fz-14px;
+    }
+    margin-bottom: 0.25rem;
+  }
+}

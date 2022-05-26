@@ -1,0 +1,50 @@
+.work-orders-management-wrapper {
+  padding: 0.5rem;
+  .work-order-details-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .childs-wrapper {
+    padding: 1rem 0.5rem;
+  }
+  .status-header {
+    @include d-flex-v-center-h-between;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .form-title-wrapper {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+    .form-title {
+      font-weight: $fw-simi-bold;
+      font-size: $fz-14px;
+    }
+  }
+  .title-text {
+    font-weight: $fw-simi-bold;
+  }
+  .form-item {
+    @include d-inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    width: 20%;
+    @include laptops-xl-max {
+      width: 25%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include tablets-max {
+      width: 100%;
+    }
+  }
+}

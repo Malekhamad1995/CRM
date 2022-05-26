@@ -1,0 +1,292 @@
+.input-wrapper {
+  @include d-inline-flex-v-center;
+  //   flex-wrap: wrap;
+  width: 100%;
+  &.MuiFormControl-root {
+    margin-bottom: 0.5rem;
+    .MuiInputBase-root {
+      transition: box-shadow ease 0.25s, border-color ease 0.25s;
+    }
+  }
+  &.with-start-andorment {
+    .MuiInputBase-root > .mdi {
+      color: #000000;
+      margin-left: 0.5rem;
+      @include rtl {
+        margin-right: 0.5rem;
+        margin-left: initial;
+      }
+    }
+    &.theme-dark {
+      .MuiInputBase-root > .mdi {
+        color: $c-white;
+      }
+    }
+  }
+  .label-wrapper {
+    &.inside-input-label {
+      position: absolute;
+      bottom: 100%;
+      white-space: nowrap;
+    }
+    &.has-inside-label {
+      padding-right: 36.5%;
+      @include rtl {
+        padding-left: 36.5%;
+        padding-right: 0.5rem;
+      }
+    }
+  }
+  .over-input-wrapper {
+    @include d-inline-flex;
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    @include rtl {
+      left: initial;
+      right: 0.5rem;
+    }
+  }
+  &.theme-default {
+    .text-field-wrapper {
+      @include d-flex;
+      width: 100%;
+      .before-icon-classes-wrapper,
+      .after-icon-classes-wrapper {
+        margin: 0 0.5rem;
+        // border: red 1px solid;
+      }
+      .inputs {
+        width: 100%;
+        @include d-flex-h-center;
+        padding: 0 !important;
+        .MuiInputBase-root {
+          min-height: 32px;
+          width: 100%;
+          background-color: $c-white;
+          border: 1px solid #f0f0f0;
+          color: #000000;
+          border-radius: 0.5rem;
+          @include d-flex-center;
+          flex-wrap: nowrap;
+          &.Mui-focused,
+          &:hover {
+            &:not(.Mui-disabled) {
+              border-color: $c-gray-secondary;
+            }
+          }
+        }
+        .MuiInputLabel-animated {
+          z-index: 1;
+          padding: 0 1rem;
+          margin-bottom: 0;
+        }
+        .MuiInputLabel-animated + .MuiInput-formControl {
+          margin-top: 0;
+        }
+        .MuiInputLabel-formControl {
+          transform: translate(0, -50%) scale(1);
+          top: 50%;
+          @include rtl {
+            right: 0;
+          }
+          &.MuiInputLabel-shrink {
+            transform: translate(0, -5px) scale(0.8);
+            top: 0;
+          }
+        }
+        .MuiInputBase-input {
+          color: #000000;
+          font-size: $fz-14px;
+          width: 100%;
+          padding: 0.25rem 0.5rem !important;
+          &::placeholder {
+            color: #000000;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+  &.theme-solid {
+    .text-field-wrapper {
+      @include d-flex-v-center;
+      width: 100%;
+      .before-icon-classes-wrapper,
+      .after-icon-classes-wrapper {
+        margin: 0 0.5rem;
+      }
+      .inputs {
+        width: 100%;
+        @include d-flex-h-center;
+        padding: 0 !important;
+        .MuiInputBase-root {
+          min-height: 32px;
+          width: 100%;
+          background-color: $c-white;
+          border: 1px solid #f0f0f0;
+          color: #000000;
+          border-radius: 2rem;
+          @include d-flex-center;
+          flex-wrap: nowrap;
+          &.Mui-focused,
+          &:hover {
+            &:not(.Mui-disabled) {
+              border-color: $c-gray-secondary;
+            }
+          }
+        }
+        .MuiInputLabel-animated {
+          z-index: 1;
+          padding: 0 1rem;
+          margin-bottom: 0;
+        }
+        .MuiInputLabel-animated + .MuiInput-formControl {
+          margin-top: 0;
+        }
+        .MuiInputLabel-formControl {
+          transform: translate(0, -50%) scale(1);
+          top: 50%;
+          @include rtl {
+            right: 0;
+          }
+          &.MuiInputLabel-shrink {
+            transform: translate(0, -5px) scale(0.8);
+            top: 0;
+          }
+        }
+        .MuiInputBase-input {
+          color: #000000;
+          font-size: $fz-14px;
+          width: 100%;
+          padding: 0.25rem 0.5rem !important;
+          &::placeholder {
+            color: #000000;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+  &.theme-dark {
+    .label-wrapper {
+      color: $c-white;
+    }
+    .over-input-wrapper {
+      color: $c-white;
+    }
+    .text-field-wrapper {
+      .inputs {
+        .MuiInputBase-root {
+          background-color: $c-gray-primary;
+          border: 1px solid $c-gray-primary;
+        }
+        .MuiInputBase-input {
+          color: $c-white;
+          &::placeholder {
+            color: $c-white;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+  &.theme-default-dark {
+    .over-input-wrapper {
+      color: $c-white;
+    }
+    .text-field-wrapper {
+      .inputs {
+        .MuiInputBase-root {
+          background-color: $c-gray-primary;
+          border: 1px solid $c-gray-primary;
+          color: $c-white;
+          > .mdi {
+            color: $c-white;
+          }
+        }
+        .MuiInputBase-input {
+          color: $c-white;
+          &::placeholder {
+            color: $c-white;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+  &:not(.theme-underline) {
+    .MuiInput-underline {
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+  }
+  &.theme-underline {
+    .text-field-wrapper {
+      .inputs {
+        .MuiInputBase-root {
+          border: none;
+          border-bottom: 1px solid $c-gray-primary;
+        }
+      }
+    }
+    // .text-field-wrapper {
+    //   .inputs {
+    //     .MuiInputBase-input {
+    //       padding-left: 0 !important;
+    //       padding-right: 0 !important;
+    //     }
+    //   }
+    // }
+  }
+  &.theme-underline,
+  &.theme-transparent {
+    .text-field-wrapper {
+      .inputs {
+        .MuiInputBase-root {
+          background-color: transparent;
+          border-color: transparent;
+          border-radius: 0;
+        }
+        .MuiInputBase-input {
+          color: #000000;
+        }
+      }
+    }
+    &.theme-dark {
+      .text-field-wrapper {
+        .inputs {
+          .MuiInputBase-root {
+            border-bottom-color: #909090;
+          }
+          .MuiInputBase-input {
+            color: $c-white;
+          }
+        }
+      }
+    }
+  }
+  .Mui-error {
+    &.MuiInputBase-root {
+      border-color: $c-error !important;
+      .mdi {
+        color: $c-error !important;
+      }
+      .MuiInputBase-input {
+        color: $c-error !important;
+        &::placeholder {
+          color: $c-error !important;
+        }
+      }
+    }
+  }
+  .characters-counter-wrapper {
+    padding: 0.25rem 0.5rem;
+    // color: $c-gray-secondary;
+  }
+}

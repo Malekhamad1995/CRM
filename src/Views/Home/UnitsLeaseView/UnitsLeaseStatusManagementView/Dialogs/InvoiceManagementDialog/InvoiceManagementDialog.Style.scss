@@ -1,0 +1,23 @@
+.invoice-management-dialog {
+  @include d-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .form-item {
+    @include d-inline-flex;
+    padding: 0 .5rem;
+    width: 50%;
+    @include phones-max {
+        width: 100%;
+    }
+  }
+  .form-title-wrapper {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    .form-title {
+      font-weight: $fw-simi-bold;
+      font-size: $fz-14px;
+    }
+  }
+}

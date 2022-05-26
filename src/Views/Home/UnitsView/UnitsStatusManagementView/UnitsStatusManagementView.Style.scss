@@ -1,0 +1,134 @@
+.units-status-management-wrapper {
+  .units-status-steps-wapper {
+    @include d-flex;
+    width: 100%;
+  }
+  .form-item {
+    @include d-inline-flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    width: 20%;
+    @include laptops-xl-max {
+      width: 25%;
+    }
+    @include laptops-l-max {
+      width: 33.3333%;
+    }
+    @include laptops-max {
+      width: 50%;
+    }
+    @include tablets-max {
+      width: 100%;
+    }
+  }
+  .filter-wrapper {
+    @include d-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    @include laptops-max {
+      justify-content: center;
+    }
+    .filter-item {
+      // width: 20%;
+      @include d-inline-flex-v-center;
+      width: 25%;
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+      @include laptops-xl-max {
+        width: 33.3333%;
+      }
+      @include laptops-max {
+        width: 33%;
+      }
+      @include tablets-max {
+        width: 100%;
+      }
+      // @include phones-max {
+      // }
+    }
+    .filter-item-base {
+      // width: 20%;
+      @include d-inline-flex-v-center;
+      width: 25%;
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+      @include laptops-xl-max {
+        width: 33.3333%;
+      }
+      @include laptops-max {
+        width: 33%;
+        margin: auto;
+      }
+      @include tablets-max {
+        width: 100%;
+        padding: 1%;
+      }
+      // @include phones-max {
+      // }
+    }
+    .btns {
+      margin-top: 22px;
+      @include laptops-max {
+        margin-top: 0;
+      }
+    }
+  }
+  .form-title-wrapper {
+    @include d-flex-v-center;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+    .form-title {
+      font-weight: $fw-simi-bold;
+      font-size: $fz-14px;
+    }
+  }
+  .summary-box-wrapper {
+    @include d-flex-center;
+    padding: 0 0.5rem;
+    .summary-box {
+      @include d-flex-v-center;
+      background-color: $c-secondary-light;
+      border-radius: .5rem;
+      padding: 1rem 0.5rem 0.5rem;
+      @include phones-s-max {
+        flex-direction: column;
+      }
+      width: 100%;
+      max-width: 767px;
+      .summary-details-section {
+        @include d-inline-flex-column;
+        width: 100%;
+        padding: 0 0.5rem;
+        .summary-item-wrapper {
+          @include d-flex-v-center-h-between;
+          margin-bottom: 0.5rem;
+          .summary-title {
+            @include d-inline-flex;
+            // width: 50%;
+            font-weight: $fw-simi-bold;
+            color: $c-gray-dark;
+          }
+          .summary-value {
+            @include d-inline-flex;
+            min-width: 50%;
+            padding: 0 0.5rem;
+            font-weight: $fw-simi-bold;
+          }
+        }
+      }
+      .summary-input-section {
+        @include d-inline-flex-column;
+        width: 100%;
+        max-width: 350px;
+        padding: 0 0.5rem;
+      }
+    }
+  }
+  .childs-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+}

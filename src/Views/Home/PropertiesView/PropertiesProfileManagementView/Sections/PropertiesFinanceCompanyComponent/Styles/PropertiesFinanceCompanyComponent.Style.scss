@@ -1,0 +1,25 @@
+.properties-finance-wrapper {
+  .filter-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.add-new-company-finance {
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+  }
+  .MuiDialogContent-root {
+    padding: 2rem 3rem 0 3rem;
+    max-width: 30rem;
+  }
+  .MuiFormControl-root {
+    width: 100%;
+  }
+  .input-wrapper.MuiFormControl-root {
+    margin-bottom: 1.5rem;
+  }
+  .Requierd-Color::after {
+    content: ' *';
+    color: red;
+  }
+}

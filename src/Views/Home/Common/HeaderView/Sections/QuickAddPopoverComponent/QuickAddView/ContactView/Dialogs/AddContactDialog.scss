@@ -1,0 +1,200 @@
+.activities-management-dialog-wrapper {
+  form-actions-wrapper {
+    width: 100%;
+  }
+
+  .form-builder-wrapper {
+    width: 100%;
+
+    .form-builder-items-wrapper {
+      padding: 0 0.5rem;
+      padding-bottom: 3rem;
+
+      .form-builder-item-wrapper {
+        padding: 0 0.5rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .form-actions-wrapper {
+      z-index: 9;
+      position: fixed;
+      bottom: 0;
+      right: 2rem;
+      width: 94.5%;
+      .form-builder-footer-wrapper {
+        background-color: #ffffff;
+        padding: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border: 2px solid #cccccc;
+        box-shadow: 0px -2px 6px #00000029;
+        border-radius: 20px 20px 0 0;
+        &.is-dialog {
+          position: relative;
+        }
+      }
+    }
+
+    .form-item {
+      display: inline-flex;
+      flex: 0 1 auto;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 2rem;
+  }
+
+  .MuiDialog-paper {
+    min-width: 40rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 40rem;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-flex;
+    flex-wrap: wrap;
+    .dialog-content-item {
+      width: 50%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+      .Requierd-Color::after{
+        content: "*";
+          color: red;
+        }
+    }
+    .title-wrapper {
+      @include d-flex;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0 0.5rem;
+      .title-text {
+        font-weight: $fw-simi-bold;
+      }
+    }
+    .reminder-wrapper {
+      @include d-flex-column;
+      .reminder-item-wrapper {
+        @include d-flex;
+        flex-wrap: wrap;
+
+        .reminder-section-20 {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 0.5rem;
+          padding: 0 0.5rem;
+          width: 20%;
+          @include phones-max {
+            width: 100%;
+          }
+          .Requierd-Color::after{
+            content: "*";
+              color: red;
+            }
+        }
+
+        .reminder-section-30 {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 0.5rem;
+          padding: 0 0.5rem;
+          width: 30%;
+          @include phones-max {
+            width: 100%;
+          }
+          .Requierd-Color::after{
+            content: "*";
+              color: red;
+            }
+        }
+        .reminder-section-50 {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 0.5rem;
+          padding: 0 0.5rem;
+          width: 50%;
+          @include phones-max {
+            width: 100%;
+          }
+          .Requierd-Color::after{
+            content: "*";
+              color: red;
+            }
+        }
+
+        .reminder-section-100 {
+          @include d-inline-flex;
+          align-items: flex-start;
+          margin-bottom: 0.5rem;
+          padding: 0 0.5rem;
+          width: 100%;
+          @include phones-max {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .form-actions-buttons-area {
+    width: 100%;
+  }
+
+  MuiGrid-justify-xs-space-between {
+    justify-content: space-between;
+  }
+  MuiGrid-align-items-xs-center {
+    align-items: center;
+  }
+
+  .MuiGrid-container {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    @include d-inline-flex;
+    width: 100%;
+  }
+
+  .MuiGrid-root-left {
+    float: left;
+  }
+
+  .MuiGrid-root-right {
+    float: right;
+  }
+
+  btns.MuiButtonBase-root {
+    border-radius: 30px;
+    min-height: 26px;
+    line-height: 100%;
+    min-width: 100px;
+    margin: 0 0.25rem;
+    padding: 0.219rem 0.5rem;
+    text-transform: initial;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .MuiButton-root {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .c-danger {
+    color: #db504a !important;
+  }
+
+  .invalid {
+    border-color: #f44336 !important;
+    border: 1px solid;
+    border-radius: 0.5rem;
+  }
+}

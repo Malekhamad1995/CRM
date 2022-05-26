@@ -1,0 +1,48 @@
+.switch-control-wrapper {
+  input[type='checkbox'],
+  input[type='radio'] {
+    margin-top: 0 !important;
+  }
+  .label-wrapper {
+    padding-bottom: 0;
+  }
+  .switch-control-label-wrapper {
+    margin: 0;
+    .switch-control {
+      .Mui-checked {
+        .MuiSwitch-thumb,
+        + .MuiSwitch-track {
+          background-color: $c-primary;
+        }
+      }
+    }
+  }
+  &.theme-default {
+    @include d-flex-column;
+    width: 100%;
+  }
+  &.theme-line {
+    @include d-flex-v-center;
+    flex-direction: row;
+    width: 100%;
+    .label-wrapper {
+      width: initial;
+      padding-right: 0;
+      @include rtl {
+        padding-left: 0;
+        padding-right: 0.5rem;
+      }
+    }
+    .switch-control-label-wrapper {
+      .switch-control {
+        .MuiSwitch-input {
+          left: 0;
+          position: absolute;
+          width: 0;
+          display: hidden;
+          height: 0;
+        }
+      }
+    }
+  }
+}

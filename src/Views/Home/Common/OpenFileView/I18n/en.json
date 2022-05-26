@@ -1,0 +1,57 @@
+{
+  "contact": "Contact",
+  "leads-units": "Leads Units",
+  "units": "Units",
+  "activities": "Activities",
+  "transactions-history": "Transactions History",
+  "user-access": "User Access",
+  "maintenance-services": "Maintenance services",
+  "payment-plans": "Payment Plans",
+  "finance-company": "Finance Company",
+  "marketing": "Marketing",
+  "matching": "Matches",
+  "images": "Images",
+  "property": "Property",
+  "lead": "Lead",
+  "unit": "Unit",
+  "units-and-properties": "Units And Properties",
+  "notifications": "Notifications",
+  "sales-details": "Sales Details",
+  "buyer-summary": "Buyer Summary",
+  "remarks": "Remarks",
+  "open-house": "Open House",
+  "dialogs": {
+    "phones": "Phones",
+    "emails": "Emails"
+  },
+  "openFileContactsComponent": {
+    "edit": "Edit",
+    "save": "Save",
+    "contact-image": "Contact Image",
+    "NotificationEditContacts": "Save Change Successfully",
+    "NotificationEditErrorContacts": "Save Change Failed"
+  },
+  "openFilePropertiesComponent": {
+    "edit": "Edit",
+    "save": "Save",
+    "property-image": "Property Image",
+    "NotificationEditProperty": "Save Change Successfully",
+    "NotificationEditErrorProperty": "Save Change Failed"
+  },
+  "openFileLeadsComponent": {
+    "edit": "Edit",
+    "save": "Save",
+    "lead-image": "Lead Image",
+    "NotificationEditLeads": "Save Change Successfully",
+    "NotificationEditErrorLeads": "Save Change Failed" 
+  },
+  "openFileUnitsComponent": {
+    "edit": "Edit",
+    "save": "Save",
+    "unit-image": "Unit Image",
+    "NotificationEditUnits": "Save Change Successfully",
+    "NotificationEditErrorUnits": "Save Change Failed" , 
+    "EnterSellerHasPaidLessThanSellingPrice":"Enter Seller Has Paid Less Than Selling Price"
+
+  }
+}

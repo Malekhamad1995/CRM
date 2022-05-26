@@ -1,0 +1,113 @@
+{
+  "View": {
+    "Actions": "Actions",
+    "Merge": "Merge",
+    "Import": "Import",
+    "Add": "Add",
+    "Search": "Search In",
+    "total": "Total"
+  },
+  "SearchOptions": {
+    "Individual": "Individual",
+    "Corporate": "Corporate",
+    "ContactType": "Contact Type",
+    "LeadType": "Lead Type",
+    "PropertyPlan": "Property Plan",
+    "PropertyType": "Property Type",
+    "Country": "Country",
+    "UnitOperation": "Unit Operation",
+    "UnitType": "Unit Type",
+    "Price": "Price",
+    "Size": "Size"
+  },
+  "Contacts": {
+    "Creation": "Creation",
+    "Type": "Type",
+    "Nationality": "Nationality",
+    "Mobile": "Mobile",
+    "Class": "Class",
+    "Edit": "Edit",
+    "OpenFiles": "Open Files",
+    "MissingData": "Missing Data",
+    "Lead": "Lead",
+    "Name": "Name",
+    "Completed": "Completed",
+    "Actions": "Actions",
+    "Email": "Email",
+    "NotificationAddCONTACTS": "Add New Contact Successfully",
+    "NotificationAddErrorCONTACTS":"Add New Contact Failed",
+    "NotificationEditContacts": "Save Change Successfully"
+  },
+  "Leads": {
+    "Type": "Type",
+    "Required": "Required",
+    "Rating": "Rating",
+    "Status": "Status",
+    "Lead": "Lead",
+    "Property": "Property",
+    "LeadOn": "Lead On",
+    "Edit": "Edit",
+    "OpenFiles": "Open Files",
+    "MissingData": "Missing Data",
+    "Name": "Name",
+    "Completed": "Completed",
+    "Actions": "Actions",
+    "PropertyUnitNumber": "Property / Unit Number",
+    "OperationType": "Operation Type",
+    "LeadStage": "Lead Stage",
+    "NotificationAddLeads": "Add New Lead Successfully",
+    "NotificationAddErrorLeads": "Add New Lead Failed",
+    "NotificationEditLeads": "Save Change Successfully"
+  },
+  "Property": {
+    "District": "District",
+    "Owner": "Owener",
+    "Type": "Type",
+    "Developer": "Developer",
+    "Edit": "Edit",
+    "OpenFiles": "Open Files",
+    "MissingData": "Missing Data",
+    "PropertyName": "Property Name",
+    "Completed": "Completed",
+    "Actions": "Actions",
+    "City": "City",
+    "OwnerName": "Owner Name",
+    "PropertyType": "Property Type",
+    "NotificationEditLeadsAddProperty": "Add New Property Successfully",
+    "NotificationEditLeadsAddErrorProperty": "Add New Property Failed",
+    "NotificationEditProperty": "Save Change Successfully"
+  },
+  "Units": {
+    "Property": "Property",
+    "Unit": "Unit",
+    "Bedrooms": "Bedrooms",
+    "Bathrooms": "Bathrooms",
+    "Size": "Size Sq.ft",
+    "Edit": "Edit",
+    "OpenFiles": "Open Files",
+    "MissingData": "Missing Data",
+    "PropertyName": "Property Name",
+    "Area": "Area in(sq.ft)",
+    "UnitType": "Unit Type",
+    "Unitnumber": "Unit Number",
+    "ServiceType": "Service Type",
+    "Completed": "Completed",
+    "Actions": "Actions",
+    "NotificationAddUnits": "Add New Unit Successfully",
+    "NotificationAddErrorUnits": "Add New Unit Failed",
+    "NotificationEditUnits": "Save Change Successfully"
+  },
+  "Import": {
+    "Importfile": "File Upload Successfully",
+    "ErrorImport": "File Upload Failed"
+  },
+  "ImportAction": {
+    "NotificationFileDownload": "File Download Successfully",
+    "NotificationErrorDownload": "File Download Failed"
+  },
+  "DfmMerge": {
+    "NotificationMerge": "Merge Successfully",
+    "NotificationErrorMerge": "Merge Failed"
+  },
+  "NotificationErrorMessage_EDIT": "EDIT Failed"
+}

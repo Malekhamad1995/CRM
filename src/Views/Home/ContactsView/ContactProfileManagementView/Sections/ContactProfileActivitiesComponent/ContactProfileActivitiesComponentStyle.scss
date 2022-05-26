@@ -1,0 +1,66 @@
+.header-section-Contact-Activity {
+  margin-top: 20px;
+}
+.content {
+  display: flex;
+
+  gap: 20%;
+}
+.contact-filter-section {
+  .content {
+    display: flex;
+
+    gap: 20%;
+  }
+}
+
+.fieldsSearchInContactActivity {
+  display: flex;
+  gap: 1.5rem;
+
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .fieldsSearchInContactActivity {
+    display: grid;
+    gap: 1rem;
+
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    gap: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    gap: 20%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 682px) {
+  .content {
+    gap: 10%;
+  }
+  .fieldsSearchInContactActivity {
+    height: auto;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .content {
+    gap: 10%;
+    display: grid;
+  }
+
+  .fieldsSearchInContactActivity {
+    height: auto;
+  }
+}

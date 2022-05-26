@@ -1,0 +1,82 @@
+.ActivitiesType-View {
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+  .check-true {
+    color: #31c7aa;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .check-false {
+    color: #c33c3c;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .Filter-text {
+    font-weight: 900;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+.DialogComponent-ActivitiesType {
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+  border-bottom: 1px solid $c-black;
+  color: $c-black;
+  width: 100% !important;
+  font-size: 16px;
+  padding: 0 0.5rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.wrapperClasses-ActivitiesType {
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+  .dialog-title-text {
+    border-bottom: 0px solid $c-black !important;
+    color: $c-black !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding: 0.5rem 2rem 0.5rem !important;
+    margin-bottom: 0.5rem;
+  }
+}
+.DialogManagementViewComponent-wrapper {
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: nowrap;
+
+  .format-wraper {
+    padding: 3px 22px 14px 10px;
+  }
+}
+.check-box-wraper-ActivitiesType {
+  .Requierd-Color::after{
+    content: " *";
+      color: red;
+    }
+  // display: flex;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+@media (max-width:915px){
+  .check-box-wraper-ActivitiesType {
+  grid-template-columns: auto;
+}
+}

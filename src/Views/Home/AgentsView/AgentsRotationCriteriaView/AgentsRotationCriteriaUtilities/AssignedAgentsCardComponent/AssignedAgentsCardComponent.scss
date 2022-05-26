@@ -1,0 +1,142 @@
+.assigned-agents {
+  .ageent-section {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .arrow-section {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-section {
+      width: 90%;
+    }
+  }
+
+  .agents-card {
+    border: 1px solid #aeaeb2;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    .card-contant {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0.25rem;
+      justify-content: space-between;
+      align-items: stretch;
+      padding: 0.5rem;
+      margin-bottom: 0.25rem;
+      .section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        .name-section {
+          color: #3a3a3c;
+          font-weight: bold;
+        }
+        .id-section {
+          color: #3a3a3c;
+          text-align: end;
+        }
+        .delete-section {
+          display: flex;
+          justify-content: center;
+          align-items: center; /* for single line flex container */
+          align-content: center;
+          .delete-icon {
+            .btns-icon.MuiButtonBase-root.theme-transparent .mdi::before {
+              font-size: 1rem;
+              border: 1px solid #ef8980;
+              border-radius: 100%;
+            }
+          }
+        }
+        .email-section {
+          color: #8e8e93;
+          opacity: 1;
+        }
+      }
+    }
+    .container-assigned {
+      cursor: move !important ;
+      &.uncursor
+      {
+        cursor: default !important ;
+      }
+      padding: 0.75rem;
+      display: grid;
+      grid-template-rows: repeat(1, auto);
+      grid-template-columns: 45% auto auto;
+      .assigned-name {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        .name-section {
+          color: #3a3a3c;
+          font-weight: bold;
+          font-size: 0.875rem;
+        }
+        .email-section {
+          color: #8e8e93;
+          opacity: 1;
+          font-size: 0.75rem;
+        }
+      }
+      .id-section {
+        color: #3a3a3c;
+        text-align: end;
+        font-weight: bold;
+        font-size: 0.875rem;
+      }
+      .assigned-delete {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .delete-icon {
+          .btns-icon.MuiButtonBase-root.theme-transparent .mdi::before {
+            font-size: 1rem;
+            border: 1px solid #ef8980;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+    .container-assigned:hover {
+      background-color: rgba(160, 154, 154, 0.322);
+      border: 1px solid #aeaeb2;
+      border-radius: 10px;
+    }
+  }
+  .active {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #4972d2;
+  }
+  .btns-icon.MuiButtonBase-root .mdi {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+@media (max-width:1300px){
+  .container-assigned{
+    grid-template-columns: auto !important;
+    row-gap: 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    .id-section{
+      text-align: left !important;
+    }
+
+    .assigned-delete{
+      justify-content: center !important;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.operating-costs-view-wrapper {
+}
+.operating-costs-managements-wrapper {
+  position: relative;
+  padding-bottom: 5rem;
+  .is-portfolio {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .add-cancel-bottom-actions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    @include rtl {
+      left: 0;
+      right: auto;
+    }
+  }
+  .operating-costs-form-wrapper {
+    .operating-cost-section {
+      .operating-section-title {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .operating-costs-content {
+        display: flex;
+        .operating-item {
+          width: 33.3333%;
+          @include laptops-l-max {
+            width: 33.3333%;
+          }
+          @include laptops-max {
+            width: 50%;
+          }
+          @include tablets-max {
+            width: 40%;
+          }
+          @include phones-max {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

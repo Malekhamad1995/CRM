@@ -1,0 +1,26 @@
+.report-style-class {
+  width: 1350px;
+  height: 900px;
+  @media only screen and (max-width: 1350px) {
+    width: 750px !important;
+    height: 450px !important;
+  }
+}
+
+.dashboardMain {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardMain-PowerBIEmbed {
+  iframe {
+    border: none;
+  }
+}
+#pbi-svg-loading > div > img
+{
+  display: none;
+}
+.pbi-svg-item{
+  display: none  !important;
+}

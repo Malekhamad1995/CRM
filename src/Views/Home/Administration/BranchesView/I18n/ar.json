@@ -1,0 +1,38 @@
+{
+    "Branches":{
+        "branches": "الفروع",    
+        "add-new-branch":"إضافة فرع جديد",
+        "branch-activated-successfully":"تم تفعيل الفرع بنجاح",
+        "branch-activation-failed":"فشل تنشيط الفرع",
+        "filter":"تصفية",
+        "search-branches":"البحث عن الفروع",
+        "branch-image":"صورة الفرع",
+        "branch-number":"رقم الفرع",
+        "city":"المدينة",
+        "country":"الدولة",
+        "maximum-number-of-users":"الحد الأقصى لعدد المستخدمين",
+        "edit-branch":"تعديل الفرع",
+        "branch-name":"اسم الفرع",
+        "branch-country":"بلد الفرع",
+        "branch-city":"مدينة الفرع",
+        "documents-footer-image":"صورة تذييل المستند",
+        "documents-header-image":"صورة رأس المستند",
+        "cancel":"إلغاء",
+        "add-branch":"إضافة فرع",
+        "active":"نشط",
+        "close":"اغلاق",
+        "edit":"تعديل",
+        "status":"الحالة",
+        "confirm-message":"رسالة التأكيد",
+        "deactivation-text":"هل انت متأكد من الغاء الفرع",
+        "branch-updated-successfully":"تم تعديل الفرع بنجاح",
+        "branch-created-successfully":"تم انشاء الفرع بنجاح",
+        "branch-update-failed":"فشل تعديل الفرع",
+        "branch-create-failed":"فشل انشاء الفرع",
+        "branch-number-is-required":"رقم الفرع ضروري",
+        "branch-name-is-required":"اسم الفرع ضروري"
+    }
+
+}
+    
+

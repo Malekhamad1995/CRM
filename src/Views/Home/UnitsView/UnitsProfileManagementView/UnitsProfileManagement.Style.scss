@@ -1,0 +1,110 @@
+.units-profile-wrapper {
+  padding: 0 0.5rem;
+  .select-wrapper.MuiFormControl-root.theme-action-buttons {
+    min-width: 7rem;
+  }
+
+  .leadOwner {
+    margin: 0.8rem;
+    font-size: 0.9rem;
+    color: #3b72d9;
+    .leadName {
+      color: #8e8e93;
+    }
+  }
+
+  .units-referance-details-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .Requierd-Color::after {
+      content: ' *';
+      color: red;
+    }
+  }
+  .unit-card-image-wrapper {
+    cursor: pointer;
+  }
+  .childs-wrapper {
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 1rem;
+    border: 1px solid $c-gray-secondary;
+    width: 100%;
+    &.b-0 {
+      border-width: 0;
+    }
+    .title-section {
+      padding: 0 0.5rem;
+      font-weight: $fw-simi-bold;
+      font-size: $fz-16px;
+      margin-bottom: 1rem;
+    }
+  }
+  .form-item {
+    @include d-inline-flex;
+    width: 25%;
+    @include laptops-xl-max {
+      width: 33.3333%;
+    }
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-s-max {
+      width: 100%;
+    }
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .tabs-content-wrapper {
+    padding: 1rem 0.5rem 0;
+    @include d-flex-h-center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .filter-sections-wrapper {
+    @include d-flex-v-center;
+    flex-wrap: wrap;
+    .filter-section-item {
+      @include d-inline-flex-v-center;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .unit-profile-payables-wrapper {
+    max-width: 700px;
+    width: 100%;
+  }
+  .pigeon-attribution {
+    display: none;
+  }
+  .UnitProfileOpenHouseseaction {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    //    padding: 1rem;
+    @include phones-s-max {
+      justify-content: center;
+    }
+  }
+}
+
+.PrintorsavePDF {
+  .btns.MuiButtonBase-root.theme-outline {
+    color: #ffffff;
+    background-color: #1d396c;
+    border: 1px solid #c7c7cc;
+  }
+}
+
+.unit-template-wrapper {
+  position: relative;
+}
+.header {
+  @media print {
+    margin: 15rem !important;
+    padding: 15rem !important;
+  }
+}

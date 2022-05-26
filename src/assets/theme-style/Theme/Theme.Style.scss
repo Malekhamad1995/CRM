@@ -1,0 +1,172 @@
+// ======================================================== Start Custom Themes
+@import './Utilities/Buttons.Style.scss';
+@import './Utilities/Scrollbar.Style.scss';
+// ======================================================== End Custom Themes
+//========================================================= Start Main Tags Override
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  outline: 0 !important;
+}
+body {
+  min-height: 100vh;
+  background-color: $c-white;
+  font-size: $fz-default;
+  font-family: $ff-default !important;
+  color: #000000;
+  min-width: 320px;
+  overflow-y: scroll;
+  font-weight: $fw-normal;
+  &.rtl {
+    text-align: right;
+  }
+  // &.is-dark-mode {
+  //   background-color: #000000;
+  //   .label-wrapper {
+  //     color: rgb(255, 255, 255) ;
+  //   }
+  //   .home-views-wrapper,
+  //   .MuiPaper-root,
+  //   .side-extended-wrapper,
+  //   .MuiCollapse-root {
+  //     filter: invert(1);
+  //     video,
+  //     img {
+  //       filter: invert(1);
+  //     }
+  //     .MuiCollapse-root {
+  //       filter: invert(0);
+  //     }
+  //   }
+  // }
+}
+#root > .container {
+  width: 100%;
+  padding: 0;
+}
+@include rtl-in {
+  .MuiPickersCalendarHeader-iconButton {
+    .MuiSvgIcon-root {
+      transform: scale(-1);
+    }
+  }
+}
+
+label {
+  margin-bottom: 0;
+}
+
+p,
+label {
+  font-weight: 300;
+}
+
+// ========================================================= End Main Tags Override
+// ======================================================== Start Global Override
+.MuiTypography-body1,
+.MuiButtonBase-root,
+.MuiFormControl-root,
+.MuiSelect-root,
+.autocomplete,
+.MuiFormLabel-root,
+.MuiChip-label,
+.MuiInputBase-input,
+.MuiTableCell-root,
+.MuiTypography-root {
+  font-family: $ff-default !important;
+  font-size: $fz-default;
+}
+.mdi {
+  line-height: 100%;
+  &:before {
+    line-height: 100%;
+    font-size: $fz-19px;
+  }
+
+  &.mdi-chevron-right,
+  &.mdi-chevron-left,
+  &.mdi-menu-right,
+  &.mdi-menu-left,
+  &.mdi-chevron-double-right {
+    @include rtl {
+      transform: scale(-1);
+    }
+  }
+
+  &.mdi-magnify {
+    @include rtl {
+      transform: rotateZ(90deg);
+    }
+  }
+}
+.MuiSvgIcon-root {
+  @include rtl {
+    transform: scale(-1);
+  }
+  &.MuiStepIcon-root {
+    @include rtl {
+      transform: scale(1);
+    }
+  }
+}
+.loadable-skeleton {
+  &.MuiSkeleton-text {
+    transform: scale(1);
+  }
+}
+.MuiFormHelperText-root {
+  padding: 0 1rem;
+  color: $c-error !important;
+}
+.MuiInputBase-input {
+  padding: 0.15rem 0.5rem !important;
+}
+.dzu-dropzone {
+  overflow: auto;
+}
+// ======================================================== End Global Override
+// ======================================================== Start Global Views
+@import './Utilities/GlobalViews.Style.scss';
+// ======================================================== End Global Views
+// ======================================================== Start Images
+@import './Utilities/Images.Style.scss';
+// ======================================================== End Images
+// ======================================================== Start Icons
+@import './Utilities/Icons.Style.scss';
+// ======================================================== End Icons
+// ======================================================== Start Display
+@import './Utilities/Display.Style.scss';
+// ======================================================== End Display
+// ======================================================== Start Positions
+@import './Utilities/Positions.Style.scss';
+// ======================================================== End Positions
+// ======================================================== Start Borders
+@import './Utilities/Borders.Style.scss';
+// ======================================================== End Borders
+// ========================================================= Start Gradients Classes
+@import './Utilities/Gradients.Style.scss';
+// ========================================================= End Gradients Classes
+// ========================================================= Start Texts Classes
+@import './Utilities/Texts.Style.scss';
+// ========================================================= End Texts Classes
+// ======================================================== Start Font Sizes
+@include font-sizes;
+// ======================================================== End Font Sizes
+// ======================================================== Start Font Weights
+@include font-weights;
+// ======================================================== End Font Weights
+// ======================================================== Start Widths
+@include widths;
+// ======================================================== End Widths
+// ======================================================== Start Heights
+@include heights;
+// ======================================================== End Heights
+// ======================================================== Start Margins & Padding
+@include padding-marin-loop;
+// ======================================================== End Margins & Padding
+// ======================================================== Start Colors
+@include colors-loop;
+// ======================================================== End Colors

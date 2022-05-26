@@ -1,0 +1,24 @@
+.CollapsePanel {
+  .panel {
+    box-shadow: 0 2px 8px 0 rgba(114, 114, 114, 0.2),
+      0 6px 20px 0 rgba(187, 187, 187, 0.116) !important ;
+  }
+  .inputs.theme-solid {
+    width: 35% !important;
+    box-shadow: 0 2px 8px 0 rgba(114, 114, 114, 0.2),
+      0 6px 20px 0 rgba(187, 187, 187, 0.116) !important ;
+  }
+  .CollapseWraper {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    width: 98% !important;
+    background-color: $c-white !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+  }
+}

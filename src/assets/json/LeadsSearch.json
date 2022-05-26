@@ -1,0 +1,64 @@
+{
+  "lead": {
+    "property name": {
+      "keys": ["property.property_name"],
+      "title": "Property Name",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "lead owner": {
+      "keys": ["lead_owner"],
+      "title": "Lead Owner",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "lead type": {
+      "keys": ["lead_type"],
+      "title": "Lead Type",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "lead number": {
+      "keys": ["lead_number"],
+      "title": "Lead Number",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "community": {
+      "keys": ["property.community"],
+      "title": "Community",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "Baedrooms": {
+      "keys": ["unit.Baedrooms"],
+      "title": "No.of Bedrooms",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "Bathrooms": {
+      "keys": ["unit.Bathrooms"],
+      "title": "No.of Bathrooms",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "developer": {
+      "keys": ["property.developer"],
+      "title": "Developer",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "refered to": {
+      "keys": ["refered_to"],
+      "title": "Refered To",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    },
+    "refered by": {
+      "keys": ["refered_by"],
+      "title": "Refered By",
+      "disabledOnSelect": false,
+      "disabledOnTag": false
+    }
+  }
+}

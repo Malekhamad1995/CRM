@@ -1,0 +1,31 @@
+.templates-management-dialog-wrapper {
+  @include d-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  //   align-items: flex-start;
+  .dialog-item,
+  .form-item {
+    @include d-inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    width: 33.3333%;
+    @include tablets-max {
+      width: 50%;
+    }
+    @include phones-max {
+      width: 100%;
+    }
+  }
+  .form-item {
+    flex-wrap: nowrap;
+  }
+  .token-table-wrapper {
+    @include d-flex;
+    flex-wrap: wrap;
+  }
+  .childs-wrapper {
+    width: 100%;
+  }
+}

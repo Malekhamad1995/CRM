@@ -1,0 +1,85 @@
+.phones-wrapper {
+  width: 100%;
+  .phone-input-wrapper {
+    @include d-flex-v-center;
+    .phone-input {
+      box-shadow: none;
+    }
+  }
+  &.theme-default {
+    .react-tel-input .form-control {
+      width: 100%;
+      border-color: $c-gray-lighter;
+      padding-top: 0.25rem !important;
+      padding-bottom: 0.25rem !important;
+      @include d-flex-v-center;
+      border-radius: 0.5rem !important;
+      padding-right: 0.5rem !important;
+      padding-left: 3rem !important;
+      &:hover {
+        &:not([disabled]) {
+          border-color: $c-gray-light;
+        }
+      }
+
+      @include rtl {
+        padding-right: 3rem !important;
+        padding-left: 0.5rem !important;
+      }
+
+      font-size: $fz-default;
+    }
+    .react-tel-input .selected-flag .arrow {
+      @include rtl {
+        right: 29px;
+      }
+    }
+
+    .react-tel-input .selected-flag {
+      padding-left: 0.5rem;
+      border-radius: 0.5rem 0 0 0.5rem;
+      @include rtl {
+        padding-left: 0;
+        padding-right: 0.5rem;
+        border-radius: 0 0.5rem 0.5rem 0;
+      }
+    }
+    .react-tel-input {
+      &.phone-error {
+        .form-control {
+          border-color: $c-danger !important;
+        }
+      }
+    }
+  }
+  .flag-dropdown {
+    &::before {
+      content: initial !important;
+    }
+    .country-list {
+      width: 100%;
+      min-width: 270px;
+      max-width: 17rem;
+      position: fixed;
+    }
+    .search {
+      padding: 0.5rem 1rem;
+    }
+  }
+  .error-wrapper {
+    width: 100%;
+    margin: 0.25rem 0;
+    color: $c-warning;
+    // padding-top: 0.25rem;
+  }
+  .phone-input-wrapper {
+    position: relative;
+    @include d-flex;
+  }
+  .loader {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0.5rem;
+  }
+}

@@ -1,0 +1,55 @@
+.qa-details-wrapper {
+  .qaInfo-wrapper {
+    font-size: 20px !important;
+  }
+  .leads-card-detaild-wrapper .slider-data {
+    height: calc(100vh - 430px);
+
+    .cards-wrapper {
+      border: 1px solid darkgrey;
+      border-radius: 1.1rem;
+      color: #000000;
+      width: 100%;
+      max-width: fit-content;
+      min-width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 10px;
+      margin: 10px;
+      .texts {
+        word-break: break-all;
+      }
+      .date {
+        display: flex !important;
+        align-items: end !important;
+      }
+      .mdi:before {
+        width: fit-content !important;
+        font-size: 20px !important;
+      }
+      .close-status {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 13.5px;
+        font-weight: 700;
+        line-height: 1;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: 0.7;
+        color: #fb2418;
+      }
+      .open-status {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 13.5px;
+        font-weight: 700;
+        line-height: 2;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: 0.7;
+        color: #3b72d9;
+      }
+    }
+  }
+}

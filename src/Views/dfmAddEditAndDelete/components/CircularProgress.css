@@ -1,0 +1,47 @@
+.root 
+{
+    position: absolute;
+    z-Index: 1;
+}
+  #bottom 
+  {
+    color:  #337ab7;
+    animation-name: example;
+    position:  absolute ;
+    left: 0px;
+  }
+  #top 
+  {
+    color: #94a9bb;
+  }
+  #topgreen {
+    color: #8ae496e3;
+   
+      }
+  #bottomgreen {
+    color:  #54b661e3;
+    animation-name: example;
+    position:  absolute ;
+    left: 0px;
+  }
+  #topred {
+    color:   #f23030b3;
+   
+      }
+  #bottomred {
+    color:   #e43232;
+    animation-name: example;
+    position:  absolute ;
+    left: 0px;
+  }
+  .persateg
+  {
+    position: absolute;
+    left:  8px ;
+    bottom: 13.5px ;
+   font-size: 10px ;
+   animation-name: example;
+   animation-duration: 50ms;
+  }
+
+ 

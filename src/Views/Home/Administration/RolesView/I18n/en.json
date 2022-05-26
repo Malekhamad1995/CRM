@@ -1,0 +1,40 @@
+{
+  "NoData": "No Data",
+  "RolesDetails": "Roles Details",
+  "Roles": "Roles",
+  "Edit": "Edit",
+  "Global": "Global",
+  "Local": "Local",
+  "Deep": "Deep",
+  "Basic": "Basic",
+  "AddNewRole": "Add New Role",
+  "NotificationErrorViewRole": "Role Failed",
+  "AddRole": {
+    "Role": "Role",
+    "Global": "Global",
+    "Local": "Local",
+    "Deep": "Deep",
+    "Basic": "Basic",
+    "UpdateRole": "Update Role",
+    "AddRole": "Add Role",
+    "NotificationAddRole": "Add Role Successfully",
+    "NotificationErrorAdd": "Add Role Failed",
+    "NotificationUpdateRole": "Update Role Successfully",
+    "NotificationErrorUpdate": "Update Role Failed"
+  },
+  "RolesListView": {
+    "RolesName": "Roles Name",
+    "RolesId2": "Number",
+    "RolesId": "Roles ID",
+    "SearchRoles": "Search Roles",
+    "AddNewRole": "Add New Role"
+  },
+  "DeleteDialog": {
+    "DeleteText": "Are you sure you want to delete",
+    "Cancel": "Cancel",
+    "Confirm": "Confirm",
+    "role-deleted-successfully": "Role deleted successfully",
+    "role-delete-failed": "Role delete failed",
+    "confirm-message": "Confirm Message"
+  }
+}

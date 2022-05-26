@@ -1,0 +1,97 @@
+// Start Radio Groups
+.radio-groups-wrapper {
+  .MuiFormControlLabel-root {
+    margin: 0;
+  }
+  &.theme-default {
+    &.MuiFormControl-root {
+      padding: 0 0.5rem 0 1.5rem;
+      @include rtl {
+        padding: 0 1.5rem 0 0.5rem;
+      }
+
+      .radio-group-wrapper {
+        flex-direction: row;
+
+        .radio-wrapper {
+          .radio-icon {
+            color: $c-gray-dark;
+            @include d-inline-flex-center;
+            padding: 1px;
+            border-radius: 100%;
+          }
+
+          &.Mui-checked {
+            .radio-icon {
+              border-color: $c-primary;
+              color: $c-primary;
+            }
+          }
+
+          .MuiSvgIcon-root {
+            color: #000000;
+          }
+        }
+
+        .MuiFormControlLabel-label {
+          color: #000000;
+        }
+      }
+      &::before {
+        content: ' ';
+        border: 0.25rem solid $c-gray-secondary;
+        position: absolute;
+        left: 0.25rem;
+        top: 0;
+        height: 100%;
+
+        @include rtl {
+          right: 0.25rem;
+          left: initial;
+        }
+      }
+      .MuiFormLabel-root {
+        margin: 0 0 0.25rem;
+        border-bottom: none;
+        color: $c-gray-primary !important;
+      }
+    }
+  }
+  &.theme-line {
+    .label-wrapper {
+      font-weight: $fw-simi-bold;
+    }
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    .label-wrapper {
+      width: initial;
+    }
+    .radio-group-wrapper {
+      // width: 100%;
+      flex-direction: row;
+      .MuiFormControlLabel-root {
+        @include d-inline-flex-v-center;
+        .radio-wrapper {
+          .radio-icon,
+          + .MuiTypography-root {
+            color: $c-gray-dark;
+            font-size: $fz-default;
+            font-weight: $fw-simi-bold;
+          }
+          &.Mui-checked {
+            .radio-icon,
+            + .MuiTypography-root {
+              color: $c-primary;
+            }
+          }
+          .PrivateSwitchBase-input-8 {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+// End Radio Groups

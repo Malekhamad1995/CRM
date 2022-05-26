@@ -1,0 +1,37 @@
+.Parking-management-dialog-wrapper {
+  .MuiDialogTitle-root {
+    border-bottom: 1px solid $c-gray-dark !important;
+    padding-left: 1rem;
+  }
+  .dialog-content-item {
+    width: 84%;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+}
+.dialog-content-item-parking {
+  width: 85%!important;
+  margin-bottom: 0.5rem;
+  padding: 0 0.5rem;
+}
+  .MuiDialog-paper {
+    min-width: 5rem;
+  }
+  .MuiDialogContent-root {
+    padding: 1rem;
+    min-width: 10rem !important;
+    max-width: 27rem  !important;
+  }
+  .dialog-content-wrapper {
+    width: 100%;
+    @include d-inline-flex-center;
+    flex-wrap: wrap;
+    .dialog-content-item-parking {
+      width: 70%;
+      margin-bottom: 0.5rem;
+      @include phones-max {
+        width: 100%;
+      }
+      padding: 0 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[
+  { "UnitOperation": "For Sale", "UnitSubOperation": ["New Sale", "Resale"] },
+  { "UnitOperation": "For Rent", "UnitSubOperation": ["Inhabited before", "Not inhabited before"] }
+]

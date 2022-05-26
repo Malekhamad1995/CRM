@@ -1,0 +1,71 @@
+.Unit-dialog {
+  width: 54vh;
+  height: 65vh;
+}
+.Units-Sales-Profile-management {
+  .dialog-item {
+    display: flex;
+    // @include d-inline-flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 0 0.5rem;
+    // @include phones-max {
+    //   width: 100%;
+    // }
+  }
+  .dialog-wrapper {
+    display: flex;
+    justify-content: space-around;
+    .Unit-Uploader-wrapper {
+      width: 100%;
+    }
+    .Unit-Uploader-wrapper-with-data {
+      width: 50%;
+    }
+    .previewnone {
+      display: none;
+    }
+    .previewPic {
+      position: relative;
+      display: inline-flex;
+      flex: 0 1 auto;
+      width: 100%;
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+
+      height: 300px;
+      overflow-y: scroll;
+
+      .All-Images {
+        position: relative;
+        margin: 10px;
+        width: 150px;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        span{
+          cursor: pointer;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          margin: 0 5px 5px 0;
+        }
+        .cover-image {
+          background-color: #f2f2f7;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          height: 100px;
+          width: 150px;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+}
+.unitpage {
+  .MuiDialog-paperWidthSm {
+    max-width: 450px;
+  }
+}

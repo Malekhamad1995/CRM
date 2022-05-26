@@ -1,0 +1,19 @@
+{
+  "selected-units": "وحدات مختارة",
+  "you-can-deselect-unit-before-continue": "يمكنك إلغاء تحديد الوحدة قبل المتابعة",
+  "save-changes": "احفظ التغييرات",
+  "cancel": "يلغي",
+  "search": "بحث",
+  "id": "بطاقة تعريف:",
+  "search-units": "وحدات البحث",
+  "unit-fields": "حقول الوحدة",
+  "search-fields": "حقول البحث",
+  "choose-one-of-the-following-fields": "اختر أحد الحقول التالية",
+  "new-values": "قيم جديدة",
+  "add-new-value-to-the-following-fields": "أضف قيمة جديدة إلى الحقول التالية",
+  "units-updated-successfully": "تم تحديث الوحدات بنجاح",
+  "units-update-failed": "فشل تحديث الوحدات",
+  "number-of-units-failed": "عدد الوحدات الفاشلة",
+  "number-of-units-succeeded": "عدد الوحدات الناجحة",
+  "update-failed-units": "تحديث الوحدات الفاشلة"
+}

@@ -1,0 +1,280 @@
+{
+  "home": "Home",
+  "save": "Save",
+  "cancel": "Cancel",
+  "back": "Back",
+  "next": "Next",
+  "confirm": "Confirm",
+  "Related-Activities": "Related Activities",
+  "All-Activities": "All Activities",
+  "search-holder": "Search...",
+  "dashboard": "Dashboard",
+  "system-admin": "System Admin",
+  "crm": "CRM",
+  "any": "Any",
+  "my-lead": "My Lead",
+  "system-parameters": "System Parameters",
+  "data-file-management": "Data file management",
+  "call-center": "Call Center",
+  "delete-all": "Delete All",
+  "select-all": "Select All",
+  "sales": "Sales",
+  "Activities-Files": "Activities Files",
+  "FILE-VIEW": "File View",
+  "Attachment-File": "Attachment File",
+  "leasing": "Leasing",
+  "lookups": "Lookups",
+  "accounts-management": "Accounts management",
+  "activities": "Activities",
+  "form-builder": "Form builder",
+  "property-management": "Property management",
+  "edit": "Edit",
+  "default": "Default",
+  "Map": "Map",
+  "night": "Night",
+  "view": "View",
+  "Failure-Open-WhatsApp":"Failure Open WhatsApp Check WhatsApp Number",
+  "view-style": "View Style",
+  "retro": "Pale Dawn",
+  "add": "Add",
+  "silver": "Black",
+  "hiding": "Places",
+  "Files": "Files",
+  "uplode-File": "Uplode File",
+  "graa": "Clear",
+  "Add-files": "Add Files",
+  "Hopper": "Hopper",
+  "File-name": "File Name",
+  "latitude-longitude": "Latitude and Longitude",
+  "open-google-map-w": "Open Google Maps WebSite",
+  "history": "History",
+  "agent-management": "Agent Management",
+  "agent": "Agent",
+  "row-per-page": "Row Per Page",
+  "download": "Download",
+  "virtual-tour": "Virtual tour",
+  "from": "From",
+  "to": "To",
+  "please-fill-all-required-field": "Please fill all required fields",
+  "please-fix-all-errors": "Please Fix All Errors",
+  "Copy-id-successfully": "Copy Id Successfully",
+  "some-numbers-are-duplicated": "Some numbers are duplicated",
+  "some-emails-are-duplicated": "Some emails are duplicated",
+  "charaters": "Characters",
+  "accounts": "Accounts",
+  "search": "Search",
+  "is-equal": "Is Equal",
+  "Rest": "Rest",
+  "hide-or-show-information-Fildes": "hide or show information Fildes",
+  "Image-Description": "Image Description",
+  "Comments": "Comments",
+  "Publish-Approval": "Publish Approval",
+  "Need-owner-approval": "Need Owner Approval",
+  "IsPublished": "Is Published",
+  "isMarketing": "Is Marketing",
+  "Image-Title": "Image Title",
+  "publish-Order": "Publish Order",
+  "IsApproved": "Is Approved",
+  "failed-add-Info": "Failed Add Info",
+  "Info-add-successfully": "Info Save Successfully",
+  "ApproveOwner": "Approve Owner",
+  "is-contains": "Is Contains",
+  "is-start-with": "Is Start With",
+  "is-end-with": "Is End With",
+  "is-less-than": "Is Less Than",
+  "is-greater-than": "Is Greater Than",
+  "is-between": "Is Between",
+  "images-gallery": "Images Gallery",
+  "invalid-period":"Invalid period, please choose New Date",
+  "reassign-agent":"Reassign Agent",
+  "defaultImages": {
+    "corporate": "Corporate",
+    "individual": "Individual",
+    "male": "Male",
+    "female": "Female",
+    "building": "Building"
+  },
+  "NotFoundViews": {
+    "Error-page-not-found": "Error page not found",
+    "not-found": "Not found",
+    "No-Content": "No Content",
+    "no-internet-connection": "No internet connection",
+    "This-page-is-empty": "This page is empty",
+    "No-Result-Found": "No Result Found",
+    "No-internet": "No internet connection",
+    "Try-to-search-with-different-keywords": "Try to search with different keywords",
+    "This-page-is-in-a-vacation-now-please-try-again-later": "This page is in a vacation now please try again later",
+    "oops": "Oops"
+  },
+  "tables": {
+    "rows-per-page": "Rows per page",
+    "of": "of",
+    "previous-page": "Previous Page",
+    "next-page": "Next Page",
+    "open-file": "Open File" , 
+    "view-details":"View Details"
+
+  },
+  "actions-buttons": {
+    "actions": "Actions",
+    "merge": "Merge",
+    "import": "Import",
+    "add": "Add",
+    "bulk-assign": "Bulk Assign",
+    "select-type": "Select Type",
+    "individual": "Individual",
+    "corporate": "Corporate",
+    "sale": "Sale",
+    "rent": "Rent",
+    "owner": "Owner",
+    "seeker": "Seeker",
+    "buyer-or-seller": "Buyer or Seller",
+    "landlord-or-tenant": "Landlord or Tenant",
+    "seller": "Seller",
+    "buyer": "Buyer",
+    "landlord": "Landlord",
+    "tenant": "Tenant",
+    "bulk-update": "Bulk Update",
+    "select-report-type": "Select report type",
+    "activity-report": "Activity report",
+    "close-leads" :"Close Leads" , 
+    "select-all": "Select All",
+    "reassign-leads": "Reassign Leads"
+  },
+  "uploaderComponent": {
+    "drop-here": "Drop Here",
+    "image-uploaded": "Image Uploaded",
+    "images-uploaded": "Images Uploaded",
+    "file-uploaded": "File Uploaded",
+    "files-uploaded": "files Uploaded",
+    "browse-image": "Browse Image",
+    "browse-images": "Browse Images",
+    "browse-file": "Browse File",
+    "browse-files": "Browse Files",
+    "Drag-and-drop-here-or-browse-File": "Drag and drop here or browse File"
+  },
+  "homeLayout": {
+    "breadcrumbView": {
+      "home": "Home"
+    },
+    "activity-type": {
+      "activity-type": "Activity Type"
+    },
+    "contactsManagementView": {
+      "contacts-management-view": "Contacts Management View",
+      "merge-contacts": "Merge Contacts"
+    },
+    "propertiesManagementView": {
+      "properties-management-view": "Properties Management View"
+    },
+    "leadsManagementView": {
+      "leads-management-view": "Leads Management View",
+      "merge-leads": "Merge Leads"
+    },
+    "unitsManagementView": {
+      "units-management-view": "Units Management View"
+    },
+    "lookupsView": {
+      "lookups": "Lookups",
+      "lookup-type": "Lookup Type",
+      "lookup-item": "Lookup Item"
+    }
+  },
+  "mainMenuView": {
+    "contacts": "Contacts",
+    "leads": "Leads",
+    "properties": "Properties",
+    "units": "Units",
+    "lookups": "lookups",
+    "lookup-types": "Lookup Types",
+    "business-groups": "Business Groups",
+    "roles": "Roles",
+    "teams": "Teams",
+    "users": "Users"
+  },
+  "BreadcrumbHelper": {
+    "home": "Home",
+    "contacts": "Contacts",
+    "leads": "Leads",
+    "properties": "Properties",
+    "units": "Units",
+    "lookups": "lookups",
+    "lookup-types": "Lookup Types",
+    "business-groups": "Business Groups",
+    "roles": "Roles",
+    "teams": "Teams",
+    "users": "Users"
+  },
+  "SideMenuView": {
+    "Dashboard": "Dashboard",
+    "DataFiles": {
+      "DataFiles": "Data Files",
+      "Contacts": "Contacts",
+      "Leads": "Leads",
+      "Properties": "Properties",
+      "Units": "Units"
+    },
+    "QAView": {
+      "QAView": "QA"
+    },
+    "ActivitiesView": {
+      "ActivitiesView": "Activities"
+    },
+    "Lookups": {
+      "Lookup": "Lookups",
+      "LookupList": "Lookup list"
+    },
+    "activity-type": {
+      "activity-type": "activity-type"
+    },
+    "Administration": {
+      "Administration": "Administration",
+      "BusinessGroups": "Business Groups",
+      "Roles": "Roles",
+      "Team": "Team",
+      "Users": "Users",
+      "UsersDataViewing": "Users Data",
+      "CollapsePanelsView": "Collapse Panels View",
+      "RolesDetails": "Roles Details",
+      "AddRole": "Add Role",
+      "EditRole": "Edit Role"
+    },
+    "Agents": "Agents",
+    "Workflows": "Workflows",
+    "Agreements": "Agreements",
+    "Accounts": "Accounts",
+    "Sales": "Sales",
+    "Leasing": "Leasing",
+    "Marketing": "Marketing",
+    "Reports": "Reports",
+    "Financials": "Financials",
+    "FormBuilder": "Form Builder"
+  },
+  "Main": {
+    "HeaderView": {
+      "MainLabel": "CRM-PSI",
+      "Profile": "My Profile",
+      "Activities": "Activities",
+      "Logout": "Logout"
+    }
+  },
+  "pagination": {
+    "card-per-page": "Cards per page:",
+    "of": "of",
+    "pages": "Pages"
+  },
+  "PhoneNumberIncorrectView": {
+    "Error-in-mobile-number-or-not-exist": "Error in mobile number or not exist",
+    "Open-CRM": "Open CRM",
+    "Phone": "Phone",
+    "check-Phone": "Check Phone Number"
+  },
+  "manage-agents": "Manage Agents",
+  "Save-Changes": "Save Changes",
+  "delete": "Delete",
+  "reply": "Reply",
+  "addPrimary": "Add Receipt",
+  "print": "Print",
+  "transaction": "Transaction",
+  "addReceipt": "Receipt"
+}

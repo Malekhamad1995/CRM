@@ -1,0 +1,244 @@
+// .MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot,
+// .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+//   @include rtl {
+//     padding-left: 30px;
+//     padding-right: 0.5rem;
+//   }
+// }
+// .MuiChip-root .MuiChip-avatar {
+//   width: 20px !important;
+//   height: 20px !important;
+//   @include rtl {
+//     margin-right: 5px;
+//     margin-left: -6px;
+//   }
+// }
+// .MuiChip-deleteIcon {
+//   @include rtl {
+//     margin: 0 -6px 0 5px;
+//   }
+// }
+// .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+//   @include rtl {
+//     padding-right: 0.5rem;
+//     padding-left: 56px;
+//   }
+// }
+// .MuiAutocomplete-endAdornment {
+//   @include rtl {
+//     right: initial;
+//     left: 0;
+//   }
+// }
+
+// Start Autocomplete
+// .MuiAutocomplete-inputRoot[class*='MuiInput-root'] .MuiAutocomplete-input:first-child {
+//   padding: 0.5rem !important;
+// }
+
+// .autocomplete-wrapper {
+//   @include d-inline-flex;
+//   @include flex-v-center;
+//   width: 100%;
+//   padding: 0 0.5rem;
+
+//   .autocomplete {
+//     @include d-flex;
+//     background-color: $c-white;
+//     box-shadow: inset 6px 0 3px 0 rgba(0, 0, 0, 0.16);
+//     border-radius: 2rem;
+//     font-size: $fz-default;
+//     max-width: calc(100% - 45px);
+
+//     .MuiFormLabel-root {
+//       color: $c-gray-dark !important;
+//     }
+
+//     .MuiInputBase-root {
+//       padding-top: 0;
+//       padding-bottom: 0;
+//       border-radius: 2rem;
+//     }
+
+//     .MuiInputBase-input {
+//       color: $c-gray-dark;
+
+//       &::placeholder {
+//         color: $c-gray-dark;
+//       }
+//     }
+
+//     .MuiOutlinedInput-notchedOutline {
+//       border: $c-gray-primary;
+//     }
+
+//     .MuiAutocomplete-inputRoot[class*='MuiOutlinedInput-root'] {
+//       @include rtl {
+//         padding-left: 65px;
+//         padding-right: 0.5rem;
+//       }
+
+//       .MuiAutocomplete-endAdornment {
+//         @include rtl {
+//           left: 9px;
+//           right: initial;
+//         }
+//       }
+//     }
+
+//     .MuiInputLabel-outlined {
+//       transform: translate(14px, -50%) scale(1);
+//       top: 50%;
+
+//       @include rtl {
+//         left: initial;
+//         right: 25px;
+//       }
+
+//       &.MuiInputLabel-shrink {
+//         transform: translate(14px, -50%) scale(0.75);
+//         top: initial;
+//       }
+//     }
+
+//     .MuiChip-root {
+//       height: 25px;
+//     }
+
+//     .MuiInput-underline::before {
+//       display: none;
+//     }
+//   }
+// }
+.autocomplete-wrapper {
+  @include d-inline-flex-center;
+  width: 100%;
+  min-width: 270px;
+  .MuiAutocomplete-inputRoot[class*='MuiInput-root'] {
+    padding-bottom: 0;
+  }
+  .autocomplete {
+    @include d-flex;
+    width: 100%;
+    // font-size: $fz-primary;
+    .MuiChip-root {
+      .MuiChip-deleteIcon {
+        margin: 0 5px 0 -6px;
+        @include rtl {
+          margin: 0 -6px 0 5px;
+        }
+      }
+    }
+    .MuiAutocomplete-endAdornment {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      @include rtl {
+        right: initial;
+        left: 0;
+      }
+    }
+    .dropdown-icon-wrapper,
+    .dropdown-close-icon-wrapper {
+      @include d-flex-center;
+      color: $c-gray-dark;
+      font-size: $fz-22px;
+      &::before {
+        font-size: $fz-22px;
+      }
+    }
+    .input-wrapper {
+      margin-bottom: 0;
+      .text-field-wrapper .inputs .MuiInputBase-root {
+        // flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+    }
+  }
+  &.is-multiple {
+    .autocomplete {
+      .input-wrapper {
+        .text-field-wrapper .inputs .MuiInputBase-root {
+          flex-wrap: wrap;
+          .MuiInputBase-input {
+            width: initial;
+            display: inline-flex;
+          }
+        }
+      }
+    }
+  }
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+    @include rtl {
+      padding-right: 0;
+      padding-left: 56px;
+    }
+  }
+  .MuiChip-root {
+    height: 27px;
+  }
+  &.autocomplete-with-btn {
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+      padding-right: 150px;
+      @include rtl {
+        padding-right: 0;
+        padding-left: 150px;
+      }
+    }
+  }
+  &.theme-dark {
+    .autocomplete {
+      .dropdown-icon-wrapper,
+      .dropdown-close-icon-wrapper {
+        color: $c-white;
+      }
+      .text-field-wrapper {
+        .inputs {
+          .MuiInputBase-input {
+            &::placeholder {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.autocomplete-popper-wrapper {
+  .MuiAutocomplete-paper {
+    border-radius: 1rem;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    .MuiAutocomplete-noOptions {
+      color: $c-black-dark;
+    }
+    .MuiAutocomplete-listbox {
+      .MuiAutocomplete-option {
+        // background-color: transparent;
+        color: $c-black-dark;
+      }
+    }
+  }
+  //   &.theme-dark {
+  //     .MuiAutocomplete-paper {
+  //       background-color: $c-default-dark !important;
+  //       border: 1px solid $c-default-dark !important;
+  //       .MuiAutocomplete-noOptions {
+  //         color: $c-white;
+  //       }
+  //       .MuiAutocomplete-listbox {
+  //         .MuiAutocomplete-option {
+  //           &[aria-selected='true'] {
+  //             background-color: #4b0f7c !important;
+  //           }
+  //           color: $c-white;
+  //         }
+  //       }
+  //     }
+  //   }
+  &.with-backdrop {
+    background-color: raba(0, 0, 0, 0.3);
+  }
+}

@@ -1,0 +1,1511 @@
+[
+  {
+    "Community": "Abu Dhabi",
+    "SubCommunity": ["Abu Dhabi"]
+  },
+  {
+    "Community": "Abu Dhabi Gate",
+    "SubCommunity": ["Abu Dhabi Gate"]
+  },
+  {
+    "Community": "Abu Dhabi Island",
+    "SubCommunity": ["Abu Dhabi Island"]
+  },
+  {
+    "Community": "Airport Road",
+    "SubCommunity": ["Airport Road"]
+  },
+  {
+    "Community": "Al Aman",
+    "SubCommunity": ["jaber"]
+  },
+  {
+    "Community": "Al Bahia",
+    "SubCommunity": ["Al Bahia"]
+  },
+  {
+    "Community": "Al Bateen",
+    "SubCommunity": ["Al Bateen", "Al Khaleej Al Arabi Street", "Al Rawda"]
+  },
+  {
+    "Community": "Al Dhafrah",
+    "SubCommunity": ["Al Dhafrah"]
+  },
+  {
+    "Community": "Al Fahid Island",
+    "SubCommunity": ["Al Fahid"]
+  },
+  {
+    "Community": "Al Falah City",
+    "SubCommunity": ["Al Falah City"]
+  },
+  {
+    "Community": "Al Falah St",
+    "SubCommunity": ["Al Falah St"]
+  },
+  {
+    "Community": "Al Faya",
+    "SubCommunity": ["Al Faya"]
+  },
+  {
+    "Community": "Al Ghadeer",
+    "SubCommunity": [
+      "Al Ghadeer",
+      "Baraha Village",
+      "Buhayra Village",
+      "Falaj Village",
+      "Khaleej Village",
+      "Khubaira Village",
+      "Liwa Village"
+    ]
+  },
+  {
+    "Community": "Al Gurm",
+    "SubCommunity": ["Al Gurm", "Khalifa Park"]
+  },
+  {
+    "Community": "Al Hosn",
+    "SubCommunity": ["Al Hosn"]
+  },
+  {
+    "Community": "Al Ittihad",
+    "SubCommunity": ["Al Ittihad"]
+  },
+  {
+    "Community": "Al Karamah",
+    "SubCommunity": ["Al Karamah"]
+  },
+  {
+    "Community": "Al Khaleej Al Arabi St.",
+    "SubCommunity": ["Al Khaleej Al Arabi St."]
+  },
+  {
+    "Community": "Al Khalidiyah",
+    "SubCommunity": ["Al Khalidiyah"]
+  },
+  {
+    "Community": "Al Khatim",
+    "SubCommunity": ["Al Khatim"]
+  },
+  {
+    "Community": "Al Khubeirah",
+    "SubCommunity": ["Al Khubeirah"]
+  },
+  {
+    "Community": "Al Mafraq",
+    "SubCommunity": ["Al Mafraq"]
+  },
+  {
+    "Community": "Al Manaseer",
+    "SubCommunity": ["Al Manaseer"]
+  },
+  {
+    "Community": "Al Manhal",
+    "SubCommunity": ["Al Manhal"]
+  },
+  {
+    "Community": "Al Maqtaa",
+    "SubCommunity": ["Al Maqtaa Village", "Hills Abu Dhabi"]
+  },
+  {
+    "Community": "Al Maryah Island",
+    "SubCommunity": ["Al Maryah Island"]
+  },
+  {
+    "Community": "Al Matar",
+    "SubCommunity": ["Al Salam Street"]
+  },
+  {
+    "Community": "Al Mina",
+    "SubCommunity": ["Al Mina"]
+  },
+  {
+    "Community": "Al Muroor",
+    "SubCommunity": ["Al Muroor"]
+  },
+  {
+    "Community": "Al Musalla",
+    "SubCommunity": ["Al Musalla"]
+  },
+  {
+    "Community": "Al Mushrif",
+    "SubCommunity": ["Al Mushrif"]
+  },
+  {
+    "Community": "Al Muzoon",
+    "SubCommunity": ["Al Muzoon"]
+  },
+  {
+    "Community": "Al Nahda",
+    "SubCommunity": ["Al Nahda"]
+  },
+  {
+    "Community": "Al Nahyan",
+    "SubCommunity": ["Al Nahyan"]
+  },
+  {
+    "Community": "Al Najda Street",
+    "SubCommunity": ["Al Najda Street"]
+  },
+  {
+    "Community": "Al Nasr",
+    "SubCommunity": ["Al Nasr"]
+  },
+  {
+    "Community": "Al Qurm",
+    "SubCommunity": ["Al Qurm"]
+  },
+  {
+    "Community": "Al Raha Beach",
+    "SubCommunity": [
+      "Al Bandar",
+      "Al Dana",
+      "Al Lissaily",
+      "Al Muneera",
+      "Al Nakhel",
+      "Al Raha Beach",
+      "Al Raha Gardens",
+      "Al Razeen",
+      "Al Rumaila",
+      "Al Seef",
+      "Al Shaleela",
+      "Al Thurayya",
+      "Al Zahiya",
+      "Al Zeina",
+      "alkhubeirah",
+      "Almuneera",
+      "Bandstand",
+      "Examilion",
+      "Khor Al Raha",
+      "Meliha"
+    ]
+  },
+  {
+    "Community": "Al Rahba",
+    "SubCommunity": ["Al Rahba"]
+  },
+  {
+    "Community": "Al Ras Al Akhdar",
+    "SubCommunity": ["Al Ras Al Akhdar"]
+  },
+  {
+    "Community": "Al Reef",
+    "SubCommunity": ["Al Reef Downtown", "Al Reef Villas"]
+  },
+  {
+    "Community": "Al Reehan",
+    "SubCommunity": ["Al Reehan"]
+  },
+  {
+    "Community": "Al Reem Island",
+    "SubCommunity": [
+      "Addax Port",
+      "Al Reem Island",
+      "City of Lights",
+      "Marina Rise",
+      "Marina Square",
+      "Najmat",
+      "Najmat Abu Dhabi",
+      "Shades District",
+      "Shams Gate District",
+      "Tamouh",
+      "The Gates Towers"
+    ]
+  },
+  {
+    "Community": "Al Rowdah",
+    "SubCommunity": ["Al Rowdah"]
+  },
+  {
+    "Community": "Al Sader",
+    "SubCommunity": ["Al Sader"]
+  },
+  {
+    "Community": "Al Safarat",
+    "SubCommunity": ["Al Safarat"]
+  },
+  {
+    "Community": "Al Salam Street",
+    "SubCommunity": ["Al Salam Street"]
+  },
+  {
+    "Community": "Al Samha",
+    "SubCommunity": ["Al Samha"]
+  },
+  {
+    "Community": "Al Shahama",
+    "SubCommunity": ["Al Bahina", "Al Shahama"]
+  },
+  {
+    "Community": "Al Shamkhah",
+    "SubCommunity": ["Al Shamkhah"]
+  },
+  {
+    "Community": "Al Shawamekh",
+    "SubCommunity": ["Al Shawamekh"]
+  },
+  {
+    "Community": "Al Suwwah",
+    "SubCommunity": ["Al Suwwah"]
+  },
+  {
+    "Community": "Al Wahdah",
+    "SubCommunity": ["Al Wahdah"]
+  },
+  {
+    "Community": "Al Wathba",
+    "SubCommunity": ["Al Wathba"]
+  },
+  {
+    "Community": "Al Zaab",
+    "SubCommunity": ["Al Zaab"]
+  },
+  {
+    "Community": "Al Zahraa",
+    "SubCommunity": ["Al Zahraa"]
+  },
+  {
+    "Community": "Al Zubarah",
+    "SubCommunity": ["Al Zubarah"]
+  },
+  {
+    "Community": "Al Zyani",
+    "SubCommunity": ["Hamdan St."]
+  },
+  {
+    "Community": "Baniyas",
+    "SubCommunity": ["Baniyas"]
+  },
+  {
+    "Community": "Beach Towers",
+    "SubCommunity": ["Beach Towers"]
+  },
+  {
+    "Community": "Between Two Bridges",
+    "SubCommunity": ["Between Two Bridges"]
+  },
+  {
+    "Community": "Bloom Gardens",
+    "SubCommunity": ["Bloom Gardens"]
+  },
+  {
+    "Community": "Building Materials City",
+    "SubCommunity": ["Building Materials City", "Prestige Towers"]
+  },
+  {
+    "Community": "Capital Core",
+    "SubCommunity": ["Capital Core"]
+  },
+  {
+    "Community": "Capital District North",
+    "SubCommunity": ["Capital District North"]
+  },
+  {
+    "Community": "Capital District South",
+    "SubCommunity": ["Capital District South"]
+  },
+  {
+    "Community": "Central Business District",
+    "SubCommunity": ["Central Business District"]
+  },
+  {
+    "Community": "Corniche",
+    "SubCommunity": ["Corniche"]
+  },
+  {
+    "Community": "Corniche Abu Dhabi",
+    "SubCommunity": ["Corniche Abu Dhabi"]
+  },
+  {
+    "Community": "Danet Abu Dhabi",
+    "SubCommunity": ["Airport Rd", "Danet Abu Dhabi"]
+  },
+  {
+    "Community": "Defense Road",
+    "SubCommunity": ["Defense Road"]
+  },
+  {
+    "Community": "Delma Street",
+    "SubCommunity": ["Delma Street"]
+  },
+  {
+    "Community": "East Corniche",
+    "SubCommunity": ["East Corniche"]
+  },
+  {
+    "Community": "Eastern Mangrove",
+    "SubCommunity": ["Eastern Mangrove"]
+  },
+  {
+    "Community": "Eastern Road",
+    "SubCommunity": ["Eastern Road"]
+  },
+  {
+    "Community": "Electra",
+    "SubCommunity": ["Electra"]
+  },
+  {
+    "Community": "Ghantoot",
+    "SubCommunity": ["Al Jurf Gardens", "Ghantoot"]
+  },
+  {
+    "Community": "Golf Walk",
+    "SubCommunity": ["Golf Walk"]
+  },
+  {
+    "Community": "Grand Mosque District",
+    "SubCommunity": ["Grand Mosque District"]
+  },
+  {
+    "Community": "Hamdan Street",
+    "SubCommunity": ["Hamdan Street"]
+  },
+  {
+    "Community": "Hameem",
+    "SubCommunity": ["Hameem"]
+  },
+  {
+    "Community": "Hodariyat Island",
+    "SubCommunity": ["Hodariyat Island"]
+  },
+  {
+    "Community": "Hydra Village",
+    "SubCommunity": ["Hydra Golf Walk", "Hydra Village"]
+  },
+  {
+    "Community": "Khalidiya ",
+    "SubCommunity": ["Khalidiya "]
+  },
+  {
+    "Community": "Khalifa City",
+    "SubCommunity": ["Khalifa City"]
+  },
+  {
+    "Community": "Khalifa City A",
+    "SubCommunity": [
+      "Al Raha Gardens",
+      "Golf Gardens",
+      "Khalifa City A",
+      "Masdar City",
+      "Private Villa"
+    ]
+  },
+  {
+    "Community": "Khalifa City B",
+    "SubCommunity": ["Khalifa City B", "Shakhbout City"]
+  },
+  {
+    "Community": "Khalifa City C",
+    "SubCommunity": ["Khalifa City C"]
+  },
+  {
+    "Community": "Khalifa city",
+    "SubCommunity": ["Khalifa city"]
+  },
+  {
+    "Community": "Khalifa Park",
+    "SubCommunity": ["Khalifa Park"]
+  },
+  {
+    "Community": "Khalifa Street",
+    "SubCommunity": ["Khalifa Street"]
+  },
+  {
+    "Community": "Lulu Island",
+    "SubCommunity": ["Lulu Island"]
+  },
+  {
+    "Community": "Madinat Zayed",
+    "SubCommunity": ["Madinat Zayed"]
+  },
+  {
+    "Community": "Manaseer",
+    "SubCommunity": ["Manaseer"]
+  },
+  {
+    "Community": "Mangrove Place",
+    "SubCommunity": ["Mangrove Place"]
+  },
+  {
+    "Community": "Marina Village ",
+    "SubCommunity": ["Marina Village "]
+  },
+  {
+    "Community": "Mohammed Bin Zayed City",
+    "SubCommunity": ["BMC", "Building Materials City", "Mohammed Bin Zayed City"]
+  },
+  {
+    "Community": "Mussafah",
+    "SubCommunity": ["Mussafah"]
+  },
+  {
+    "Community": "Nareel Island",
+    "SubCommunity": ["Nareel Island"]
+  },
+  {
+    "Community": "Nurai Island ",
+    "SubCommunity": ["Nurai Island "]
+  },
+  {
+    "Community": "Officers City",
+    "SubCommunity": ["Officers City"]
+  },
+  {
+    "Community": "Passport Road",
+    "SubCommunity": ["Passport Road"]
+  },
+  {
+    "Community": "Qasr Al Bahr",
+    "SubCommunity": ["Qasr Al Bahr"]
+  },
+  {
+    "Community": "Qasr Al Shatie",
+    "SubCommunity": ["Qasr Al Shatie"]
+  },
+  {
+    "Community": "Rowdhat",
+    "SubCommunity": ["Rowdhat"]
+  },
+  {
+    "Community": "Saadiyat Island",
+    "SubCommunity": ["Hidd Al Saadiyat", "Saadiyat Island", "Soho Square"]
+  },
+  {
+    "Community": "Sas Al Nakhil",
+    "SubCommunity": ["Sas Al Nakhil"]
+  },
+  {
+    "Community": "Shatie Al Raha",
+    "SubCommunity": ["Shatie Al Raha"]
+  },
+  {
+    "Community": "Sheikh Khalifa Park",
+    "SubCommunity": ["Sheikh Khalifa Park"]
+  },
+  {
+    "Community": "Tamouh",
+    "SubCommunity": ["Tamouh"]
+  },
+  {
+    "Community": "The Gate",
+    "SubCommunity": ["The Gate"]
+  },
+  {
+    "Community": "The Greens",
+    "SubCommunity": ["The Greens"]
+  },
+  {
+    "Community": "The Marina",
+    "SubCommunity": ["The Marina"]
+  },
+  {
+    "Community": "Tourist Club Area",
+    "SubCommunity": ["Tourist Club Area"]
+  },
+  {
+    "Community": "Yas Island",
+    "SubCommunity": ["Al Fahid", "Yas Acres", "Yas Island"]
+  },
+  {
+    "Community": "Zayed City",
+    "SubCommunity": ["Zayed City"]
+  },
+
+  {
+    "Community": "Academic City",
+    "SubCommunity": ["Academic City"]
+  },
+  {
+    "Community": "Awir",
+    "SubCommunity": ["Awir"]
+  },
+  {
+    "Community": "Dubai Outsource Zone",
+    "SubCommunity": ["Dubai Outsource Zone"]
+  },
+  {
+    "Community": "Dubai Silicon Oasis",
+    "SubCommunity": ["Dubai Silicon Oasis"]
+  },
+  {
+    "Community": "International City",
+    "SubCommunity": [
+      "Central District",
+      "China",
+      "Dubai Gates",
+      "Emirates Precinct",
+      "England",
+      "France",
+      "Greece",
+      "EInternational City",
+      "Italy",
+      "Lake District",
+      "Morocco",
+      "Persia",
+      "Phase 3",
+      "Residential District",
+      "Russia",
+      "Spain",
+      "Thailand/Indonesia"
+    ]
+  },
+  {
+    "Community": "Warsan",
+    "SubCommunity": ["Warsan", "Warsan 1", "Warsan 2"]
+  },
+  {
+    "Community": "Dubai Marina",
+    "SubCommunity": ["Dubai Marina"]
+  },
+  {
+    "Community": "Bur Dubai",
+    "SubCommunity": [
+      "Bur Dubai",
+      "Dubai Creek Park",
+      "Hudaiba",
+      "Jadaf",
+      "Jafiliya",
+      "Mankhool",
+      "Mina",
+      "Raffa",
+      "Shindagha",
+      "Souk Al Kabeer"
+    ]
+  },
+  {
+    "Community": "Culture Village",
+    "SubCommunity": ["Al Thurath Souq", "Culture Village"]
+  },
+  {
+    "Community": "Dubai Healthcare City",
+    "SubCommunity": ["Dubai Healthcare City", "Oud Metha"]
+  },
+  {
+    "Community": "Dubai Maritime City",
+    "SubCommunity": ["Dubai Maritime City"]
+  },
+  {
+    "Community": "Karama",
+    "SubCommunity": ["Karama", "Shaikh Hamdan Colony"]
+  },
+  {
+    "Community": "Mina Rashid",
+    "SubCommunity": ["Mina Rashid"]
+  },
+  {
+    "Community": "Umm Hurair",
+    "SubCommunity": ["Umm Hurair", "Umm Hurair 1", "Umm Hurair 2"]
+  },
+  {
+    "Community": "Zabeel",
+    "SubCommunity": ["Zabeel 1", "Zabeel 2"]
+  },
+  {
+    "Community": "Bu Kadra",
+    "SubCommunity": ["Bu Kadra", "Bu Kadra (Lagoons)"]
+  },
+  {
+    "Community": "Dubai Creek",
+    "SubCommunity": ["Culture Village", "Dubai Creek", "Dubai Creek Harbour", "The Island District"]
+  },
+  {
+    "Community": "Dubai Festival City",
+    "SubCommunity": ["Al Badia", "Dubai Festival City", "Marsa Al Khor"]
+  },
+  {
+    "Community": "Ras Al Khor",
+    "SubCommunity": [
+      "Ras Al Khor",
+      "Ras Al Khor Industrial 1",
+      "Ras Al Khor Industrial 2",
+      "Ras Al Khor Industrial 3",
+      "Ras Al Khor Industrial 4"
+    ]
+  },
+  {
+    "Community": "The Lagoons",
+    "SubCommunity": [
+      "Al Dana",
+      "Al Hassabi",
+      "Al Jiwin",
+      "Al Lulu",
+      "Al Naama",
+      "Al Sedaifa",
+      "The Lagoons"
+    ]
+  },
+  {
+    "Community": "Airport Free Zone",
+    "SubCommunity": ["Airport Freezone", "Safat"]
+  },
+  {
+    "Community": "Al Nahda",
+    "SubCommunity": ["Al Nahda 1", "Al Nahda 2"]
+  },
+  {
+    "Community": "Deira",
+    "SubCommunity": [
+      "Abu Hail",
+      "Al Ras",
+      "Ayal Nasir",
+      "Baraha",
+      "Buteen",
+      "Central Business District",
+      "City Centre",
+      "Corniche",
+      "Daghaya",
+      "Deira",
+      "Khabaisi",
+      "Mamzar",
+      "Muraqqabat",
+      "Murar",
+      "Muteena",
+      "Naif",
+      "Rashidiya",
+      "Rigga",
+      "Sabkha",
+      "The Creek"
+    ]
+  },
+  {
+    "Community": "Dubai International Airport",
+    "SubCommunity": ["Dubai International Airport"]
+  },
+  {
+    "Community": "Garhoud",
+    "SubCommunity": ["Garhoud"]
+  },
+  {
+    "Community": "Hamriya",
+    "SubCommunity": ["Hamriya", "Hamriya Port"]
+  },
+  {
+    "Community": "Hor Al Anz",
+    "SubCommunity": ["Hor Al Anz", "Hor Al Anz East"]
+  },
+  {
+    "Community": "Muhaisnah",
+    "SubCommunity": [
+      "Madinat Badr",
+      "Muhaisnah",
+      "Muhaisnah 1",
+      "Muhaisnah 2",
+      "Muhaisnah 3",
+      "Muhaisnah 4"
+    ]
+  },
+  {
+    "Community": "Nadd Al Hamar",
+    "SubCommunity": ["Nadd Al Hamar"]
+  },
+  {
+    "Community": "Nadd Shamma",
+    "SubCommunity": ["Nadd Shamma"]
+  },
+  {
+    "Community": "Qusais",
+    "SubCommunity": [
+      "Qusais",
+      "Qusais 1",
+      "Qusais 2",
+      "Qusais 3",
+      "Qusais Industrial 1",
+      "Qusais Industrial 2",
+      "Qusais Industrial 3",
+      "Qusais Industrial 4",
+      "Qusais Industrial 5"
+    ]
+  },
+  {
+    "Community": "Twar",
+    "SubCommunity": ["Twar", "Twar 1", "Twar 2", "Twar 3"]
+  },
+  {
+    "Community": "Umm Ramool",
+    "SubCommunity": ["Umm Ramool"]
+  },
+  {
+    "Community": "Wuheida",
+    "SubCommunity": ["Wuheida"]
+  },
+  {
+    "Community": "MBR - Mohammad Bin Rashid City",
+    "SubCommunity": ["District 11 - The Fields", "Dubai Hill Estate"]
+  },
+  {
+    "Community": "Business Bay",
+    "SubCommunity": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "Aykon City",
+      "B01",
+      "B03",
+      "B04",
+      "Business Bay",
+      "The Executive Towers"
+    ]
+  },
+  {
+    "Community": "DIFC",
+    "SubCommunity": [
+      "DIFC",
+      "Gate Boulevard",
+      "Gate Village",
+      "Park Avenue",
+      "Precinct Buildings",
+      "The Gate"
+    ]
+  },
+  {
+    "Community": "Downtown Burj Dubai",
+    "SubCommunity": [
+      "Artisan Cluster",
+      "Burj Dubai Boulevard",
+      "Burj Dubai Business Hub",
+      "Burj Dubai Square",
+      "Burj Views",
+      "Downtown Burj Dubai",
+      "South Ridge",
+      "The Lofts",
+      "The Old Town",
+      "The Old Town Island",
+      "The Residences"
+    ]
+  },
+  {
+    "Community": "Downtown Dubai",
+    "SubCommunity": ["Downtown Dubai", "MAG 318"]
+  },
+  {
+    "Community": "Trade Centre",
+    "SubCommunity": ["Kifaf", "Trade Centre", "Trade Centre 1", "Trade Centre 2"]
+  },
+  {
+    "Community": "Dubai Marina",
+    "SubCommunity": ["Bluewaters", "Continental Tower"]
+  },
+  {
+    "Community": "Akoya Oxygen",
+    "SubCommunity": ["Akoya Amazonia", "Akoya Oxygen", "Viktoria"]
+  },
+  {
+    "Community": "Arabian Ranches",
+    "SubCommunity": [
+      "Al Mahra",
+      "Al Reem",
+      "Alma Townhomes",
+      "Alvorado",
+      "Arabian Ranches",
+      "Gazelle",
+      "Golf Homes",
+      "Hattan",
+      "La Avenida",
+      "Mirador",
+      "Palmera",
+      "Phase 1",
+      "Polo Homes",
+      "Saheel",
+      "Savannah",
+      "Terra Nova"
+    ]
+  },
+  {
+    "Community": "Dubai Investment Park",
+    "SubCommunity": [
+      "ARE",
+      "Dubai Investment Park",
+      "Dubai Lagoon",
+      "Ewan Residence",
+      "Green Community",
+      "Ritaj",
+      "Royal Estates"
+    ]
+  },
+  {
+    "Community": "Dubailand",
+    "SubCommunity": [
+      "Al Barari",
+      "Arjan",
+      "Bawadi",
+      "City of Arabia",
+      "Dubai Al Ain Road",
+      "Dubai Lifestyle City",
+      "Dubai Residences Complex",
+      "Dubailand",
+      "Elite Tower",
+      "Falcon City of Wonders",
+      "Living Legends",
+      "Liwan",
+      "Majan",
+      "Motor City",
+      "Mudon",
+      "Remraam",
+      "Silicon Oasis",
+      "The Valley",
+      "The Villa"
+    ]
+  },
+  {
+    "Community": "IMPZ",
+    "SubCommunity": ["IMPZ", "Lakeside Towers", "The Centrium", "The Executive Towers"]
+  },
+  {
+    "Community": "Jumeirah Golf Estates",
+    "SubCommunity": [
+      "Earth",
+      "Fire",
+      "Flame Tree Ridge",
+      "Jumeirah Golf Estates",
+      "Juniper Way",
+      "Lime Tree Valley",
+      "Olive Point",
+      "Sanctuary Falls",
+      "Sienna Lakes",
+      "The Sundials",
+      "Whispering Pines"
+    ]
+  },
+  {
+    "Community": "Reem",
+    "SubCommunity": ["Mira Oasis"]
+  },
+  {
+    "Community": "Town Square",
+    "SubCommunity": ["Town Square"]
+  },
+  {
+    "Community": "Town Square Dubai",
+    "SubCommunity": ["Town Square Dubai"]
+  },
+  {
+    "Community": "Al Furjan",
+    "SubCommunity": [
+      "Al Furjan",
+      "East Village",
+      "North Village",
+      "Phase 1",
+      "Phase 2",
+      "South Village",
+      "West Village"
+    ]
+  },
+  {
+    "Community": "Barsha",
+    "SubCommunity": ["Barsha", "Barsha 1", "Barsha 2", "Barsha 3"]
+  },
+  {
+    "Community": "Discovery Gardens",
+    "SubCommunity": [
+      "Cactus",
+      "Contemporary",
+      "Discovery Gardens",
+      "Mediterranean",
+      "Mesoamerican",
+      "Mogul",
+      "Zen"
+    ]
+  },
+  {
+    "Community": "Dubiotech",
+    "SubCommunity": ["Dubiotech"]
+  },
+  {
+    "Community": "Emirates Living",
+    "SubCommunity": [
+      "Development Area 383-389",
+      "Emirates Hills",
+      "Emirates Living",
+      "The Lakes",
+      "The Links",
+      "The Meadows",
+      "The Parklands",
+      "The Springs",
+      "The Views"
+    ]
+  },
+  {
+    "Community": "Jumeirah Heights",
+    "SubCommunity": ["Jumeirah Heights", "The Clusters", "The Fronds", "Village Centre"]
+  },
+  {
+    "Community": "Jumeirah Islands",
+    "SubCommunity": [
+      "Cluster",
+      "Cluster 1-10",
+      "Cluster 11-20",
+      "Cluster 21-30",
+      "Cluster 31-40",
+      "Cluster 41-46",
+      "Jumeirah Islands"
+    ]
+  },
+  {
+    "Community": "Jumeirah Lake Towers",
+    "SubCommunity": [
+      "Enbankment West",
+      "Jumeirah Lake Towers",
+      "Lake Allure",
+      "Lake Almas East",
+      "Lake Almas West",
+      "Lake District",
+      "Lake Elucio"
+    ]
+  },
+  {
+    "Community": "Jumeirah Park",
+    "SubCommunity": ["Jumeirah Park"]
+  },
+  {
+    "Community": "Jumeirah Village",
+    "SubCommunity": ["Emirates Gardens", "Jumeirah Village", "South Circle", "Triangle"]
+  },
+  {
+    "Community": "The Gardens",
+    "SubCommunity": ["The Gardens"]
+  },
+  {
+    "Community": "The Greens",
+    "SubCommunity": [
+      "Al Alka",
+      "Al Arta",
+      "Al Dhafrah",
+      "Al Ghaf",
+      "Al Ghozlan",
+      "Al Jaz",
+      "Al Nakheel",
+      "Al Samar",
+      "Al Sidir",
+      "Al Thayyal",
+      "Al Views",
+      "The Greens"
+    ]
+  },
+  {
+    "Community": "Midtown",
+    "SubCommunity": ["Midtown"]
+  },
+  {
+    "Community": "Al Furjan",
+    "SubCommunity": ["Azizi Montrell", "Azizi Plaza", "Azizi Roy"]
+  },
+  {
+    "Community": "Al Qudra",
+    "SubCommunity": ["Al Qudra"]
+  },
+  {
+    "Community": "Downtown Jebel Ali",
+    "SubCommunity": [
+      "Downtown Jebel Ali",
+      "East Central",
+      "East Quarter",
+      "Medina District",
+      "Trellis District",
+      "Urban Centre",
+      "West Central",
+      "West Quarter"
+    ]
+  },
+  {
+    "Community": "Dubai Hills Estate",
+    "SubCommunity": ["Dubai Hills Estate"]
+  },
+  {
+    "Community": "Dubai Investment Park",
+    "SubCommunity": ["Centurion Residences", "Naseem Townhouses"]
+  },
+  {
+    "Community": "Dubai South",
+    "SubCommunity": ["Dubai South", "Emaar South"]
+  },
+  {
+    "Community": "Emaar South",
+    "SubCommunity": ["Emaar South"]
+  },
+  {
+    "Community": "Jebel Ali",
+    "SubCommunity": ["Industrial Area 1", "Jebel Ali", "Jebel Ali Free Zone"]
+  },
+  {
+    "Community": "Technology Park",
+    "SubCommunity": ["Technology Park"]
+  },
+  {
+    "Community": "Al Wasl",
+    "SubCommunity": ["Al Wasl"]
+  },
+  {
+    "Community": "Bada'a",
+    "SubCommunity": ["Badaa"]
+  },
+  {
+    "Community": "Dubai Heights",
+    "SubCommunity": ["Park Heights"]
+  },
+  {
+    "Community": "Jumeirah",
+    "SubCommunity": ["Jumeirah", "Jumeirah 1", "Jumeirah 2", "Jumeirah 3", "Mina Al Siyahi"]
+  },
+  {
+    "Community": "JVC - Jumeirah Village Circle",
+    "SubCommunity": ["JVC - Jumeirah Village Circle"]
+  },
+  {
+    "Community": "La Mer",
+    "SubCommunity": ["Port de La Mer"]
+  },
+  {
+    "Community": "Manara",
+    "SubCommunity": ["Manarar"]
+  },
+  {
+    "Community": "Mina Rashid",
+    "SubCommunity": ["Mina Rashid"]
+  },
+  {
+    "Community": "Safa",
+    "SubCommunity": ["Safa", "Safa 1", "Safa 2"]
+  },
+  {
+    "Community": "Satwa",
+    "SubCommunity": ["Diyafa", "Satwa"]
+  },
+  {
+    "Community": "Sheikh Zayed Road",
+    "SubCommunity": ["Sheikh Zayed Road"]
+  },
+  {
+    "Community": "Umm Suqeim ",
+    "SubCommunity": [
+      "Madinat Jumeirah Living",
+      "Umm Suqeim",
+      "Umm Suqeim 1",
+      "Umm Suqeim 2",
+      "Umm Suqeim 3"
+    ]
+  },
+  {
+    "Community": "Dubai Marina",
+    "SubCommunity": [
+      "Al Majara",
+      "Al Sahab",
+      "Dubai Marina",
+      "Dubai Marina Towers",
+      "Jumeirah Beach Residence",
+      "Marina Promenade",
+      "Marina Quays",
+      "Marina Wharf",
+      "Marinascape",
+      "Park Island"
+    ]
+  },
+  {
+    "Community": "Dubai Pearl",
+    "SubCommunity": ["Dubai Pearl"]
+  },
+  {
+    "Community": "Dubai Promenade",
+    "SubCommunity": [
+      "Dubai Promenade",
+      "The Beach Towers",
+      "The Channel Towers",
+      "The Marina Towers"
+    ]
+  },
+  {
+    "Community": "Sufouh",
+    "SubCommunity": ["Acacia Avenues", "Sufouh", "Sufouh 1", "Sufouh 2"]
+  },
+  {
+    "Community": "TECOM",
+    "SubCommunity": ["Tecom Barsha", "Tecom Internet City", "Tecom Media City"]
+  },
+  {
+    "Community": "Al Quoz",
+    "SubCommunity": [
+      "Al Quoz 1",
+      "Al Quoz 2",
+      "Al Quoz 3",
+      "Al Quoz 4",
+      "Al Quoz Industrial 1",
+      "Al Quoz Industrial 2",
+      "Al Quoz Industrial 3",
+      "Al Quoz Industrial 4",
+      "Gold & Diamond Park",
+      "Umm Al Sheif"
+    ]
+  },
+  {
+    "Community": "Meydan",
+    "SubCommunity": ["Meydan", "Meydan City"]
+  },
+  {
+    "Community": "Nadd Al Shiba",
+    "SubCommunity": [
+      "Nadd Al Shiba",
+      "Nadd Al Shiba 1",
+      "Nadd Al Shiba 2",
+      "Nadd Al Shiba 3",
+      "Nadd Al Shiba 4"
+    ]
+  },
+  {
+    "Community": "Khwaneej",
+    "SubCommunity": ["Khawaneej"]
+  },
+  {
+    "Community": "Mirdif",
+    "SubCommunity": ["Mirdif", "Uptown Mirdif"]
+  },
+  {
+    "Community": "Mizhar",
+    "SubCommunity": ["Mizhar", "Mizhar 1", "Mizhar 2", "Mizhar 3"]
+  },
+  {
+    "Community": "Warqaa",
+    "SubCommunity": ["Warqaa", "Warqaa 1", "Warqaa 2", "Warqaa 3", "Warqaa 4", "Warqaa 5"]
+  },
+  {
+    "Community": "The Palm Deira",
+    "SubCommunity": ["Crescent", "Frond", "The Palm Deira", "Trunk"]
+  },
+  {
+    "Community": "Dubai Harbour",
+    "SubCommunity": ["Emaar Beachfront"]
+  },
+  {
+    "Community": "The Palm Jumeirah",
+    "SubCommunity": ["Crescent", "Frond", "The Palm Jumeirah", "Trunk"]
+  },
+  {
+    "Community": "The World",
+    "SubCommunity": [
+      "Africa",
+      "Antartica",
+      "Asia",
+      "Australia",
+      "Greenland",
+      "Ireland",
+      "North America",
+      "South America",
+      "Reef",
+      "spain",
+      "The World - Antarctica"
+    ]
+  },
+  {
+    "Community": "Dubai Waterfront",
+    "SubCommunity": [
+      "Badrah",
+      "Canal District",
+      "Dubai Waterfront",
+      "Madinat Al Arab",
+      "Omran",
+      "Veneto",
+      "Waterfront City"
+    ]
+  },
+  {
+    "Community": "The Palm Jebel Ali",
+    "SubCommunity": ["Crescent", "Frond", "The Palm Jebel Ali", "Trunk"]
+  },
+  {
+    "Community": "Dubai World Central",
+    "SubCommunity": ["Dubai Industrial City", "Dubai Residential City", "Dubai World Central"]
+  },
+  {
+    "Community": "Za'abeel",
+    "SubCommunity": ["Za'abeel"]
+  },
+  {
+    "Community": "Al Ain",
+    "SubCommunity": ["Al Ain"]
+  },
+  {
+    "Community": "Al Saad",
+    "SubCommunity": ["Al Saad"]
+  },
+  {
+    "Community": "Al Markaziyah",
+    "SubCommunity": ["Al Markaziyah"]
+  },
+  {
+    "Community": "Ain Al Fayda",
+    "SubCommunity": ["Ain Al Fayda"]
+  },
+  {
+    "Community": "Golf Gardens",
+    "SubCommunity": ["Golf Gardens"]
+  },
+  {
+    "Community": "Al Raha Gardens",
+    "SubCommunity": [
+      "Al Mariah",
+      "Al Tharwaniah",
+      "Al Ward",
+      "Hemaim",
+      "Khannour",
+      "Lehweiah",
+      "Muzera",
+      "Qattouf",
+      "Samra",
+      "Sidra",
+      "Yasmina"
+    ]
+  },
+  {
+    "Community": "Sharjah Waterfront City",
+    "SubCommunity": ["Sun Island"]
+  },
+  {
+    "Community": "Abu Shagara 1 & 2",
+    "SubCommunity": ["Abu Shagara 1 & 2"]
+  },
+  {
+    "Community": "Airport Rd",
+    "SubCommunity": ["Airport Rd"]
+  },
+  {
+    "Community": "AL Fashit",
+    "SubCommunity": ["AL Fashit"]
+  },
+  {
+    "Community": "Al Hamriya",
+    "SubCommunity": ["Sharjah Waterfront City"]
+  },
+  {
+    "Community": "Al Khan",
+    "SubCommunity": ["Al Khan"]
+  },
+  {
+    "Community": "Al Khan Lagoons",
+    "SubCommunity": ["Al Khan Lagoons"]
+  },
+  {
+    "Community": "Al Mamzar",
+    "SubCommunity": ["Al Mamzar"]
+  },
+  {
+    "Community": "Al Nahda",
+    "SubCommunity": ["Al Nahda"]
+  },
+  {
+    "Community": "Al Nakilath",
+    "SubCommunity": ["Al Nakilath"]
+  },
+  {
+    "Community": "Al Nujoom Islands",
+    "SubCommunity": ["Al Nujoom Islands"]
+  },
+  {
+    "Community": "Al Qassimia",
+    "SubCommunity": ["Al Qassimia"]
+  },
+  {
+    "Community": "Al Quoz",
+    "SubCommunity": ["Al Quoz"]
+  },
+  {
+    "Community": "Al Tay",
+    "SubCommunity": ["Al Tay"]
+  },
+  {
+    "Community": "Aljada",
+    "SubCommunity": ["Aljada"]
+  },
+  {
+    "Community": "ALkhan",
+    "SubCommunity": ["ALkhan"]
+  },
+  {
+    "Community": "Barashi",
+    "SubCommunity": ["Barashi"]
+  },
+  {
+    "Community": "Buhaira",
+    "SubCommunity": ["Buhaira"]
+  },
+  {
+    "Community": "Buisness Park",
+    "SubCommunity": ["Buisness Park"]
+  },
+  {
+    "Community": "Buteena 1 & 2",
+    "SubCommunity": ["Buteena 1 & 2"]
+  },
+  {
+    "Community": "Clock Tower",
+    "SubCommunity": ["Clock Tower"]
+  },
+  {
+    "Community": "Dubai-Sharjah",
+    "SubCommunity": ["Dubai-Sharjah"]
+  },
+  {
+    "Community": "Emirates Industrial City",
+    "SubCommunity": ["Emirates Industrial City"]
+  },
+  {
+    "Community": "Emirates Road",
+    "SubCommunity": ["Emirates Road"]
+  },
+  {
+    "Community": "Fayha",
+    "SubCommunity": ["Fayha"]
+  },
+  {
+    "Community": "Fisht",
+    "SubCommunity": ["Fisht"]
+  },
+  {
+    "Community": "Guhwair",
+    "SubCommunity": ["Guhwair"]
+  },
+  {
+    "Community": "Halwan",
+    "SubCommunity": ["Halwan"]
+  },
+  {
+    "Community": "Hira",
+    "SubCommunity": ["Hira"]
+  },
+  {
+    "Community": "Industrial Area",
+    "SubCommunity": ["Al Jada", "Industrial Area"]
+  },
+  {
+    "Community": "Industrial Area 17",
+    "SubCommunity": ["Industrial Area 17"]
+  },
+  {
+    "Community": "Industrial Area 18",
+    "SubCommunity": ["Industrial Area 18"]
+  },
+  {
+    "Community": "Jazath",
+    "SubCommunity": ["Jazath"]
+  },
+  {
+    "Community": "Jubail",
+    "SubCommunity": ["Jubail"]
+  },
+  {
+    "Community": "King Faisal",
+    "SubCommunity": ["King Faisal"]
+  },
+  {
+    "Community": "Majaz",
+    "SubCommunity": ["Majaz"]
+  },
+  {
+    "Community": "Manak",
+    "SubCommunity": ["Manak"]
+  },
+  {
+    "Community": "Mansoora",
+    "SubCommunity": ["Mansoora"]
+  },
+  {
+    "Community": "Maryam Island",
+    "SubCommunity": ["Maryam Island"]
+  },
+  {
+    "Community": "Meena",
+    "SubCommunity": ["Meena"]
+  },
+  {
+    "Community": "Meliha",
+    "SubCommunity": ["Meliha"]
+  },
+  {
+    "Community": "Mumtaza",
+    "SubCommunity": ["Mumtaza"]
+  },
+  {
+    "Community": "Murgab",
+    "SubCommunity": ["Murgab"]
+  },
+  {
+    "Community": "Mussalah",
+    "SubCommunity": ["Mussalah"]
+  },
+  {
+    "Community": "Nabbah",
+    "SubCommunity": ["Nabbah"]
+  },
+  {
+    "Community": "Nahda",
+    "SubCommunity": ["Nahda"]
+  },
+  {
+    "Community": "Nasiriya",
+    "SubCommunity": ["Nasiriya"]
+  },
+  {
+    "Community": "Qadasia",
+    "SubCommunity": ["Qadasia"]
+  },
+  {
+    "Community": "Ramailah",
+    "SubCommunity": ["Ramailah"]
+  },
+  {
+    "Community": "Ramla",
+    "SubCommunity": ["Ramla"]
+  },
+  {
+    "Community": "Ramtha",
+    "SubCommunity": ["Ramtha"]
+  },
+  {
+    "Community": "Rigga",
+    "SubCommunity": ["Rigga"]
+  },
+  {
+    "Community": "Rolla",
+    "SubCommunity": ["Rolla"]
+  },
+  {
+    "Community": "Saif Free Zone",
+    "SubCommunity": ["Saif Free Zone"]
+  },
+  {
+    "Community": "Shaba",
+    "SubCommunity": ["Shaba"]
+  },
+  {
+    "Community": "Shargan",
+    "SubCommunity": ["Shargan"]
+  },
+  {
+    "Community": "Sharjah Corniche",
+    "SubCommunity": ["Sharjah Corniche"]
+  },
+  {
+    "Community": "Sharjah Gate",
+    "SubCommunity": ["Sharjah Gate"]
+  },
+  {
+    "Community": "Taawun",
+    "SubCommunity": ["Taawun"]
+  },
+  {
+    "Community": "Um Kanoor",
+    "SubCommunity": ["Um Kanoor"]
+  },
+  {
+    "Community": "Wahda",
+    "SubCommunity": ["Wahda"]
+  },
+  {
+    "Community": "Wassit",
+    "SubCommunity": ["Wassit"]
+  },
+  {
+    "Community": "Yermook",
+    "SubCommunity": ["Yermook"]
+  }
+]

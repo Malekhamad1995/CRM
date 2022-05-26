@@ -1,0 +1,139 @@
+.Box-container {
+  max-width: 26rem;
+  width: 37rem;
+}
+.main-uploader-wrapper-tabel {
+  overflow: auto;
+  font-size: 10px;
+  font-weight: 700;
+  max-height: 28rem;
+}
+.Upload-container {
+  display: flex;
+
+  // flex-wrap: wrap;
+  .Fab-contenar {
+    position: relative;
+    .MuiFab-sizeSmall {
+      width: 28px;
+      height: 28px;
+
+      box-shadow: none;
+    }
+    .icon {
+      position: absolute;
+      left: 8.3rem;
+      top: 5.2rem;
+      z-index: 10;
+    }
+    .MuiFab-root {
+      min-height: 28px;
+    }
+    .MuiFab-secondary {
+      color: #ffffff;
+      background-color: #d3391e;
+    }
+  }
+}
+.tabel-conetner {
+  width: 100%;
+  display: flex;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+
+  &.odd {
+    background-color: #e4e5e6;
+  }
+  &.even {
+    background-color: #f2f2f2;
+  }
+}
+
+.tabel-main-conetner {
+  width: 100%;
+}
+.tabel-co {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabel-co-1 {
+  width: 100%;
+  display: flex;
+  // border-right: solid 1px #6b6b6b;
+  display: flex;
+  justify-content: space-between;
+  width: 14rem;
+  max-width: 14rem;
+  min-width: 9rem;
+  overflow: auto;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.uploader-wrapper {
+  .label-MainTitewrapper {
+    align-items: center;
+    display: inline-block;
+    width: inherit;
+    justify-content: center;
+    .label-wrapper {
+      height: 5rem;
+      background-color: #f5f5f5;
+      font-size: 1.5rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    .border-container {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 3px;
+      .border {
+        border-bottom: solid 2px #c2bcbc;
+        width: 80%;
+      }
+    }
+  }
+
+  width: 100%;
+  .file-input {
+    display: none;
+  }
+  .counter-text {
+    color: $c-secondary;
+  }
+  .drop-here {
+    padding: 0 0.5rem;
+    @include d-flex-v-center;
+    pointer-events: none;
+  }
+  .MuiChip-root .MuiChip-avatar {
+    width: 18px;
+    height: 18px;
+  }
+  .as-overlay,
+  .as-overlay-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    @include rtl {
+      right: 0;
+      left: initial;
+    }
+  }
+  .as-overlay {
+    color: $c-gray-lighter;
+  }
+  .as-overlay-spinner {
+    @include d-flex-center;
+  }
+}

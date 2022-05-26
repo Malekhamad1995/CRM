@@ -1,0 +1,125 @@
+import { UnitsView, UnitsManagementView, UnitsStatusManagementView } from '../../Views/Home';
+import { UnitsProfileManagementView } from '../../Views/Home/UnitsView/UnitsProfileManagementView/UnitsProfileManagementView';
+
+export const UnitsRoutes = [
+  {
+    path: '/add',
+    name: 'homeLayout.unitsManagementView.units-management-view',
+    component: UnitsManagementView,
+    layout: '/home/units',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'UnitsView:units',
+        isDisabled: false,
+        route: '/home/units/view',
+        groupName: 'call-center',
+      },
+      {
+        name: 'homeLayout.unitsManagementView.units-management-view',
+        isDisabled: true,
+        route: '/home/units/add',
+      },
+    ],
+  },
+  {
+    path: '/edit',
+    name: 'homeLayout.unitsManagementView.units-management-view',
+    component: UnitsManagementView,
+    layout: '/home/units',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'UnitsView:units',
+        isDisabled: false,
+        route: '/home/units/view',
+        groupName: 'call-center',
+      },
+      {
+        name: 'homeLayout.unitsManagementView.units-management-view',
+        isDisabled: true,
+        route: '/home/units/edit',
+      },
+    ],
+  },
+  {
+    path: '/unit-profile-edit',
+    name: 'UnitsProfileManagementView:unit-profile-edit',
+    component: UnitsProfileManagementView,
+    layout: '/home/units',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'unitsView:units',
+        isDisabled: false,
+        route: '/home/units/view',
+        groupName: 'call-center',
+      },
+      {
+        name: 'UnitsProfileManagementView:unit-profile-edit',
+        isDisabled: true,
+        route: '/home/units/unit-profile-edit',
+      },
+    ],
+  },
+  {
+    path: '/unit-status-management',
+    name: 'UnitsStatusManagementView:unit-status-management',
+    component: UnitsStatusManagementView,
+    layout: '/home/units',
+    default: false,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'unitsView:units',
+        isDisabled: false,
+        route: '/home/units/view',
+        groupName: 'call-center',
+      },
+      {
+        name: 'UnitsStatusManagementView:unit-status-management',
+        isDisabled: true,
+        route: '/home/units/unit-status-management',
+      },
+    ],
+  },
+  {
+    path: '/view',
+    name: 'UnitsView:units',
+    component: UnitsView,
+    layout: '/home/units',
+    default: true,
+    isRoute: true,
+    authorize: true,
+    roles: [],
+    isDisabled: false,
+    isExact: true,
+    breadcrumbs: [
+      {
+        name: 'UnitsView:units',
+        isDisabled: false,
+        route: '/home/units/view',
+        groupName: 'call-center',
+      },
+    ],
+  },
+];

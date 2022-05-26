@@ -1,0 +1,27 @@
+.sellerInfo {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #c7c7cc;
+  border-radius: 0.5rem;
+  .card {
+  
+  
+    .titleSection {
+      line-height: 1.42857143;
+      color: #3b72d9;
+      font-size: 1rem;
+    }
+
+    .sellerInfoContant {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+      .sectionItem {
+        margin: 0.5rem;
+        font-size: .8rem ;
+
+      }
+    }
+  }
+}

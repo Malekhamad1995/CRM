@@ -1,0 +1,46 @@
+.input-theme-component-wrapper {
+  @include d-flex-v-center-h-between;
+  background-color: $c-white;
+  border: 1px solid $c-gray-lighter;
+  border-radius: 0.5rem;
+  //   min-height: 30px;
+  &:hover {
+    :not([disabled]) {
+      border-color: $c-gray-light;
+    }
+  }
+  &:focus:not([disabled]) {
+    border-color: $c-primary !important;
+    box-shadow: 0 0 2px 2px rgba($c-primary, 0.3);
+  }
+  &.drag-over {
+    border-style: dashed;
+  }
+
+  .dropzone-wrapper {
+    height: 100%;
+    border-radius: 1rem;
+    max-height: 92px;
+    overflow-y: auto;
+    width: 100%;
+    @include d-inline-flex-v-center;
+    flex-wrap: wrap;
+    max-width: calc(100% - 115px);
+    padding: 0.25rem 0.25rem 0;
+    .MuiChip-root {
+      height: 21px;
+    }
+    position: relative;
+    .drop-here {
+      padding: 0 0.5rem;
+      @include d-flex-v-center;
+      pointer-events: none;
+    }
+    .uploader-chip {
+      max-width: 100%;
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
