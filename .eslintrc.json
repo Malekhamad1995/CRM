@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["airbnb"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": ["off"],
+    "jsx-a11y/no-static-element-interactions": ["off"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [0],
+    "no-param-reassign": ["error", { "props": false }],
+    "operator-linebreak": ["error", "after", { "overrides": { "&&": "ignore" } }],
+    "jsx-quotes": ["error", "prefer-single"],
+    "import/extensions": "off",
+    "import/no-cycle": [2, { "maxDepth": 1 }],
+    "array-callback-return": "off",
+    "linebreak-style": "off",
+    "import/prefer-default-export": "off",
+    "comma-dangle": "off",
+    "indent": "off",
+    "implicit-arrow-linebreak": "off",
+    "nonblock-statement-body-position": "off",
+    "curly": ["error", "multi-or-nest"],
+    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }]
+  }
+}
