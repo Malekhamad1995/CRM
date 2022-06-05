@@ -26,4 +26,6 @@ debug.log*
 debug.log
 package-lock.json
 
-!src/config/config.jsx
+
+/src/config
+
