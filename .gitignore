@@ -11,7 +11,7 @@
 
 # production
 /build
-
+/config
 # misc
 .DS_Store
 .env.local
@@ -27,6 +27,3 @@ debug.log
 package-lock.json
 
 
-/src/config
-
-src/config/config.jsx
