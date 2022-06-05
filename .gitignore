@@ -29,3 +29,4 @@ package-lock.json
 
 /src/config
 
+src/config/config.jsx
