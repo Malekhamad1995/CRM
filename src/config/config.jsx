@@ -27,10 +27,10 @@
 //  | |/ / |  __/ \ V / |  __/| || (_) || |_) || | | | | ||  __/| | | || |_    \ \_/ /|  __/| |   \__ \| || (_) || | | |
 //  |___/   \___|  \_/   \___||_| \___/ | .__/ |_| |_| |_| \___||_| |_| \__|    \___/  \___||_|   |___/|_| \___/ |_| |_|
 
-//                                      *****    Development Version     ****
+//           ghf                           *****    Development Version     ****
 
 export const config = {
-  server_address: 'https://apigateway.dev.psi-crm.com',
+  server_address: 'https://apigatewaydfsdf.dev.psi-crm.com',
   ws_address: 'wss://apigateway.dev.psi-crm.com',
   organizationsId: '85154615-FBAE-412E-8F39-08D851A0A786',
   applicationId: '523cecec-696a-4c77-9f32-af8227a1b119',
